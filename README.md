@@ -13,6 +13,8 @@ npm run build && node examples/examples.js
 
 ### Examples
 
+#### iOS
+
 ```js
 const appleVersionHistory = require('./../dist/index');
 appleVersionHistory.listIosVersionsBuilds().forEach(group => {
@@ -225,6 +227,8 @@ appleVersionHistory.listIosVersionsBuilds().forEach(group => {
 
 // iOS 11.4 (15F79)
 ```
+
+#### macOS
 
 ```js
 const appleVersionHistory = require('./../dist/index');
@@ -456,6 +460,8 @@ appleVersionHistory.listMacosVersionsBuilds().forEach(group => {
 // macOS 10.13.4 (17E202)
 // macOS 10.13.5 (17F77)
 ```
+
+#### tvOS
 
 ```js
 const appleVersionHistory = require('./../dist/index');
