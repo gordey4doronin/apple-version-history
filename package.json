@@ -1,0 +1,31 @@
+{
+  "name": "apple-version-history",
+  "version": "1.0.0",
+  "description": "List of released Apple operating system versions and builds.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "./.build/prebuild.sh",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordey4doronin/apple-version-history.git"
+  },
+  "keywords": [
+    "Apple",
+    "iOS",
+    "tvOS",
+    "macOS"
+  ],
+  "author": "Gordey Doronin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gordey4doronin/apple-version-history/issues"
+  },
+  "homepage": "https://github.com/gordey4doronin/apple-version-history#readme",
+  "devDependencies": {
+    "@types/node": "^8.10.20",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {}
+}

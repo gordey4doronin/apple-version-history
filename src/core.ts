@@ -1,0 +1,40 @@
+import { osType } from './types';
+import { pickJson, versionNameWithoutSuffix } from './util';
+
+const defaultSeparator = ' ';
+
+export function listVersions(os: osType): string[] {
+    const json = pickJson(os);
+    return Object.keys(json);
+}
+
+export function listVersionNumbers(os: osType, separator: string = defaultSeparator): string[][] {
+    const json = pickJson(os);
+
+    const numbersByVersionName = Object.keys(json).map(versionNameKey => {
+        const versionName = versionNameWithoutSuffix(versionNameKey);
+
+        return Object.keys(json[versionNameKey])
+            .map(versionNumberKey => [versionName, versionNumberKey].join(separator));
+    });
+
+    return numbersByVersionName;
+}
+
+export function listVersionBuilds(os: osType, separator: string = defaultSeparator): string[][] {
+    const json = pickJson(os);
+
+    const buildsByVersionName = Object.keys(json).map(versionNameKey => {
+        const versionName = versionNameWithoutSuffix(versionNameKey);
+
+        const buildsByVersionNumber = Object.keys(json[versionNameKey])
+            .map(versionNumberKey => {
+                return json[versionNameKey][versionNumberKey]
+                    .map(versionBuild => [versionName, versionNumberKey, `(${versionBuild})`].join(separator));
+            });
+
+        return ([] as string[]).concat(...buildsByVersionNumber);
+    });
+
+    return buildsByVersionName;
+}
