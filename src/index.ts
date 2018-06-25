@@ -1,6 +1,11 @@
 import { listVersions, listVersionNumbers, listVersionBuilds } from './core';
 export { listVersions, listVersionNumbers, listVersionBuilds };
 
+// json data
+export { default as iosVersionHistory } from './ios-version-history';
+export { default as macosVersionHistory } from './macos-version-history';
+export { default as tvosVersionHistory } from './tvos-version-history';
+
 // listVersions
 export function flatlistIosVersions(): string[] { return listVersions('ios'); }
 export function flatlistMacosVersions(): string[] { return listVersions('macos'); }
