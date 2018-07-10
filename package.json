@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "./.build/prebuild.sh",
-    "build": "tsc"
+    "build": "tsc",
+    "pack": "cd dist/ && npm pack",
+    "publish": "cd dist/ && npm publish"
   },
   "repository": {
     "type": "git",
