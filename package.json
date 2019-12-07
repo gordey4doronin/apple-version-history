@@ -6,6 +6,7 @@
   "scripts": {
     "prebuild": "./.build/prebuild.sh",
     "build": "tsc",
+    "test": "mocha dist/test --forbid-only --recursive",
     "pack": "cd dist/ && npm pack",
     "publish": "cd dist/ && npm publish"
   },
@@ -26,8 +27,12 @@
   },
   "homepage": "https://github.com/gordey4doronin/apple-version-history#readme",
   "devDependencies": {
-    "@types/node": "^8.10.20",
-    "typescript": "^2.9.2"
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^8.10.59",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "typescript": "^3.7.3"
   },
   "dependencies": {}
 }

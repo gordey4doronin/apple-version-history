@@ -8,6 +8,10 @@ export function listVersions(os: osType): string[] {
     return Object.keys(json);
 }
 
+export function flatlistVersionNumbers(os: osType, separator: string = defaultSeparator): string[] {
+    return ([] as string[]).concat(...listVersionNumbers(os, separator));
+}
+
 export function listVersionNumbers(os: osType, separator: string = defaultSeparator): string[][] {
     const json = pickJson(os);
 
@@ -19,6 +23,10 @@ export function listVersionNumbers(os: osType, separator: string = defaultSepara
     });
 
     return numbersByVersionName;
+}
+
+export function flatlistVersionBuilds(os: osType, separator: string = defaultSeparator): string[] {
+    return ([] as string[]).concat(...listVersionBuilds(os, separator));
 }
 
 export function listVersionBuilds(os: osType, separator: string = defaultSeparator): string[][] {
