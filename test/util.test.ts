@@ -7,11 +7,11 @@ describe('utils', () => {
             assert.containsAllKeys(pickJson('ios'), ['iPhone OS 1.0.x', 'iOS 8.1.x'])
         })
 
-        it('returns ios object containing some keys', () => {
+        it('returns macos object containing some keys', () => {
             assert.containsAllKeys(pickJson('macos'), ['Mac OS X 10.0.x', 'OS X 10.9.x', 'macOS 10.12.x'])
         })
 
-        it('returns ios object containing some keys', () => {
+        it('returns tvos object containing some keys', () => {
             assert.containsAllKeys(pickJson('tvos'), ['tvOS 9.x'])
         })
     })
