@@ -9,5 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
+    - name: My custom action
+      uses: gordey4doronin/add-new-version@master
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
