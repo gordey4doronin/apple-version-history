@@ -1,4 +1,4 @@
-const appleVersionHistory = require('./../dist/index');
+const appleVersionHistory = require('./../dist/src/index');
 
 console.log('iOS versions builds:');
 appleVersionHistory.listIosVersionsBuilds().forEach(group => {
