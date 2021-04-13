@@ -50,6 +50,9 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: npm run build
-      - run: cd dist/src && npm publish
+      - run: |
+          cd dist/src
+          sed -i 's/"apple-version-history"/"@gordey4doronin\/apple-version-history"/' "package.json"
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
