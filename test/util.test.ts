@@ -1,5 +1,5 @@
 import { assert } from 'chai'
-import { pickJson, versionNameWithoutSuffix } from '../src/util'
+import { pickJson, versionNameWithoutSuffix, hasPatch, versionNumberWithoutPatch } from '../src/util'
 
 describe('utils', () => {
     describe('#pickJson()', () => {
@@ -30,6 +30,28 @@ describe('utils', () => {
 
         it('parses tvos version names', () => {
             assert.equal(versionNameWithoutSuffix('tvOS 9.x'), 'tvOS')
+        })
+    })
+
+    describe('#versionNumberWithoutPatch()', () => {
+        it('returns version number without patch part', () => {
+            assert.equal(versionNumberWithoutPatch('1.0.2'), '1.0')
+            assert.equal(versionNumberWithoutPatch('100.000.200'), '100.000')
+        })
+
+        it('returns the same version number if there is patch part', () => {
+            assert.equal(versionNumberWithoutPatch('1.0'), '1.0')
+            assert.equal(versionNumberWithoutPatch('100.000'), '100.000')
+        })
+    })
+
+    describe('#hasPatch()', () => {
+        it('returns false when no patch part', () => {
+            assert.isFalse(hasPatch('10.0'))
+        })
+
+        it('returns true when there is patch part', () => {
+            assert.isTrue(hasPatch('10.0.1'))
         })
     })
 })

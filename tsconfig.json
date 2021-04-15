@@ -1,12 +1,14 @@
 {
     "compilerOptions": {
+        "lib": ["ES6"],
         "module": "commonjs",
         "target": "es6",
         "strict": true,
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "noImplicitThis": true,
         "noImplicitReturns": true,
         "moduleResolution": "node",
+        "resolveJsonModule": true,
         "sourceMap": true,
         "declaration": true,
         "outDir": "dist",

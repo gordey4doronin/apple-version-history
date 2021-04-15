@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<atom:link href="https://developer.apple.com/news/releases/rss/releases.rss" rel="self" type="application/rss+xml" />
+<title>Releases - Apple Developer</title>
+<link>https://developer.apple.com/news/</link>
+<description>Apple Developer News and Updates feed provided by Apple, Inc.</description>
+<language>en-US</language>
+<lastBuildDate>Wed, 14 Apr 2021 14:00:00 PDT</lastBuildDate>
+<generator>Custom</generator>
+<copyright>Copyright 2021, Apple Inc.</copyright>
+
+<item>
+<title>Transporter 1.2.1</title>
+<link>https://developer.apple.com/news/releases/?id=04142020a</link>
+<guid>https://developer.apple.com/news/releases/?id=04142020a</guid>
+<description>Transporter 1.2.1 is now available on the Mac App Store. This update lets you run Transporter natively on Apple silicon Macs and also includes stability improvements and bug fixes.</description>
+<pubDate>Wed, 14 Apr 2021 14:00:00 PDT</pubDate>
+<content:encoded><![CDATA[<p>Transporter 1.2.1 is now available on the Mac App Store. This update lets you run Transporter natively on Apple silicon Macs and also includes stability improvements and bug fixes.</p>]]></content:encoded>
+</item>
+<item>
+<title>macOS Big Sur 11.3 beta 8 (20E5231a)</title>
+<link>https://developer.apple.com/news/releases/?id=04132021c</link>
+<guid>https://developer.apple.com/news/releases/?id=04132021c</guid>
+<description>macOS Big Sur 11.3 beta 8 (20E5231a)</description>
+<pubDate>Tue, 13 Apr 2021 10:00:00 PDT</pubDate>
+<content:encoded><![CDATA[macOS Big Sur 11.3 beta 8 (20E5231a)]]></content:encoded>
+</item>
+<item>
+<title>iOS 14.5 beta 8 (18E5199a)</title>
+<link>https://developer.apple.com/news/releases/?id=04132021b</link>
+<guid>https://developer.apple.com/news/releases/?id=04132021b</guid>
+<description>iOS 14.5 beta 8 (18E5199a)</description>
+<pubDate>Tue, 13 Apr 2021 10:00:00 PDT</pubDate>
+<content:encoded><![CDATA[iOS 14.5 beta 8 (18E5199a)]]></content:encoded>
+</item>
+<item>
+<title>iPadOS 14.5 beta 8 (18E5199a)</title>
+<link>https://developer.apple.com/news/releases/?id=04132021a</link>
+<guid>https://developer.apple.com/news/releases/?id=04132021a</guid>
+<description>iPadOS 14.5 beta 8 (18E5199a)</description>
+<pubDate>Tue, 13 Apr 2021 10:00:00 PDT</pubDate>
+<content:encoded><![CDATA[iPadOS 14.5 beta 8 (18E5199a)]]></content:encoded>
+</item>
+<item>
+<title>watchOS 7.4 beta 7 (18T5194a)</title>
+<link>https://developer.apple.com/news/releases/?id=04072021b</link>
+<guid>https://developer.apple.com/news/releases/?id=04072021b</guid>
+<description>watchOS 7.4 beta 7 (18T5194a)</description>
+<pubDate>Wed, 07 Apr 2021 10:00:00 PDT</pubDate>
+<content:encoded><![CDATA[watchOS 7.4 beta 7 (18T5194a)]]></content:encoded>
+</item>
+<item>
+<title>tvOS 14.5 beta 7 (18L5203a)</title>
+<link>https://developer.apple.com/news/releases/?id=04072021a</link>
+<guid>https://developer.apple.com/news/releases/?id=04072021a</guid>
+<description>tvOS 14.5 beta 7 (18L5203a)</description>
+<pubDate>Wed, 07 Apr 2021 10:00:00 PDT</pubDate>
+<content:encoded><![CDATA[tvOS 14.5 beta 7 (18L5203a)]]></content:encoded>
+</item>
+<item>
+<title>iOS 14.4.2 (18D70)</title>
+<link>https://developer.apple.com/news/releases/?id=0326202e</link>
+<guid>https://developer.apple.com/news/releases/?id=0326202e</guid>
+<description>iOS 14.4.2 (18D70)</description>
+<pubDate>Fri, 26 Mar 2021 10:00:00 PDT</pubDate>
+<content:encoded><![CDATA[iOS 14.4.2 (18D70)]]></content:encoded>
+</item>
+<item>
+<title>iPadOS 14.4.2 (18D70)</title>
+<link>https://developer.apple.com/news/releases/?id=03262021d</link>
+<guid>https://developer.apple.com/news/releases/?id=03262021d</guid>
+<description>iPadOS 14.4.2 (18D70)</description>
+<pubDate>Fri, 26 Mar 2021 10:00:00 PDT</pubDate>
+<content:encoded><![CDATA[iPadOS 14.4.2 (18D70)]]></content:encoded>
+</item>
+<item>
+<title>iOS 12.5.2 (16H30)</title>
+<link>https://developer.apple.com/news/releases/?id=03262021c</link>
+<guid>https://developer.apple.com/news/releases/?id=03262021c</guid>
+<description>iOS 12.5.2 (16H30)</description>
+<pubDate>Fri, 26 Mar 2021 10:00:00 PDT</pubDate>
+<content:encoded><![CDATA[iOS 12.5.2 (16H30)]]></content:encoded>
+</item>
+<item>
+<title>watchOS 7.3.3 (18S830)</title>
+<link>https://developer.apple.com/news/releases/?id=03262021a</link>
+<guid>https://developer.apple.com/news/releases/?id=03262021a</guid>
+<description>watchOS 7.3.3 (18S830)</description>
+<pubDate>Fri, 26 Mar 2021 10:00:00 PDT</pubDate>
+<content:encoded><![CDATA[watchOS 7.3.3 (18S830)]]></content:encoded>
+</item>
+<item>
+<title>App Store Connect Update</title>
+<link>https://developer.apple.com/news/releases/?id=03162021</link>
+<guid>https://developer.apple.com/news/releases/?id=03162021</guid>
+<description>App Analytics now provides usage metrics for Mac apps, including data on installations, sessions, active devices, crashes, and deletions. And now you can measure user retention to see how often users return to your app after downloading it. Data is only available from users who have agreed to share their diagnostics and usage information with app developers.</description>
+<pubDate>Tue, 16 Mar 2021 16:00:00 PDT</pubDate>
+<content:encoded><![CDATA[<p>App Analytics now provides usage metrics for Mac apps, including data on installations, sessions, active devices, crashes, and deletions. And now you can measure user retention to see how often users return to your app after downloading it. Data is only available from users who have agreed to share their diagnostics and usage information with app developers.</p>]]></content:encoded>
+</item>
+<item>
+<title>macOS Big Sur 11.2.3 (20D91)</title>
+<link>https://developer.apple.com/news/releases/?id=03082021d</link>
+<guid>https://developer.apple.com/news/releases/?id=03082021d</guid>
+<description>macOS Big Sur 11.2.3 (20D91)</description>
+<pubDate>Mon, 08 Mar 2021 09:00:00 PST</pubDate>
+<content:encoded><![CDATA[macOS Big Sur 11.2.3 (20D91)]]></content:encoded>
+</item>
+<item>
+<title>TestFlight Update</title>
+<link>https://developer.apple.com/news/releases/?id=03042021b</link>
+<guid>https://developer.apple.com/news/releases/?id=03042021b</guid>
+<description>You can now submit apps built with Xcode 12.5 beta 3 using the SDK for iOS 14.5 beta 3, tvOS 14.5 beta 3, watchOS 7.4 beta 3 for internal and external testing.</description>
+<pubDate>Thu, 04 Mar 2021 12:00:00 PST</pubDate>
+<content:encoded><![CDATA[<p>You can now submit apps built with Xcode 12.5 beta 3 using the SDK for iOS 14.5 beta 3, tvOS 14.5 beta 3, watchOS 7.4 beta 3 for internal and external testing.</p>]]></content:encoded>
+</item>
+<item>
+<title>Xcode 12.5 beta 3 (12E5244e)</title>
+<link>https://developer.apple.com/news/releases/?id=03022021d</link>
+<guid>https://developer.apple.com/news/releases/?id=03022021d</guid>
+<description>Xcode 12.5 beta 3 (12E5244e)</description>
+<pubDate>Tue, 02 Mar 2021 12:00:00 PST</pubDate>
+<content:encoded><![CDATA[Xcode 12.5 beta 3 (12E5244e)]]></content:encoded>
+</item>
+<item>
+<title>Apple Configurator 2.14 beta (6A9)</title>
+<link>https://developer.apple.com/news/releases/?id=02162021a</link>
+<guid>https://developer.apple.com/news/releases/?id=02162021a</guid>
+<description>Apple Configurator 2.14 beta (6A9)</description>
+<pubDate>Wed, 17 Feb 2021 10:00:00 PST</pubDate>
+<content:encoded><![CDATA[Apple Configurator 2.14 beta (6A9)]]></content:encoded>
+</item>
+<item>
+<title>TestFlight Update</title>
+<link>https://developer.apple.com/news/releases/?id=02022021b</link>
+<guid>https://developer.apple.com/news/releases/?id=02022021b</guid>
+<description>You can now submit apps built with Xcode 12.5 beta using the SDK for iOS 14.5 beta, tvOS 14.5 beta, and watchOS 7.4 beta for internal and external testing.</description>
+<pubDate>Tue, 02 Feb 2021 12:00:00 PST</pubDate>
+<content:encoded><![CDATA[<p>You can now submit apps built with Xcode 12.5 beta using the SDK for iOS 14.5 beta, tvOS 14.5 beta, and watchOS 7.4 beta for internal and external testing.</p>]]></content:encoded>
+</item>
+<item>
+<title>App Store Connect 1.5.1</title>
+<link>https://developer.apple.com/news/releases/?id=01262021g</link>
+<guid>https://developer.apple.com/news/releases/?id=01262021g</guid>
+<description>App Store Connect 1.5.1 is now available on the App Store. This update includes stability improvements and bug fixes. </description>
+<pubDate>Tue, 26 Jan 2021 13:00:00 PST</pubDate>
+<content:encoded><![CDATA[<p>App Store Connect 1.5.1 is now available on the App Store. This update includes stability improvements and bug fixes. </p>]]></content:encoded>
+</item>
+<item>
+<title>Xcode 12.4 (12D4e)</title>
+<link>https://developer.apple.com/news/releases/?id=01262021e</link>
+<guid>https://developer.apple.com/news/releases/?id=01262021e</guid>
+<description>Xcode 12.4 (12D4e)</description>
+<pubDate>Tue, 26 Jan 2021 09:00:00 PST</pubDate>
+<content:encoded><![CDATA[Xcode 12.4 (12D4e)]]></content:encoded>
+</item>
+<item>
+<title>tvOS 14.4 (18K802)</title>
+<link>https://developer.apple.com/news/releases/?id=01262021a</link>
+<guid>https://developer.apple.com/news/releases/?id=01262021a</guid>
+<description>tvOS 14.4 (18K802)</description>
+<pubDate>Tue, 26 Jan 2021 09:00:00 PST</pubDate>
+<content:encoded><![CDATA[tvOS 14.4 (18K802)]]></content:encoded>
+</item>
+
+</channel>
+</rss>

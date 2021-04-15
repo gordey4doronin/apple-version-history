@@ -6,6 +6,7 @@ import { osType, versionNames } from './types';
 export function pickJson(os: osType): versionNames {
     switch (os) {
         case 'ios':
+        case 'ipados':
             return iosVersionHistory;
 
         case 'macos':
@@ -13,6 +14,11 @@ export function pickJson(os: osType): versionNames {
 
         case 'tvos':
             return tvosVersionHistory;
+
+        case 'watchos' as any:
+            // TODO Support watchOS
+            console.warn('TODO Support watchOS');
+            return {};
 
         default:
             throw `Unexpected os value: ${os}`;
@@ -25,4 +31,15 @@ export function pickJson(os: osType): versionNames {
 export function versionNameWithoutSuffix(versionName: string): string {
     const split = versionName.split(' ');
     return split.slice(0, split.length - 1).join(' ');
+}
+
+/**
+ * Removes ".2" part from "1.0.2".
+ */
+export function versionNumberWithoutPatch(versionNumber: string): string {
+    return versionNumber.split('.').slice(0, 2).join('.')
+}
+
+export function hasPatch(versionNumber: string): boolean {
+    return /^\d+\.\d+\.\d+$/.test(versionNumber)
 }
