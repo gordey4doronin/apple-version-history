@@ -1,11 +1,13 @@
 import fs = require('fs')
 import { assert } from 'chai'
 import nock = require('nock')
-import { getRssItems, getTitles, getFilteredTitles, parseTitles, modify } from '../src/pull-rss'
+import { getRssItems, getTitles, getFilteredTitles, parseTitles, applyRssChanges, writeRssChanges } from '../src/pull-rss'
+import util = require('../src/util')
+import { osType, versionNames } from '../src/types'
 
 nock.disableNetConnect()
 
-describe('temp', () => {
+describe('pull-rss', () => {
   const rss = fs.readFileSync('./test/fixtures/apple.rss', 'utf8')
 
   beforeEach(() => {
@@ -21,39 +23,21 @@ describe('temp', () => {
 
   it('#getRssItems()', async () => {
     // arrange
-    const osItem = {
-      title: ['tvOS 14.4 (18K802)'],
-      link: ['https://developer.apple.com/news/releases/?id=01262021a'],
-      guid: ['https://developer.apple.com/news/releases/?id=01262021a'],
-      description: ['tvOS 14.4 (18K802)'],
-      pubDate: ['Tue, 26 Jan 2021 09:00:00 PST'],
-      'content:encoded': ['tvOS 14.4 (18K802)']
-    }
-
-    const otherItem = {
-      title: ['Apple Configurator 2.14 beta (6A9)'],
-      link: ['https://developer.apple.com/news/releases/?id=02162021a'],
-      guid: ['https://developer.apple.com/news/releases/?id=02162021a'],
-      description: ['Apple Configurator 2.14 beta (6A9)'],
-      pubDate: ['Wed, 17 Feb 2021 10:00:00 PST'],
-      'content:encoded': ['Apple Configurator 2.14 beta (6A9)']
-    }
+    const expected = JSON.parse(fs.readFileSync('./test/fixtures/apple-rss-items.json', 'utf8'))
 
     // act
-    const result = await getRssItems()
+    const actual = await getRssItems()
 
     // assert
-    assert.isArray(result)
-    assert.deepInclude(result, osItem, 'Should include at least one OS item')
-    assert.deepInclude(result, otherItem, 'Should include at least one other item')
+    assert.deepStrictEqual(actual, expected)
   })
 
   it('#getTitles', async () => {
     // act
-    const result = await getTitles()
+    const actual = await getTitles()
 
     // assert
-    assert.deepStrictEqual(result, [
+    assert.deepStrictEqual(actual, [
       'Transporter 1.2.1',
       'macOS Big Sur 11.3 beta 8 (20E5231a)',
       'iOS 14.5 beta 8 (18E5199a)',
@@ -78,10 +62,10 @@ describe('temp', () => {
 
   it('#getFilteredTitles', async () => {
     // act
-    const result = await getFilteredTitles()
+    const actual = await getFilteredTitles()
 
     // assert
-    assert.deepStrictEqual(result, [
+    assert.deepStrictEqual(actual, [
       'macOS Big Sur 11.3 beta 8 (20E5231a)',
       'iOS 14.5 beta 8 (18E5199a)',
       'iPadOS 14.5 beta 8 (18E5199a)',
@@ -98,10 +82,10 @@ describe('temp', () => {
 
   it('#parseTitles()', async () => {
     // act
-    const result = await parseTitles()
+    const actual = await parseTitles()
 
     // arrange
-    assert.deepStrictEqual(result, [
+    assert.deepStrictEqual(actual, [
       { os: 'macOS', version: '11.3', build: '20E5231a' },
       { os: 'iOS', version: '14.5', build: '18E5199a' },
       { os: 'iPadOS', version: '14.5', build: '18E5199a' },
@@ -116,8 +100,74 @@ describe('temp', () => {
     ])
   })
 
-  it('#modify()', async () => {
-    // act
-    const result = await modify()
+  context('mutating OS objects/fixtures', () => {
+    const iosBefore = fs.readFileSync('./test/fixtures/ios-before.json', 'utf8');
+    const ios = JSON.parse(iosBefore);
+    const iosAfter = fs.readFileSync('./test/fixtures/ios-after.json', 'utf8');
+
+    const macosBefore = fs.readFileSync('./test/fixtures/macos-before.json', 'utf8');
+    const macos = JSON.parse(macosBefore)
+    const macosAfter = fs.readFileSync('./test/fixtures/macos-after.json', 'utf8');
+
+    const tvosBefore = fs.readFileSync('./test/fixtures/tvos-before.json', 'utf8');
+    const tvos = JSON.parse(tvosBefore)
+    const tvosAfter = fs.readFileSync('./test/fixtures/tvos-after.json', 'utf8');
+
+    const watchosBefore = {};
+    const watchos = {};
+    const watchosAfter = fs.readFileSync('./test/fixtures/watchos-after.json', 'utf8');
+
+    const pickJson = util.pickJson
+    const pickJsonFixture = (os: osType): versionNames => {
+      switch (os) {
+        case 'ios':
+        case 'ipados':
+          return ios;
+
+        case 'macos':
+          return macos;
+
+        case 'tvos':
+          return tvos;
+
+        case 'watchos' as any:
+          // TODO Support watchOS
+          console.warn('TODO Support watchOS');
+          return watchos;
+
+        default:
+          throw `Unexpected os value: ${os}`;
+      }
+    }
+
+    before(() => {
+      util.pickJson = pickJsonFixture
+    })
+
+    after(() => {
+      util.pickJson = pickJson
+    })
+
+    it('#applyRssChanges()', async () => {
+      // act
+      await applyRssChanges()
+
+      // assert
+      assert.deepStrictEqual(ios, JSON.parse(iosAfter))
+      assert.deepStrictEqual(macos, JSON.parse(macosAfter))
+      assert.deepStrictEqual(tvos, JSON.parse(tvosAfter))
+      assert.deepStrictEqual(watchos, JSON.parse(watchosAfter))
+    })
+
+    xit('#writeRssChanges()', async () => {
+      // act
+      await writeRssChanges()
+
+      // assert
+      assert.strictEqual(iosBefore, iosAfter)
+      assert.strictEqual(macosBefore, macosAfter)
+      assert.strictEqual(tvosBefore, tvosAfter)
+      assert.strictEqual(watchosBefore, watchosAfter)
+    })
   })
 })

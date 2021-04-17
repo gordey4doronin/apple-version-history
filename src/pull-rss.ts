@@ -1,12 +1,12 @@
-const fetch = require('node-fetch')
-const xml2js = require('xml2js')
-
-// import iosVersionHistory from '../ios-version-history.json'
-// import macosVersionHistory from '../macos-version-history.json'
-// import tvosVersionHistory from '../tvos-version-history.json'
+import fetch = require('node-fetch')
+import xml2js = require('xml2js')
+import { promisify } from 'util'
+import fs = require('fs')
+const readFile = promisify(fs.readFile)
+const writeFile = promisify(fs.writeFile)
 
 import { pickJson, versionNumberWithoutPatch } from './util'
-import { listVersions } from './core'
+import { osType } from './types'
 
 /**
  * Gets items from Apple RSS feed.
@@ -28,7 +28,14 @@ export async function getTitles() {
   return titles
 }
 
+/**
+ * Regex for filterting OS related titles.
+ */
 const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
+
+/**
+ * Regex for parsing OS related titles into os+version+beta+build.
+ */
 const parseRegex = /(iOS|iPadOS|tvOS|macOS|watchOS)\s\D*(\d+(?:\.\d+)*)( beta \d)?\s\((\w*)\)/
 
 /**
@@ -50,36 +57,73 @@ export async function parseTitles() {
   return parsed
 }
 
-export async function modify() {
+/**
+ * Gets items from Apple RSS feed and applies them to existing OS objects.
+ */
+export async function applyRssChanges() {
   const titles = await parseTitles()
   titles.forEach(({ os, version, build }) => {
-    if (os === 'iOS') {
-      const json = pickJson(os.toLowerCase())
-      const versions = listVersions(os.toLowerCase())
-      const versionWithX = versionNumberWithoutPatch(version) + '.x'
-      const versionName = `${os} ${versionWithX}`
-      const versionNameExists = !!json[versionName]
-      console.log(`versionNameExists=${versionNameExists} ${versionWithX} /// ${os} ${version} ${build}`)
+    // Assume that iOS and iPadOS are the same for now.
+    // TODO: Figure out later.
+    if (os === 'iPadOS') {
+      os = 'iOS'
+    }
 
-      if (versionNameExists) {
-        const versionNumberExists = !!json[versionName][version]
-        console.log(`versionNumberExists=${versionNumberExists} ${version} /// ${os} ${version} ${build}`)
+    const json = pickJson(os.toLowerCase())
+    const versionName = `${os} ${versionNumberWithoutPatch(version)}.x`
 
-        if (versionNumberExists) {
-          console.log('Do nothing')
-          // return
-        } else {
-          console.log('Add version number')
-          json[versionName][version] = [ build ]
-        }
-      } else {
-        console.log('Add version name')
-        json[versionName] = {}
-        json[versionName][version] = [ build ]
-      }
+    // versionName doesn't exist => init new object
+    if (!json[versionName]) {
+      json[versionName] = {}
+    }
 
-      console.log('Versions')
-      console.log(versions)
+    // version itself doesn't exist => add version + build
+    if (!json[versionName[version]]) {
+      json[versionName][version] = [ build ]
     }
   })
+}
+
+export async function generateNewJsons(paths = {
+  'ios': 'ios-version-history.json',
+  'macos': 'macos-version-history.json',
+  'tvos': 'tvos-version-history.json',
+  'watchos': 'watchos-version-history.json'
+}) {
+  const jsons = {
+    'ios': fs.readFileSync('ios-version-history.json', 'utf8'),
+    'macos': fs.readFileSync('macos-version-history.json', 'utf8'),
+    'tvos': fs.readFileSync('tvos-version-history.json', 'utf8'),
+    'watchos': fs.readFileSync('watchos-version-history.json', 'utf8')
+  }
+
+  const titles = await parseTitles()
+}
+
+/**
+ * Gets items from Apple RSS feed, applies them to existing OS objects, and writes them to JSON files.
+ */
+export async function writeRssChanges() {
+  await applyRssChanges();
+  const operatingSystems: osType[] = ['ios', 'macos', 'tvos', 'watchos'];
+
+  operatingSystems.forEach(os => {
+    const json = pickJson(os)
+    const stringified = JSON.stringify(json, replacer, 4)
+      .replace(/\"\[/g, '[')
+      .replace(/\]\"/g, ']')
+      .replace(/\\"/g, '"')
+      .replace(/\\"/g, '"') + '\n';
+
+    fs.writeFileSync(`${os}-version-history.json`, stringified, 'utf8')
+  });
+
+}
+
+function replacer(_, value) {
+  if (Array.isArray(value)) {
+      return `[ ${value.map((x) => `"${x}"`).join(', ')} ]`;
+  } else {
+      return value;
+  }
 }
