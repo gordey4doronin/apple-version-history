@@ -7,7 +7,6 @@ import { osType, versionNames } from './types';
 export function pickJson(os: osType): versionNames {
     switch (os) {
         case 'ios':
-        case 'ipados':
             return iosVersionHistory;
 
         case 'macos':
