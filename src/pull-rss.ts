@@ -107,10 +107,16 @@ export async function applyRssChanges(rssTitles, paths = {
       debug && console.log(`${os} versionName ${versionName} doesn't exit => init new object`)
     }
 
-    // version itself doesn't exist => add version + build
-    if (!json[versionName[version]]) {
+    // version doesn't exist => add version + build
+    if (!json[versionName][version]) {
       json[versionName][version] = [ build ]
       debug && console.log(`${os} version ${version} doesn't exist => add version + build ${version} [ ${build} ]`)
+    }
+
+    // build doesn't exist => add build
+    if (!json[versionName][version].includes(build)) {
+      json[versionName][version].push(build)
+      debug && console.log(`${os} ${version} build ${build} doesn't exist => add build ${build}`)
     }
 
     debug && console.log('')

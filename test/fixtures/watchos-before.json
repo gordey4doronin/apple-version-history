@@ -1,2 +1,5 @@
 {
+    "watchOS 7.3.x": {
+        "7.3.3": [ "Some existing build" ]
+    }
 }
