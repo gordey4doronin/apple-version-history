@@ -39,6 +39,10 @@ export function versionNumberWithoutPatch(versionNumber: string): string {
     return versionNumber.split('.').slice(0, 2).join('.')
 }
 
+/**
+ * Checks whether the version-number has patch part or not.
+ * e.g. `10.0.1` has patch, and `10.0` has not.
+ */
 export function hasPatch(versionNumber: string): boolean {
     return /^\d+\.\d+\.\d+$/.test(versionNumber)
 }
