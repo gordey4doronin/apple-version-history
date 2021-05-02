@@ -8,6 +8,15 @@ const writeFile = promisify(fs.writeFile)
 
 import { versionNumberWithoutPatch } from './util'
 
+// Run script only when run directly from command line
+if (require.main === module) {
+  console.log(`Pulling from RSS`)
+
+  getRssItems()
+    .then(rssItems => getRssTitles(rssItems))
+    .then(rssTitles => writeRssChanges(rssTitles))
+}
+
 /**
  * Gets items from Apple RSS feed.
  */
