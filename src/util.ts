@@ -1,6 +1,7 @@
 import iosVersionHistory from './ios-version-history';
 import macosVersionHistory from './macos-version-history';
 import tvosVersionHistory from './tvos-version-history';
+import watchosVersionHistory from './watchos-version-history';
 import { osType, versionNames } from './types';
 
 export function pickJson(os: osType): versionNames {
@@ -16,9 +17,7 @@ export function pickJson(os: osType): versionNames {
             return tvosVersionHistory;
 
         case 'watchos' as any:
-            // TODO Support watchOS
-            console.warn('TODO Support watchOS');
-            return {};
+            return watchosVersionHistory;
 
         default:
             throw `Unexpected os value: ${os}`;
