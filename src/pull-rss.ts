@@ -8,6 +8,7 @@ const writeFile = promisify(fs.writeFile)
 
 import { versionNumberWithoutPatch } from './util'
 
+const debug = require.main === module
 // Run script only when run directly from command line
 if (require.main === module) {
   const start = Date.now()
@@ -90,6 +91,7 @@ export async function applyRssChanges(rssTitles, paths = {
   }
 
   rssTitles.forEach(({ os, version, build }) => {
+    debug && console.log(`Processing ${os} ${version} ${build}`)
     // Assume that iOS and iPadOS are the same for now.
     // TODO: Figure out later.
     if (os === 'iPadOS') {
@@ -102,12 +104,16 @@ export async function applyRssChanges(rssTitles, paths = {
     // versionName doesn't exist => init new object
     if (!json[versionName]) {
       json[versionName] = {}
+      debug && console.log(`${os} versionName ${versionName} doesn't exit => init new object`)
     }
 
     // version itself doesn't exist => add version + build
     if (!json[versionName[version]]) {
       json[versionName][version] = [ build ]
+      debug && console.log(`${os} version ${version} doesn't exist => add version + build ${version} [ ${build} ]`)
     }
+
+    debug && console.log('')
   })
 
   return jsons
