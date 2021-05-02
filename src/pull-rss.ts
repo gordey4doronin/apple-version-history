@@ -10,11 +10,13 @@ import { versionNumberWithoutPatch } from './util'
 
 // Run script only when run directly from command line
 if (require.main === module) {
-  console.log(`Pulling from RSS`)
+  const start = Date.now()
+  console.log('Pulling from RSS')
 
   getRssItems()
     .then(rssItems => getRssTitles(rssItems))
     .then(rssTitles => writeRssChanges(rssTitles))
+    .then(() => console.log(`Finished after ${(Date.now() - start) / 1000} seconds`))
 }
 
 /**
