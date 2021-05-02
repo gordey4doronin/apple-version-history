@@ -31,9 +31,14 @@ export async function getRssItems() {
 }
 
 /**
+ * Sorts RSS feed items by publishing date.
+ */
+ export const sortRssItems = (rssItems) => rssItems.sort((a, b) => Date.parse(a.pubDate[0]) - Date.parse(b.pubDate[0]))
+
+/**
  * Gets filtered and parsed titles from Apple RSS feed items.
  */
-export const getRssTitles = (rssItems) => parseTitles(filterTitles(getTitles(rssItems)))
+export const getRssTitles = (rssItems) => parseTitles(filterTitles(getTitles(sortRssItems(rssItems))))
 
 /**
  * Regex for filterting OS related titles.

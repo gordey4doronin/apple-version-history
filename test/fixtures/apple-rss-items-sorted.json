@@ -1,0 +1,402 @@
+[
+  {
+    "title": [
+      "Xcode 12.4 (12D4e)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=01262021e"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=01262021e"
+    ],
+    "description": [
+      "Xcode 12.4 (12D4e)"
+    ],
+    "pubDate": [
+      "Tue, 26 Jan 2021 09:00:00 PST"
+    ],
+    "content:encoded": [
+      "Xcode 12.4 (12D4e)"
+    ]
+  },
+  {
+    "title": [
+      "tvOS 14.4 (18K802)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=01262021a"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=01262021a"
+    ],
+    "description": [
+      "tvOS 14.4 (18K802)"
+    ],
+    "pubDate": [
+      "Tue, 26 Jan 2021 09:00:00 PST"
+    ],
+    "content:encoded": [
+      "tvOS 14.4 (18K802)"
+    ]
+  },
+  {
+    "title": [
+      "App Store Connect 1.5.1"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=01262021g"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=01262021g"
+    ],
+    "description": [
+      "App Store Connect 1.5.1 is now available on the App Store. This update includes stability improvements and bug fixes. "
+    ],
+    "pubDate": [
+      "Tue, 26 Jan 2021 13:00:00 PST"
+    ],
+    "content:encoded": [
+      "<p>App Store Connect 1.5.1 is now available on the App Store. This update includes stability improvements and bug fixes. </p>"
+    ]
+  },
+  {
+    "title": [
+      "TestFlight Update"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=02022021b"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=02022021b"
+    ],
+    "description": [
+      "You can now submit apps built with Xcode 12.5 beta using the SDK for iOS 14.5 beta, tvOS 14.5 beta, and watchOS 7.4 beta for internal and external testing."
+    ],
+    "pubDate": [
+      "Tue, 02 Feb 2021 12:00:00 PST"
+    ],
+    "content:encoded": [
+      "<p>You can now submit apps built with Xcode 12.5 beta using the SDK for iOS 14.5 beta, tvOS 14.5 beta, and watchOS 7.4 beta for internal and external testing.</p>"
+    ]
+  },
+  {
+    "title": [
+      "Apple Configurator 2.14 beta (6A9)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=02162021a"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=02162021a"
+    ],
+    "description": [
+      "Apple Configurator 2.14 beta (6A9)"
+    ],
+    "pubDate": [
+      "Wed, 17 Feb 2021 10:00:00 PST"
+    ],
+    "content:encoded": [
+      "Apple Configurator 2.14 beta (6A9)"
+    ]
+  },
+  {
+    "title": [
+      "Xcode 12.5 beta 3 (12E5244e)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=03022021d"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=03022021d"
+    ],
+    "description": [
+      "Xcode 12.5 beta 3 (12E5244e)"
+    ],
+    "pubDate": [
+      "Tue, 02 Mar 2021 12:00:00 PST"
+    ],
+    "content:encoded": [
+      "Xcode 12.5 beta 3 (12E5244e)"
+    ]
+  },
+  {
+    "title": [
+      "TestFlight Update"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=03042021b"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=03042021b"
+    ],
+    "description": [
+      "You can now submit apps built with Xcode 12.5 beta 3 using the SDK for iOS 14.5 beta 3, tvOS 14.5 beta 3, watchOS 7.4 beta 3 for internal and external testing."
+    ],
+    "pubDate": [
+      "Thu, 04 Mar 2021 12:00:00 PST"
+    ],
+    "content:encoded": [
+      "<p>You can now submit apps built with Xcode 12.5 beta 3 using the SDK for iOS 14.5 beta 3, tvOS 14.5 beta 3, watchOS 7.4 beta 3 for internal and external testing.</p>"
+    ]
+  },
+  {
+    "title": [
+      "macOS Big Sur 11.2.3 (20D91)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=03082021d"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=03082021d"
+    ],
+    "description": [
+      "macOS Big Sur 11.2.3 (20D91)"
+    ],
+    "pubDate": [
+      "Mon, 08 Mar 2021 09:00:00 PST"
+    ],
+    "content:encoded": [
+      "macOS Big Sur 11.2.3 (20D91)"
+    ]
+  },
+  {
+    "title": [
+      "App Store Connect Update"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=03162021"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=03162021"
+    ],
+    "description": [
+      "App Analytics now provides usage metrics for Mac apps, including data on installations, sessions, active devices, crashes, and deletions. And now you can measure user retention to see how often users return to your app after downloading it. Data is only available from users who have agreed to share their diagnostics and usage information with app developers."
+    ],
+    "pubDate": [
+      "Tue, 16 Mar 2021 16:00:00 PDT"
+    ],
+    "content:encoded": [
+      "<p>App Analytics now provides usage metrics for Mac apps, including data on installations, sessions, active devices, crashes, and deletions. And now you can measure user retention to see how often users return to your app after downloading it. Data is only available from users who have agreed to share their diagnostics and usage information with app developers.</p>"
+    ]
+  },
+  {
+    "title": [
+      "iOS 14.4.2 (18D70)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=0326202e"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=0326202e"
+    ],
+    "description": [
+      "iOS 14.4.2 (18D70)"
+    ],
+    "pubDate": [
+      "Fri, 26 Mar 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "iOS 14.4.2 (18D70)"
+    ]
+  },
+  {
+    "title": [
+      "iPadOS 14.4.2 (18D70)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=03262021d"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=03262021d"
+    ],
+    "description": [
+      "iPadOS 14.4.2 (18D70)"
+    ],
+    "pubDate": [
+      "Fri, 26 Mar 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "iPadOS 14.4.2 (18D70)"
+    ]
+  },
+  {
+    "title": [
+      "iOS 12.5.2 (16H30)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=03262021c"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=03262021c"
+    ],
+    "description": [
+      "iOS 12.5.2 (16H30)"
+    ],
+    "pubDate": [
+      "Fri, 26 Mar 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "iOS 12.5.2 (16H30)"
+    ]
+  },
+  {
+    "title": [
+      "watchOS 7.3.3 (18S830)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=03262021a"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=03262021a"
+    ],
+    "description": [
+      "watchOS 7.3.3 (18S830)"
+    ],
+    "pubDate": [
+      "Fri, 26 Mar 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "watchOS 7.3.3 (18S830)"
+    ]
+  },
+  {
+    "title": [
+      "watchOS 7.4 beta 7 (18T5194a)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=04072021b"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=04072021b"
+    ],
+    "description": [
+      "watchOS 7.4 beta 7 (18T5194a)"
+    ],
+    "pubDate": [
+      "Wed, 07 Apr 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "watchOS 7.4 beta 7 (18T5194a)"
+    ]
+  },
+  {
+    "title": [
+      "tvOS 14.5 beta 7 (18L5203a)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=04072021a"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=04072021a"
+    ],
+    "description": [
+      "tvOS 14.5 beta 7 (18L5203a)"
+    ],
+    "pubDate": [
+      "Wed, 07 Apr 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "tvOS 14.5 beta 7 (18L5203a)"
+    ]
+  },
+  {
+    "title": [
+      "macOS Big Sur 11.3 beta 8 (20E5231a)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=04132021c"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=04132021c"
+    ],
+    "description": [
+      "macOS Big Sur 11.3 beta 8 (20E5231a)"
+    ],
+    "pubDate": [
+      "Tue, 13 Apr 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "macOS Big Sur 11.3 beta 8 (20E5231a)"
+    ]
+  },
+  {
+    "title": [
+      "iOS 14.5 beta 8 (18E5199a)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=04132021b"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=04132021b"
+    ],
+    "description": [
+      "iOS 14.5 beta 8 (18E5199a)"
+    ],
+    "pubDate": [
+      "Tue, 13 Apr 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "iOS 14.5 beta 8 (18E5199a)"
+    ]
+  },
+  {
+    "title": [
+      "iPadOS 14.5 beta 8 (18E5199a)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=04132021a"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=04132021a"
+    ],
+    "description": [
+      "iPadOS 14.5 beta 8 (18E5199a)"
+    ],
+    "pubDate": [
+      "Tue, 13 Apr 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "iPadOS 14.5 beta 8 (18E5199a)"
+    ]
+  },
+  {
+    "title": [
+      "Transporter 1.2.1"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=04142020a"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=04142020a"
+    ],
+    "description": [
+      "Transporter 1.2.1 is now available on the Mac App Store. This update lets you run Transporter natively on Apple silicon Macs and also includes stability improvements and bug fixes."
+    ],
+    "pubDate": [
+      "Wed, 14 Apr 2021 14:00:00 PDT"
+    ],
+    "content:encoded": [
+      "<p>Transporter 1.2.1 is now available on the Mac App Store. This update lets you run Transporter natively on Apple silicon Macs and also includes stability improvements and bug fixes.</p>"
+    ]
+  },
+  {
+    "title": [
+      "macOS Big Sur 11.4 beta (20F5046g)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=04212021a"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=04212021a"
+    ],
+    "description": [
+      "macOS Big Sur 11.4 beta (20F5046g)"
+    ],
+    "pubDate": [
+      "Wed, 21 Apr 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "macOS Big Sur 11.4 beta (20F5046g)"
+    ]
+  }
+]

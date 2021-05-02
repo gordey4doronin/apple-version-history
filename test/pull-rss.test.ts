@@ -3,7 +3,7 @@ import { assert } from 'chai'
 import nock = require('nock')
 import {
   getRssItems, getRssTitles,
-  getTitles, filterTitles, parseTitles,
+  getTitles, filterTitles, parseTitles, sortRssItems,
   applyRssChanges, writeRssChanges
 } from '../src/pull-rss'
 
@@ -11,15 +11,28 @@ nock.disableNetConnect()
 
 describe('pull-rss', () => {
   const rss = fs.readFileSync('./test/fixtures/apple.rss', 'utf8')
-  const rssItems = JSON.parse(fs.readFileSync('./test/fixtures/apple-rss-items.json', 'utf8'))
+  const rssItemsSorted = JSON.parse(fs.readFileSync('./test/fixtures/apple-rss-items-sorted.json', 'utf8'))
   const rssTitles = JSON.parse(fs.readFileSync('./test/fixtures/apple-rss-titles.json', 'utf8'))
   const titles = JSON.parse(fs.readFileSync('./test/fixtures/titles.json', 'utf8'))
   const filteredTitles = JSON.parse(fs.readFileSync('./test/fixtures/filtered-titles.json', 'utf8'))
 
+  describe('#sortRssItems()', () => {
+    // Don't mutate top level object, rather read anew
+    const rssItems = JSON.parse(fs.readFileSync('./test/fixtures/apple-rss-items.json', 'utf8'))
+
+    it('sorts RSS items', () => {
+      // act
+      const actual = sortRssItems(rssItems)
+
+      // assert
+      assert.deepStrictEqual(actual, rssItemsSorted)
+    })
+  })
+
   describe('#getTitles()', () => {
     it('gets titles from RSS items', () => {
       // act
-      const actual = getTitles(rssItems)
+      const actual = getTitles(rssItemsSorted)
 
       // assert
       assert.deepStrictEqual(actual, titles)
@@ -49,7 +62,7 @@ describe('pull-rss', () => {
   describe('#getRssTitles()', () => {
     it('gets RSS titles', () => {
       // act
-      const actual = getRssTitles(rssItems)
+      const actual = getRssTitles(rssItemsSorted)
 
       // assert
       assert.deepStrictEqual(actual, rssTitles)
