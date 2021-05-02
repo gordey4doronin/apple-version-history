@@ -34,7 +34,34 @@ export async function getRssItems() {
 /**
  * Sorts RSS feed items by publishing date.
  */
- export const sortRssItems = (rssItems) => rssItems.sort((a, b) => Date.parse(a.pubDate[0]) - Date.parse(b.pubDate[0]))
+export const sortRssItems = (rssItems) => rssItems.sort((a, b) => {
+  const pubDateA = Date.parse(a.pubDate[0])
+  const pubDateB = Date.parse(b.pubDate[0])
+
+  if (pubDateA < pubDateB) {
+    return -1
+  } else if (pubDateA > pubDateB) {
+    return 1
+  } else {
+    // In case dates are equal - compare titles.
+    // This is only required for sort results back-compatibility with Node 8 and Node 10.
+    // See details here https://github.com/nodejs/node/issues/24294.
+    // TODO: If switching to Node 12 and above - it's possible to only compare dates.
+    // E.g. rssItems.sort((a, b) => Date.parse(a.pubDate[0]) - Date.parse(b.pubDate[0]))
+
+    const titleA = a.title[0].toUpperCase() // ignore upper and lowercase
+    const titleB = b.title[0].toUpperCase() // ignore upper and lowercase
+
+    if (titleA < titleB) {
+      return 1
+    } else if (titleA > titleB) {
+      return -1
+    } else {
+      // titles must be equal
+      return 0;
+    }
+  }
+})
 
 /**
  * Gets filtered and parsed titles from Apple RSS feed items.
