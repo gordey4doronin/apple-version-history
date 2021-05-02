@@ -119,6 +119,9 @@ export async function writeRssChanges(rssTitles, paths = {
   }
 }
 
+/**
+ * Custom replacer function for JSON.stringify to preserve hand-written formatting for OS JSON files.
+ */
 function replacer(_, value) {
   if (Array.isArray(value)) {
       return `[ ${value.map((x) => `"${x}"`).join(', ')} ]`;
