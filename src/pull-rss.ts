@@ -48,7 +48,7 @@ export const filterTitles = (titles) => titles.filter(x => x.match(filterRegex))
  * Parses titles from Apple RSS feed items.
  */
 export const parseTitles = (titles) => titles.map(x => x.match(parseRegex))
-  .map(([_, os, version, _beta, build]) => ({ os, version, build }))
+  .map(([_, os, version, beta, build]) => ({ os, version, beta: !!beta, build }))
 
 /**
  * Applies RSS changes to existing OS objects.
