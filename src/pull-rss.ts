@@ -41,7 +41,7 @@ const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
 /**
  * Regex for parsing OS related titles into os+version+beta+build.
  */
-const parseRegex = /(iOS|iPadOS|tvOS|macOS|watchOS)\s\D*(\d+(?:\.\d+)*)( beta \d)?\s\((\w*)\)/
+const parseRegex = /(iOS|iPadOS|tvOS|macOS|watchOS)\s\D*(\d+(?:\.\d+)*)( beta\s?\d?)?\s\((\w*)\)/
 
 /**
  * Gets titles from Apple RSS feed items.

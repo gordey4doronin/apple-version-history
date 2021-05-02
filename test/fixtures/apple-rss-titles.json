@@ -1,4 +1,5 @@
 [
+  { "os": "macOS", "version": "11.4", "beta": true, "build": "20F5046g" },
   { "os": "macOS", "version": "11.3", "beta": true, "build": "20E5231a" },
   { "os": "iOS", "version": "14.5", "beta": true, "build": "18E5199a" },
   { "os": "iPadOS", "version": "14.5", "beta": true, "build": "18E5199a" },
