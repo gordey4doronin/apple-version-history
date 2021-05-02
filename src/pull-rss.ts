@@ -2,11 +2,11 @@ import fetch = require('node-fetch')
 import xml2js = require('xml2js')
 import { promisify } from 'util'
 import fs = require('fs')
+
 const readFile = promisify(fs.readFile)
 const writeFile = promisify(fs.writeFile)
 
-import { pickJson, versionNumberWithoutPatch } from './util'
-import { osType } from './types'
+import { versionNumberWithoutPatch } from './util'
 
 /**
  * Gets items from Apple RSS feed.
@@ -20,13 +20,9 @@ export async function getRssItems() {
 }
 
 /**
- * Gets items from Apple RSS feed, then gets titles from them.
+ * Gets filtered and parsed titles from Apple RSS feed items.
  */
-export async function getTitles() {
-  const items = await getRssItems()
-  const titles = items.map(x => x.title[0])
-  return titles
-}
+export const getRssTitles = (rssItems) => parseTitles(filterTitles(getTitles(rssItems)))
 
 /**
  * Regex for filterting OS related titles.
@@ -39,37 +35,52 @@ const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
 const parseRegex = /(iOS|iPadOS|tvOS|macOS|watchOS)\s\D*(\d+(?:\.\d+)*)( beta \d)?\s\((\w*)\)/
 
 /**
- * Gets items from Apple RSS feed, then gets titles from them, then filters them.
+ * Gets titles from Apple RSS feed items.
  */
-export async function getFilteredTitles() {
-  const titles = await getTitles()
-  const filtered = titles.filter(x => x.match(filterRegex))
-  return filtered
-}
+export const getTitles = (rssItems) => rssItems.map(x => x.title[0])
 
 /**
- * Gets filtered titles from Apple RSS feed, then parses them.
+ * Filters titles from Apple RSS feed items.
  */
-export async function parseTitles() {
-  const titles = await getFilteredTitles()
-  const regexs = titles.map(x => x.match(parseRegex))
-  const parsed = regexs.map(([_, os, version, _beta, build]) => ({ os, version, build }))
-  return parsed
-}
+export const filterTitles = (titles) => titles.filter(x => x.match(filterRegex))
 
 /**
- * Gets items from Apple RSS feed and applies them to existing OS objects.
+ * Parses titles from Apple RSS feed items.
  */
-export async function applyRssChanges() {
-  const titles = await parseTitles()
-  titles.forEach(({ os, version, build }) => {
+export const parseTitles = (titles) => titles.map(x => x.match(parseRegex))
+  .map(([_, os, version, _beta, build]) => ({ os, version, build }))
+
+/**
+ * Applies RSS changes to existing OS objects.
+ */
+export async function applyRssChanges(rssTitles, paths = {
+  'ios': 'ios-version-history.json',
+  'macos': 'macos-version-history.json',
+  'tvos': 'tvos-version-history.json',
+  'watchos': 'watchos-version-history.json'
+}) {
+  const files = await Promise.all([
+    readFile(paths['ios'], 'utf8'),
+    readFile(paths['macos'], 'utf8'),
+    readFile(paths['tvos'], 'utf8'),
+    readFile(paths['watchos'], 'utf8')
+  ])
+
+  const jsons = {
+    'ios': JSON.parse(files[0]),
+    'macos': JSON.parse(files[1]),
+    'tvos': JSON.parse(files[2]),
+    'watchos': JSON.parse(files[3])
+  }
+
+  rssTitles.forEach(({ os, version, build }) => {
     // Assume that iOS and iPadOS are the same for now.
     // TODO: Figure out later.
     if (os === 'iPadOS') {
       os = 'iOS'
     }
 
-    const json = pickJson(os.toLowerCase())
+    const json = jsons[os.toLowerCase()]
     const versionName = `${os} ${versionNumberWithoutPatch(version)}.x`
 
     // versionName doesn't exist => init new object
@@ -82,42 +93,30 @@ export async function applyRssChanges() {
       json[versionName][version] = [ build ]
     }
   })
+
+  return jsons
 }
 
-export async function generateNewJsons(paths = {
+/**
+ * Applies RSS changes to existing OS objects, and writes them to JSON files.
+ */
+export async function writeRssChanges(rssTitles, paths = {
   'ios': 'ios-version-history.json',
   'macos': 'macos-version-history.json',
   'tvos': 'tvos-version-history.json',
   'watchos': 'watchos-version-history.json'
 }) {
-  const jsons = {
-    'ios': fs.readFileSync('ios-version-history.json', 'utf8'),
-    'macos': fs.readFileSync('macos-version-history.json', 'utf8'),
-    'tvos': fs.readFileSync('tvos-version-history.json', 'utf8'),
-    'watchos': fs.readFileSync('watchos-version-history.json', 'utf8')
-  }
+  const changes = await applyRssChanges(rssTitles, paths)
 
-  const titles = await parseTitles()
-}
-
-/**
- * Gets items from Apple RSS feed, applies them to existing OS objects, and writes them to JSON files.
- */
-export async function writeRssChanges() {
-  await applyRssChanges();
-  const operatingSystems: osType[] = ['ios', 'macos', 'tvos', 'watchos'];
-
-  operatingSystems.forEach(os => {
-    const json = pickJson(os)
-    const stringified = JSON.stringify(json, replacer, 4)
+  for (const os of Object.keys(changes)) {
+    const stringified = JSON.stringify(changes[os], replacer, 4)
       .replace(/\"\[/g, '[')
       .replace(/\]\"/g, ']')
       .replace(/\\"/g, '"')
       .replace(/\\"/g, '"') + '\n';
 
-    fs.writeFileSync(`${os}-version-history.json`, stringified, 'utf8')
-  });
-
+    await writeFile(paths[os], stringified, 'utf8')
+  }
 }
 
 function replacer(_, value) {
