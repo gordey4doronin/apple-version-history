@@ -1,0 +1,14 @@
+[
+  { "os": "tvOS", "version": "14.4", "beta": false, "build": "18K802" },
+  { "os": "macOS", "version": "11.2.3", "beta": false, "build": "20D91" },
+  { "os": "watchOS", "version": "7.3.3", "beta": false, "build": "18S830" },
+  { "os": "iPadOS", "version": "14.4.2", "beta": false, "build": "18D70" },
+  { "os": "iOS", "version": "14.4.2", "beta": false, "build": "18D70" },
+  { "os": "iOS", "version": "12.5.2", "beta": false, "build": "16H30" },
+  { "os": "watchOS", "version": "7.4", "beta": true, "build": "18T5194a" },
+  { "os": "tvOS", "version": "14.5", "beta": true, "build": "18L5203a" },
+  { "os": "macOS", "version": "11.3", "beta": true, "build": "20E5231a" },
+  { "os": "iPadOS", "version": "14.5", "beta": true, "build": "18E5199a" },
+  { "os": "iOS", "version": "14.5", "beta": true, "build": "18E5199a" },
+  { "os": "macOS", "version": "11.4", "beta": true, "build": "20F5046g" }
+]
