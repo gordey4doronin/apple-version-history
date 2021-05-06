@@ -19,7 +19,6 @@ jobs:
           node-version: 12
 
       - run: npm ci
-      # test
       - run: npm run build
       - run: npm test
       - run: node ./dist/src/pull-rss.js
@@ -27,4 +26,5 @@ jobs:
       - run: git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
       - run: git add .
       - run: git diff --staged --quiet || npm version patch -f -m '%s Automated versions update'
+      - run: git push
       - run: git push --tags
