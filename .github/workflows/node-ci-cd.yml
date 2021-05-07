@@ -37,6 +37,8 @@ jobs:
       
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
 
       - id: check_package_json
         run: |
