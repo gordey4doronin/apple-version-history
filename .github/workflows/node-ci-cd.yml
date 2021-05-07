@@ -28,9 +28,25 @@ jobs:
       - run: npm run build
       - run: npm test
 
-  publish-npm:
+  check:
     if: github.ref == 'refs/heads/master'
-    needs: build
+    needs: [build]
+    runs-on: ubuntu-latest
+    outputs:
+      version_changed: ${{ steps.check_package_json.outputs.version_changed }}
+      
+    steps:
+      - id: check_package_json
+        run: |
+          if git diff HEAD^ HEAD package.json | grep '"version":'; then
+            echo "::set-output name=version_changed::true"
+          else
+            echo "::set-output name=version_changed::false"
+          fi
+
+  publish-npm:
+    if: github.ref == 'refs/heads/master' && ${{needs.check.outputs.version_changed}}
+    needs: [build, check]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -45,8 +61,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
   publish-gpr:
-    if: github.ref == 'refs/heads/master'
-    needs: build
+    if: github.ref == 'refs/heads/master' && ${{needs.check.outputs.version_changed}}
+    needs: [build, check]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
