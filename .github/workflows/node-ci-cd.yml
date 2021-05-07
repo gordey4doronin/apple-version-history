@@ -29,7 +29,6 @@ jobs:
       - run: npm test
 
   check:
-    if: github.ref == 'refs/heads/master'
     needs: [build]
     runs-on: ubuntu-latest
     outputs:
@@ -45,7 +44,7 @@ jobs:
           fi
 
   publish-npm:
-    if: github.ref == 'refs/heads/master' && ${{needs.check.outputs.version_changed}}
+    if: ${{needs.check.outputs.version_changed}}
     needs: [build, check]
     runs-on: ubuntu-latest
     steps:
@@ -61,7 +60,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
   publish-gpr:
-    if: github.ref == 'refs/heads/master' && ${{needs.check.outputs.version_changed}}
+    if: ${{needs.check.outputs.version_changed}}
     needs: [build, check]
     runs-on: ubuntu-latest
     steps:
