@@ -39,10 +39,10 @@ jobs:
 
       - id: check_package_json
         run: |
-          if git diff HEAD^ HEAD package.json | grep '"version":'; then
-            echo "::set-output name=version_changed::true"
-          else
+          if ! git diff HEAD^ HEAD package.json | grep '"version":'; then
             echo "::set-output name=version_changed::false"
+          else
+            echo "::set-output name=version_changed::true"
           fi
 
   publish-npm:
