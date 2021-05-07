@@ -46,7 +46,7 @@ jobs:
           fi
 
   publish-npm:
-    if: ${{needs.check.outputs.version_changed}}
+    if: needs.check.outputs.version_changed == 'true'
     needs: [build, check]
     runs-on: ubuntu-latest
     steps:
@@ -62,7 +62,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
   publish-gpr:
-    if: ${{needs.check.outputs.version_changed}}
+    if: needs.check.outputs.version_changed == 'true'
     needs: [build, check]
     runs-on: ubuntu-latest
     steps:
