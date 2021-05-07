@@ -28,11 +28,11 @@ jobs:
       - run: npm run build
       - run: npm test
 
-  check:
+  check_version_changed:
     needs: [build]
     runs-on: ubuntu-latest
     outputs:
-      version_changed: ${{ steps.check_package_json.outputs.version_changed }}
+      changed: ${{ steps.check_package_json.outputs.changed }}
       
     steps:
       - uses: actions/checkout@v2
@@ -40,14 +40,14 @@ jobs:
       - id: check_package_json
         run: |
           if ! git diff HEAD^ HEAD package.json | grep '"version":'; then
-            echo "::set-output name=version_changed::false"
+            echo "::set-output name=changed::false"
           else
-            echo "::set-output name=version_changed::true"
+            echo "::set-output name=changed::true"
           fi
 
   publish-npm:
-    if: needs.check.outputs.version_changed == 'true'
-    needs: [build, check]
+    if: needs.check_version_changed.outputs.changed == 'true'
+    needs: [build, check_version_changed]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -62,8 +62,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
   publish-gpr:
-    if: needs.check.outputs.version_changed == 'true'
-    needs: [build, check]
+    if: needs.check_version_changed.outputs.changed == 'true'
+    needs: [build, check_version_changed]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
