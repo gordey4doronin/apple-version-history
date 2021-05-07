@@ -13,6 +13,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.APPLE_REPO_GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v2
         with:
@@ -22,3 +24,9 @@ jobs:
       - run: npm run build
       - run: npm test
       - run: node ./dist/src/pull-rss.js
+      - run: git config --global user.name 'github-actions'
+      - run: git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - run: git add .
+      - run: git diff --staged --quiet || npm version patch -f -m '%s Automated versions update'
+      - run: git push
+      - run: git push --tags
