@@ -35,6 +35,8 @@ jobs:
       version_changed: ${{ steps.check_package_json.outputs.version_changed }}
       
     steps:
+      - uses: actions/checkout@v2
+
       - id: check_package_json
         run: |
           if git diff HEAD^ HEAD package.json | grep '"version":'; then
