@@ -13,6 +13,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.APPLE_REPO_GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v2
         with:
