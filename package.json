@@ -2,7 +2,7 @@
   "name": "apple-version-history",
   "version": "1.0.4",
   "description": "List of released Apple operating system versions and builds.",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "prepublishOnly": "exit -1",
     "prepack": "exit -1",
