@@ -1,3 +1,6 @@
+[![Node CI CD](https://github.com/gordey4doronin/apple-version-history/actions/workflows/node-ci-cd.yml/badge.svg)](https://github.com/gordey4doronin/apple-version-history/actions/workflows/node-ci-cd.yml)
+[![Pull RSS on schedule](https://github.com/gordey4doronin/apple-version-history/actions/workflows/schedule-pull-rss.yml/badge.svg)](https://github.com/gordey4doronin/apple-version-history/actions/workflows/schedule-pull-rss.yml)
+
 # apple-version-history
 
 ### Build (under macOS)
