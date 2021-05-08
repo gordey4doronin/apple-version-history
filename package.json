@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "List of released Apple operating system versions and builds.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "prepublishOnly": "exit -1",
     "prepack": "exit -1",
