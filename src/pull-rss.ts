@@ -18,6 +18,11 @@ if (require.main === module) {
     .then(rssItems => getRssTitles(rssItems))
     .then(rssTitles => writeRssChanges(rssTitles))
     .then(() => console.log(`Finished after ${(Date.now() - start) / 1000} seconds`))
+    .catch(error => {
+      // Sets the action status to failed.
+      process.exitCode = 1
+      console.error(error)
+    })
 }
 
 /**
@@ -91,7 +96,17 @@ export const filterTitles = (titles) => titles.filter(x => x.match(filterRegex))
 /**
  * Parses titles from Apple RSS feed items.
  */
-export const parseTitles = (titles) => titles.map(x => x.match(parseRegex))
+export const parseTitles = (titles) => titles
+  .map(title => {
+    const match = title.match(parseRegex)
+
+    if (!match) {
+      throw new Error(`Could not parse title "${title}`)
+    }
+    debug && console.log(`Parsed title="${title}" with match="${match}"`)
+
+    return match
+  })
   .map(([_, os, version, beta, build]) => ({ os, version, beta: !!beta, build }))
 
 /**
