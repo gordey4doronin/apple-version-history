@@ -30,7 +30,7 @@
   "homepage": "https://github.com/gordey4doronin/apple-version-history#readme",
   "devDependencies": {
     "@types/chai": "^4.2.6",
-    "@types/mocha": "^5.2.7",
+    "@types/mocha": "^8.2.2",
     "@types/node": "^8.10.59",
     "chai": "^4.2.0",
     "mocha": "^8.4.0",
