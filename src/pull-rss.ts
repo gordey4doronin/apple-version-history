@@ -79,7 +79,7 @@ export const getRssTitles = (rssItems) => parseTitles(filterTitles(getTitles(sor
 const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
 
 /**
- * Regex for parsing OS related titles into os+version+beta+build.
+ * Regex for parsing OS related titles into os+version+cycle+build.
  */
 const parseRegex = /(iOS|iPadOS|tvOS|macOS|watchOS)\s\D*(\d+(?:\.\d+)*)( beta\s?\d?| RC)?\s\((\w*)\)/
 
@@ -92,6 +92,21 @@ export const getTitles = (rssItems) => rssItems.map(x => x.title[0])
  * Filters titles from Apple RSS feed items.
  */
 export const filterTitles = (titles) => titles.filter(x => x.match(filterRegex))
+
+/**
+ * Parses release cycle into one of the following: beta, RC.
+ */
+const parseReleaseCycle = (cycle) => {
+  if (!cycle) {
+    return null
+  } else if (cycle.includes('beta')) {
+    return 'beta'
+  } else if (cycle.includes('RC')) {
+    return 'RC'
+  } else {
+    throw new Error(`Unexpected cycle value: ${cycle}`)
+  }
+}
 
 /**
  * Parses titles from Apple RSS feed items.
@@ -107,7 +122,7 @@ export const parseTitles = (titles) => titles
 
     return match
   })
-  .map(([_, os, version, beta, build]) => ({ os, version, beta: !!beta, build }))
+  .map(([_, os, version, cycle, build]) => ({ os, version, cycle: parseReleaseCycle(cycle), build }))
 
 /**
  * Applies RSS changes to existing OS objects.
