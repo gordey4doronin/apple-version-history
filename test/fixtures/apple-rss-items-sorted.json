@@ -418,5 +418,25 @@
     "content:encoded": [
       "macOS Big Sur 11.4 RC (20F71)"
     ]
+  },
+  {
+    "title": [
+      "iOS 14.6 RC 2 (18F72)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=05212021b"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=05212021b"
+    ],
+    "description": [
+      "iOS 14.6 RC 2 (18F72)"
+    ],
+    "pubDate": [
+      "Fri, 21 May 2021 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "iOS 14.6 RC 2 (18F72)"
+    ]
   }
 ]

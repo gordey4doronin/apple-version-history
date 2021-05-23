@@ -11,5 +11,6 @@
   { "os": "iPadOS", "version": "14.5", "build": "18E5199a", "cycle": "beta" },
   { "os": "iOS", "version": "14.5", "build": "18E5199a", "cycle": "beta" },
   { "os": "macOS", "version": "11.4", "build": "20F5046g", "cycle": "beta" },
-  { "os": "macOS", "version": "11.4", "build": "20F71", "cycle": "RC" }
+  { "os": "macOS", "version": "11.4", "build": "20F71", "cycle": "RC" },
+  { "os": "iOS", "version": "14.6", "build": "18F72", "cycle": "RC" }
 ]
