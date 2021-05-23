@@ -5,12 +5,12 @@
   { "os": "iPadOS", "version": "14.4.2", "build": "18D70", "cycle": null },
   { "os": "iOS", "version": "14.4.2", "build": "18D70", "cycle": null },
   { "os": "iOS", "version": "12.5.2", "build": "16H30", "cycle": null },
-  { "os": "watchOS", "version": "7.4", "build": "18T5194a", "cycle": "beta" },
-  { "os": "tvOS", "version": "14.5", "build": "18L5203a", "cycle": "beta" },
-  { "os": "macOS", "version": "11.3", "build": "20E5231a", "cycle": "beta" },
-  { "os": "iPadOS", "version": "14.5", "build": "18E5199a", "cycle": "beta" },
-  { "os": "iOS", "version": "14.5", "build": "18E5199a", "cycle": "beta" },
+  { "os": "watchOS", "version": "7.4", "build": "18T5194a", "cycle": "beta 7" },
+  { "os": "tvOS", "version": "14.5", "build": "18L5203a", "cycle": "beta 7" },
+  { "os": "macOS", "version": "11.3", "build": "20E5231a", "cycle": "beta 8" },
+  { "os": "iPadOS", "version": "14.5", "build": "18E5199a", "cycle": "beta 8" },
+  { "os": "iOS", "version": "14.5", "build": "18E5199a", "cycle": "beta 8" },
   { "os": "macOS", "version": "11.4", "build": "20F5046g", "cycle": "beta" },
   { "os": "macOS", "version": "11.4", "build": "20F71", "cycle": "RC" },
-  { "os": "iOS", "version": "14.6", "build": "18F72", "cycle": "RC" }
+  { "os": "iOS", "version": "14.6", "build": "18F72", "cycle": "RC 2" }
 ]
