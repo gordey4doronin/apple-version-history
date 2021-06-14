@@ -83,7 +83,7 @@ const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
 /**
  * Regex for parsing OS related titles into os+version+cycle+build.
  */
-const parseRegex = /(iOS|iPadOS|tvOS|macOS|watchOS)\s\D*(\d+(?:\.\d+)*)\s?((?:beta|RC)\s?\d?)?\s\((\w*)\)/
+const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS)\s?(?<codename>\D*)?\s(?<version>\d+(?:\.\d+)*)?\s?(?<cycle>(?:beta|RC)\s?\d?)?\s\((?<build>\w*)\)/
 
 /**
  * Gets titles from Apple RSS feed items.
@@ -120,7 +120,14 @@ export const parseTitles = (titles) => titles
 
     return match
   })
-  .map(([_, os, version, cycle, build]) => ({ os, version, cycle: cycle || null, build }))
+  .map(match => match.groups)
+  .map(({ os, codename, version, cycle, build }) => ({
+    os,
+    version: version || null,
+    codename: codename || null,
+    cycle: cycle || null,
+    build
+  }))
 
 /**
  * Applies RSS changes to existing OS objects.
@@ -145,12 +152,19 @@ export async function applyRssChanges(rssTitles, paths = {
     'watchos': JSON.parse(files[3])
   }
 
-  rssTitles.forEach(({ os, version, build }) => {
+  rssTitles.forEach(({ os, version, build, codename }) => {
     debug && console.log(`Processing ${os} ${version} ${build}`)
+
     // Assume that iOS and iPadOS are the same for now.
     // TODO: Figure out later.
     if (os === 'iPadOS') {
       os = 'iOS'
+    }
+
+    // If there is no version, and it's Monterey beta
+    // Then is should have version 12.0
+    if (!version && codename === 'Monterey') {
+      version = '12.0'
     }
 
     const json = jsons[os.toLowerCase()]
