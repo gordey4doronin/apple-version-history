@@ -91,7 +91,18 @@ export const getTitles = (rssItems) => rssItems.map(x => x.title[0])
 /**
  * Filters titles from Apple RSS feed items.
  */
-export const filterTitles = (titles) => titles.filter(x => x.match(filterRegex))
+export const filterTitles = (titles) => titles
+  .filter(title => {
+    const match = title.match(filterRegex)
+
+    if (match) {
+      debug && console.log(`+ Keep title="${title}" with match="${match}"`)
+    } else {
+      debug && console.log(`- Remove title="${title}" with match="${match}"`)
+    }
+
+    return match
+  })
 
 /**
  * Parses titles from Apple RSS feed items.
