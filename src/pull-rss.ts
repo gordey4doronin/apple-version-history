@@ -8,7 +8,9 @@ const writeFile = promisify(fs.writeFile)
 
 import { versionNumberWithoutPatch } from './util'
 
+const appleRssUrl = 'https://developer.apple.com/news/releases/rss/releases.rss'
 const debug = require.main === module
+
 // Run script only when run directly from command line
 if (require.main === module) {
   const start = Date.now()
@@ -29,7 +31,7 @@ if (require.main === module) {
  * Gets items from Apple RSS feed.
  */
 export async function getRssItems() {
-  const response = await fetch('https://developer.apple.com/news/releases/rss/releases.rss')
+  const response = await fetch(appleRssUrl)
   const xmlText = await response.text()
   const xmlParsed = await xml2js.parseStringPromise(xmlText)
   const items = xmlParsed.rss.channel[0].item
