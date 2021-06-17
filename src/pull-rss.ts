@@ -8,7 +8,9 @@ const writeFile = promisify(fs.writeFile)
 
 import { versionNumberWithoutPatch } from './util'
 
+const appleRssUrl = 'https://developer.apple.com/news/releases/rss/releases.rss'
 const debug = require.main === module
+
 // Run script only when run directly from command line
 if (require.main === module) {
   const start = Date.now()
@@ -29,7 +31,7 @@ if (require.main === module) {
  * Gets items from Apple RSS feed.
  */
 export async function getRssItems() {
-  const response = await fetch('https://developer.apple.com/news/releases/rss/releases.rss')
+  const response = await fetch(appleRssUrl)
   const xmlText = await response.text()
   const xmlParsed = await xml2js.parseStringPromise(xmlText)
   const items = xmlParsed.rss.channel[0].item
@@ -81,7 +83,7 @@ const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
 /**
  * Regex for parsing OS related titles into os+version+cycle+build.
  */
-const parseRegex = /(iOS|iPadOS|tvOS|macOS|watchOS)\s\D*(\d+(?:\.\d+)*)\s?((?:beta|RC)\s?\d?)?\s\((\w*)\)/
+const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS)\s?(?<codename>\D*)?\s(?<version>\d+(?:\.\d+)*)?\s?(?<cycle>(?:beta|RC)\s?\d?)?\s\((?<build>\w*)\)/
 
 /**
  * Gets titles from Apple RSS feed items.
@@ -91,7 +93,18 @@ export const getTitles = (rssItems) => rssItems.map(x => x.title[0])
 /**
  * Filters titles from Apple RSS feed items.
  */
-export const filterTitles = (titles) => titles.filter(x => x.match(filterRegex))
+export const filterTitles = (titles) => titles
+  .filter(title => {
+    const match = title.match(filterRegex)
+
+    if (match) {
+      debug && console.log(`+ Keep title="${title}" with match="${match}"`)
+    } else {
+      debug && console.log(`- Remove title="${title}" with match="${match}"`)
+    }
+
+    return match
+  })
 
 /**
  * Parses titles from Apple RSS feed items.
@@ -107,7 +120,14 @@ export const parseTitles = (titles) => titles
 
     return match
   })
-  .map(([_, os, version, cycle, build]) => ({ os, version, cycle: cycle || null, build }))
+  .map(match => match.groups)
+  .map(({ os, codename, version, cycle, build }) => ({
+    os,
+    version: version || null,
+    codename: codename || null,
+    cycle: cycle || null,
+    build
+  }))
 
 /**
  * Applies RSS changes to existing OS objects.
@@ -132,12 +152,19 @@ export async function applyRssChanges(rssTitles, paths = {
     'watchos': JSON.parse(files[3])
   }
 
-  rssTitles.forEach(({ os, version, build }) => {
+  rssTitles.forEach(({ os, version, build, codename }) => {
     debug && console.log(`Processing ${os} ${version} ${build}`)
+
     // Assume that iOS and iPadOS are the same for now.
     // TODO: Figure out later.
     if (os === 'iPadOS') {
       os = 'iOS'
+    }
+
+    // If there is no version, and it's Monterey beta
+    // Then is should have version 12.0
+    if (!version && codename === 'Monterey') {
+      version = '12.0'
     }
 
     const json = jsons[os.toLowerCase()]
