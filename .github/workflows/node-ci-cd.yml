@@ -23,7 +23,6 @@ jobs:
         uses: gordey4doronin/setup-node@gordey/support-lts-syntax
         with:
           node-version: ${{ matrix.node-version }}
-          check-latest: true
 
       - run: npm ci
       - run: npm run build
