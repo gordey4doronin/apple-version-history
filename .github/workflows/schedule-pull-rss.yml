@@ -16,9 +16,9 @@ jobs:
         with:
           token: ${{ secrets.APPLE_REPO_GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v2.2.0
         with:
-          node-version: 14
+          node-version: lts/fermium
 
       - run: npm ci
       - run: npm run build
