@@ -54,9 +54,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v2.2.0
         with:
-          node-version: 14
+          node-version: lts/fermium
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: npm run build
@@ -70,9 +70,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v2.2.0
         with:
-          node-version: 14
+          node-version: lts/fermium
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: npm run build
