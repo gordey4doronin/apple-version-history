@@ -16,9 +16,13 @@ jobs:
         with:
           token: ${{ secrets.APPLE_REPO_GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v2.2.0
+      - name: Read .nvmrc
+        run: echo NVMRC=`cat .nvmrc` >> $GITHUB_ENV
+
+      - name: Use Node.js ${{ env.NVMRC }}
+        uses: actions/setup-node@v2
         with:
-          node-version: lts/fermium
+          node-version: ${{ env.NVMRC }}
 
       - run: npm ci
       - run: npm run build
