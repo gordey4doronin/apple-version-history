@@ -1,6 +1,26 @@
 [
   {
     "content:encoded": [
+      "test"
+    ],
+    "description": [
+      "test"
+    ],
+    "guid": [
+      "test"
+    ],
+    "link": [
+      "test"
+    ],
+    "pubDate": [
+      "Mon, 19 Jul 2021 12:00:00 PDT"
+    ],
+    "title": [
+      "watchOS 7.6 FCS (18U63)"
+    ]
+  },
+  {
+    "content:encoded": [
       "macOS Monterey beta (21A5248p)"
     ],
     "description": [
