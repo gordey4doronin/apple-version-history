@@ -8,7 +8,7 @@
         "noImplicitThis": true,
         "noImplicitReturns": true,
         "moduleResolution": "node",
-        "sourceMap": true,
+        "sourceMap": false,
         "declaration": true,
         "outDir": "dist",
         "baseUrl": ".",
