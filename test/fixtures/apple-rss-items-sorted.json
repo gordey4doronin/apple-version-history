@@ -1,5 +1,25 @@
 [
   {
+    "content:encoded": [
+      "test"
+    ],
+    "description": [
+      "test"
+    ],
+    "guid": [
+      "test"
+    ],
+    "link": [
+      "test"
+    ],
+    "pubDate": [
+      "Mon, 30 Sep 2019 12:00:00 PDT"
+    ],
+    "title": [
+      "iPadOS 13.1.2 (17A860/17A861)"
+    ]
+  },
+  {
     "title": [
       "Xcode 12.4 (12D4e)"
     ],
@@ -477,6 +497,26 @@
     ],
     "title": [
       "watchOS 7.6 FCS (18U63)"
+    ]
+  },
+  {
+    "content:encoded": [
+      "test"
+    ],
+    "description": [
+      "test"
+    ],
+    "guid": [
+      "test"
+    ],
+    "link": [
+      "test"
+    ],
+    "pubDate": [
+      "Wed, 21 Jul 2021 12:00:00 PDT"
+    ],
+    "title": [
+      "iPadOS 14.7  (18G69/18G70)"
     ]
   }
 ]

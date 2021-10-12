@@ -86,7 +86,7 @@ const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
  * RC obviously stands for Release Candidate.
  * FCS not that obviously seems to mean Final Candidate Software.
  */
-const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS)\s?(?<codename>\D*)?\s(?<version>\d+(?:\.\d+)*)?\s?(?<cycle>(?:beta|RC|FCS)\s?\d?)?\s\((?<build>\w*)\)/
+const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS)\s?(?<codename>\D*)?\s(?<version>\d+(?:\.\d+)*)?\s?(?<cycle>(?:beta|RC|FCS)\s?\d?)?\s\((?<build>\w*\/?\w*)\)/
 
 /**
  * Gets titles from Apple RSS feed items.
@@ -181,14 +181,39 @@ export async function applyRssChanges(rssTitles, paths = {
 
     // version doesn't exist => add version + build
     if (!json[versionName][version]) {
-      json[versionName][version] = [ build ]
-      debug && console.log(`${os} version ${version} doesn't exist => add version + build ${version} [ ${build} ]`)
+      // Hack for iPadOS 14.7 (18G69/18G70) and similar dual builds
+      if (build.includes('/')) {
+        const [build1, build2] = build.split('/')
+        json[versionName][version] = [ build1, build2 ]
+        debug && console.log(`${os} version ${version} doesn't exist => add version + build ${version} [ ${build1} ]`)
+        debug && console.log(`${os} version ${version} doesn't exist => add version + build ${version} [ ${build2} ]`)
+      } else {
+        json[versionName][version] = [ build ]
+        debug && console.log(`${os} version ${version} doesn't exist => add version + build ${version} [ ${build} ]`)
+      }
     }
 
-    // build doesn't exist => add build
-    if (!json[versionName][version].includes(build)) {
-      json[versionName][version].push(build)
-      debug && console.log(`${os} ${version} build ${build} doesn't exist => add build ${build}`)
+    if (!build.includes('/')) {
+      // build doesn't exist => add build
+      if (!json[versionName][version].includes(build)) {
+        json[versionName][version].push(build)
+        debug && console.log(`${os} ${version} build ${build} doesn't exist => add build ${build}`)
+      }
+    } else if (build.includes('/')) {
+      // Hack for iPadOS 14.7 (18G69/18G70) and similar dual builds
+      const [build1, build2] = build.split('/')
+
+      // build doesn't exist => add build
+      if (!json[versionName][version].includes(build1)) {
+        json[versionName][version].push(build1)
+        debug && console.log(`${os} ${version} build ${build1} doesn't exist => add build ${build1}`)
+      }
+
+      // build doesn't exist => add build
+      if (!json[versionName][version].includes(build2)) {
+        json[versionName][version].push(build2)
+        debug && console.log(`${os} ${version} build ${build2} doesn't exist => add build ${build2}`)
+      }
     }
 
     debug && console.log('')

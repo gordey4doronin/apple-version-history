@@ -1,4 +1,5 @@
 [
+  { "os": "iPadOS", "version": "13.1.2", "build": "17A860/17A861", "codename": null, "cycle": null },
   { "os": "tvOS", "version": "14.4", "build": "18K802", "cycle": null, "codename": null },
   { "os": "macOS", "version": "11.2.3", "build": "20D91", "cycle": null, "codename": "Big Sur" },
   { "os": "watchOS", "version": "7.3.3", "build": "18S830", "cycle": null, "codename": null },
@@ -14,5 +15,6 @@
   { "os": "macOS", "version": "11.4", "build": "20F71", "cycle": "RC", "codename": "Big Sur" },
   { "os": "iOS", "version": "14.6", "build": "18F72", "cycle": "RC 2", "codename": null },
   { "os": "macOS", "version": null, "build": "21A5248p", "cycle": "beta", "codename": "Monterey" },
-  { "os": "watchOS", "version": "7.6", "build": "18U63", "cycle": "FCS", "codename": null }
+  { "os": "watchOS", "version": "7.6", "build": "18U63", "cycle": "FCS", "codename": null },
+  { "os": "iPadOS", "version": "14.7", "build": "18G69/18G70", "codename": null, "cycle": null }
 ]
