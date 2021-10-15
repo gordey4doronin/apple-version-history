@@ -17,5 +17,6 @@
   { "os": "macOS", "version": null, "build": "21A5248p", "cycle": "beta", "codename": "Monterey" },
   { "os": "macOS", "version": null, "build": "21A5268h", "cycle": "beta 2", "codename": "Monterey" },
   { "os": "watchOS", "version": "7.6", "build": "18U63", "cycle": "FCS", "codename": null },
-  { "os": "iPadOS", "version": "14.7", "build": "18G69/18G70", "codename": null, "cycle": null }
+  { "os": "iPadOS", "version": "14.7", "build": "18G69/18G70", "codename": null, "cycle": null },
+  { "os": "macOS", "version": null, "build": "21A5552a", "cycle": "beta 10", "codename": "Monterey" }
 ]

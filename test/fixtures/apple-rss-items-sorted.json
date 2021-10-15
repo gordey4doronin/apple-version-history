@@ -538,5 +538,25 @@
     "title": [
       "iPadOS 14.7  (18G69/18G70)"
     ]
+  },
+  {
+    "content:encoded": [
+      "test"
+    ],
+    "description": [
+      "test"
+    ],
+    "guid": [
+      "test"
+    ],
+    "link": [
+      "test"
+    ],
+    "pubDate": [
+      "Wed, 13 Oct 2021 12:00:00 PDT"
+    ],
+    "title": [
+      "macOS Monterey beta 10 (21A5552a)"
+    ]
   }
 ]
