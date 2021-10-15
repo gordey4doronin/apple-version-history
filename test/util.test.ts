@@ -1,5 +1,5 @@
 import { assert } from 'chai'
-import { pickJson, versionNameWithoutSuffix, hasPatch, versionNumberWithoutPatch } from '../src/util'
+import { pickJson, versionNameWithoutSuffix, hasPatch, versionNumberWithoutPatch, addMinorZero } from '../src/util'
 
 describe('utils', () => {
     describe('#pickJson()', () => {
@@ -42,6 +42,23 @@ describe('utils', () => {
         it('returns the same version number if there is patch part', () => {
             assert.equal(versionNumberWithoutPatch('1.0'), '1.0')
             assert.equal(versionNumberWithoutPatch('100.000'), '100.000')
+        })
+    })
+
+    describe('#addMinorZero()', () => {
+        it('returns version with minor zero part', () => {
+            assert.equal(addMinorZero('1'), '1.0')
+            assert.equal(addMinorZero('100'), '100.0')
+        })
+
+        it('returns the same version if there is minor part', () => {
+            assert.equal(addMinorZero('1.0'), '1.0')
+            assert.equal(addMinorZero('100.000'), '100.000')
+        })
+
+        it('returns the same version if there is patch part', () => {
+            assert.equal(addMinorZero('1.0.2'), '1.0.2')
+            assert.equal(addMinorZero('100.000.200'), '100.000.200')
         })
     })
 

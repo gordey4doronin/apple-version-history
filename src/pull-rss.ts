@@ -6,7 +6,7 @@ import fs = require('fs')
 const readFile = promisify(fs.readFile)
 const writeFile = promisify(fs.writeFile)
 
-import { versionNumberWithoutPatch } from './util'
+import { versionNumberWithoutPatch, addMinorZero } from './util'
 
 const appleRssUrl = 'https://developer.apple.com/news/releases/rss/releases.rss'
 const debug = require.main === module
@@ -169,6 +169,9 @@ export async function applyRssChanges(rssTitles, paths = {
     if (!version && codename === 'Monterey') {
       version = '12.0'
     }
+
+    // Add minor zero part if it's missing
+    version = addMinorZero(version)
 
     const json = jsons[os.toLowerCase()]
     const versionName = `${os} ${versionNumberWithoutPatch(version)}.x`

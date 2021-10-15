@@ -39,6 +39,14 @@ export function versionNumberWithoutPatch(versionNumber: string): string {
 }
 
 /**
+ * Adds minor ".0" part if it's missing.
+ * e.g. `15` becomes `15.0`.
+ */
+export function addMinorZero(version: string): string {
+    return version.includes('.') ? version : `${version}.0`
+}
+
+/**
  * Checks whether the version-number has patch part or not.
  * e.g. `10.0.1` has patch, and `10.0` has not.
  */
