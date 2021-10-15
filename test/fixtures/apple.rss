@@ -27,6 +27,14 @@
 <content:encoded>test</content:encoded>
 </item>
 <item>
+<title>macOS Monterey beta 2 (21A5268h)</title>
+<link>test</link>
+<guid>test</guid>
+<description>test</description>
+<pubDate>Mon, 28 Jun 2021 12:00:00 PDT</pubDate>
+<content:encoded>test</content:encoded>
+</item>
+<item>
 <title>macOS Monterey beta (21A5248p)</title>
 <link>https://developer.apple.com/news/releases/?id=06072021e</link>
 <guid>https://developer.apple.com/news/releases/?id=06072021e</guid>

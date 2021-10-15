@@ -41,6 +41,26 @@
   },
   {
     "content:encoded": [
+      "test"
+    ],
+    "description": [
+      "test"
+    ],
+    "guid": [
+      "test"
+    ],
+    "link": [
+      "test"
+    ],
+    "pubDate": [
+      "Mon, 28 Jun 2021 12:00:00 PDT"
+    ],
+    "title": [
+      "macOS Monterey beta 2 (21A5268h)"
+    ]
+  },
+  {
+    "content:encoded": [
       "macOS Monterey beta (21A5248p)"
     ],
     "description": [
