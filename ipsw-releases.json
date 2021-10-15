@@ -1,0 +1,7375 @@
+[
+  {
+    "date": "2021-10-11",
+    "releases": [
+      {
+        "name": "iOS 15.0.2 (19A404)",
+        "date": "2021-10-11T16:42:57Z",
+        "count": 80,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.15.0.2 (19A404)",
+        "date": "2021-10-11T17:06:09Z",
+        "count": 79,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2021-10-01",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.15.0.1 (19A348)",
+        "date": "2021-10-01T17:08:00Z",
+        "count": 79,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 15.0.1 (19A348)",
+        "date": "2021-10-01T18:54:07Z",
+        "count": 80,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-09-23",
+    "releases": [
+      {
+        "name": "iOS 12.5.5 (16H62)",
+        "date": "2021-09-23T16:52:24Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.12.5.5 (16H62)",
+        "date": "2021-09-23T17:08:00Z",
+        "count": 14,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2021-09-20",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.15.0 (19J346)",
+        "date": "2021-09-20T17:12:05Z",
+        "count": 35,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 8.4.4 (12H937)",
+        "date": "2021-09-20T17:13:18Z",
+        "count": 18,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.15.0 (19A346)",
+        "date": "2021-09-20T17:13:24Z",
+        "count": 79,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 15.0 (19A346)",
+        "date": "2021-09-20T18:33:20Z",
+        "count": 80,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.4.6 (12H937)",
+        "date": "2021-09-20T18:33:22Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 15 (19J346)",
+        "date": "2021-09-20T18:33:23Z",
+        "count": 2,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-09-17",
+    "releases": [
+      {
+        "name": "iOS 11.6 (20G165)",
+        "date": "2021-09-17T19:17:05Z",
+        "count": 5,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-09-13",
+    "releases": [
+      {
+        "name": "iOS 14.8 (18H17)",
+        "date": "2021-09-13T16:43:58Z",
+        "count": 72,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.8 (18H17)",
+        "date": "2021-09-13T17:10:06Z",
+        "count": 71,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2021-08-11",
+    "releases": [
+      {
+        "name": "iOS 11.5.2 (20G95)",
+        "date": "2021-08-11T17:12:21Z",
+        "count": 5,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-07-26",
+    "releases": [
+      {
+        "name": "iOS 14.7.1 (18G82)",
+        "date": "2021-07-26T16:43:38Z",
+        "count": 72,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.7.1 (18G82)",
+        "date": "2021-07-26T17:12:57Z",
+        "count": 71,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.5.1 (20G80)",
+        "date": "2021-07-26T17:20:44Z",
+        "count": 5,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-07-21",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.14.7 (18G70)",
+        "date": "2021-07-21T17:15:28Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 14.7 (18G70)",
+        "date": "2021-07-21T17:23:05Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 5.5 (18P4759a)",
+        "date": "2021-07-21T17:25:43Z",
+        "count": 16,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 11.5 (20G71)",
+        "date": "2021-07-21T17:30:10Z",
+        "count": 5,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-07-19",
+    "releases": [
+      {
+        "name": "iOS 14.7 (18G69)",
+        "date": "2021-07-19T17:20:45Z",
+        "count": 70,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.7 (18M60)",
+        "date": "2021-07-19T17:20:50Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.7 (18G69)",
+        "date": "2021-07-19T17:37:23Z",
+        "count": 69,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.14.7 (18M60)",
+        "date": "2021-07-19T17:43:21Z",
+        "count": 32,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2021-06-14",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.12.5.4 (16H50)",
+        "date": "2021-06-14T17:10:50Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 12.5.4 (16H50)",
+        "date": "2021-06-14T18:07:17Z",
+        "count": 14,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-05-24",
+    "releases": [
+      {
+        "name": "iOS 14.6 (18F72)",
+        "date": "2021-05-24T16:47:55Z",
+        "count": 72,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.6 (18L569)",
+        "date": "2021-05-24T16:47:56Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.6 (18F72)",
+        "date": "2021-05-24T17:17:50Z",
+        "count": 71,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.14.6 (18L569)",
+        "date": "2021-05-24T17:22:03Z",
+        "count": 27,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.4 (20F71)",
+        "date": "2021-05-24T17:25:30Z",
+        "count": 5,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 5.4 (18P4663)",
+        "date": "2021-05-24T17:30:07Z",
+        "count": 16,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-05-03",
+    "releases": [
+      {
+        "name": "iOS 14.5.1 (18E212)",
+        "date": "2021-05-03T16:41:46Z",
+        "count": 72,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.5.3 (16H41)",
+        "date": "2021-05-03T16:41:46Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.5.1 (18E212)",
+        "date": "2021-05-03T17:13:16Z",
+        "count": 71,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.5.3 (16H41)",
+        "date": "2021-05-03T17:13:34Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.3.1 (20E241)",
+        "date": "2021-05-03T17:22:10Z",
+        "count": 5,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-04-26",
+    "releases": [
+      {
+        "name": "iOS 14.5 (18E199)",
+        "date": "2021-04-26T16:43:13Z",
+        "count": 72,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.5 (18L204)",
+        "date": "2021-04-26T16:43:19Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.5 (18L203)",
+        "date": "2021-04-26T16:43:27Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.4.6 (12H923)",
+        "date": "2021-04-26T16:43:28Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.4.4 (12H923)",
+        "date": "2021-04-26T17:13:32Z",
+        "count": 16,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.14.5 (18E199)",
+        "date": "2021-04-26T17:13:37Z",
+        "count": 71,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.14.5 (18L203)",
+        "date": "2021-04-26T17:18:02Z",
+        "count": 24,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.3 (20E232)",
+        "date": "2021-04-26T17:48:22Z",
+        "count": 5,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 5.3 (18P4556)",
+        "date": "2021-04-26T17:48:54Z",
+        "count": 16,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-03-26",
+    "releases": [
+      {
+        "name": "iOS 14.4.2 (18D70)",
+        "date": "2021-03-26T16:58:09Z",
+        "count": 64,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.5.2 (16H30)",
+        "date": "2021-03-26T16:58:10Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.4.2 (18D70)",
+        "date": "2021-03-26T17:26:49Z",
+        "count": 64,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.5.2 (16H30)",
+        "date": "2021-03-26T17:27:02Z",
+        "count": 14,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2021-03-08",
+    "releases": [
+      {
+        "name": "iOS 14.4.1 (18D61)",
+        "date": "2021-03-08T18:05:20Z",
+        "count": 64,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.4.1 (18D61)",
+        "date": "2021-03-08T18:07:00Z",
+        "count": 64,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.2.3 (20D91)",
+        "date": "2021-03-08T18:14:48Z",
+        "count": 4,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-02-25",
+    "releases": [
+      {
+        "name": "iOS 5.2 (18P4347)",
+        "date": "2021-02-25T18:01:30Z",
+        "count": 16,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 11.2.2 (20D80)",
+        "date": "2021-02-25T18:06:29Z",
+        "count": 4,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-02-09",
+    "releases": [
+      {
+        "name": "iOS 11.2.1 (20D74)",
+        "date": "2021-02-09T18:54:56Z",
+        "count": 4,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-02-01",
+    "releases": [
+      {
+        "name": "iOS 11.2 (20D64)",
+        "date": "2021-02-01T18:38:14Z",
+        "count": 4,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 5.2 (18P4346)",
+        "date": "2021-02-01T18:44:09Z",
+        "count": 16,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2021-01-26",
+    "releases": [
+      {
+        "name": "iOS 14.4 (18D52)",
+        "date": "2021-01-26T18:06:07Z",
+        "count": 64,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.4 (18K802)",
+        "date": "2021-01-26T18:06:12Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.4 (18D52)",
+        "date": "2021-01-26T18:25:47Z",
+        "count": 64,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 6.3 (17U216)",
+        "date": "2021-01-26T18:26:20Z",
+        "count": 144,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.4 (18K802)",
+        "date": "2021-01-26T18:33:03Z",
+        "count": 23,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2021-01-11",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.12.5.1 (16H22)",
+        "date": "2021-01-11T18:14:30Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 12.5.1 (16H22)",
+        "date": "2021-01-11T18:14:36Z",
+        "count": 14,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-12-15",
+    "releases": [
+      {
+        "name": "iOS 14.3 (18K563)",
+        "date": "2020-12-15T17:59:11Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.3 (18K563)",
+        "date": "2020-12-15T18:08:20Z",
+        "count": 20,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-12-14",
+    "releases": [
+      {
+        "name": "iOS 14.3 (18C66)",
+        "date": "2020-12-14T17:59:44Z",
+        "count": 64,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.5 (16H20)",
+        "date": "2020-12-14T17:59:45Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.3 (18K561)",
+        "date": "2020-12-14T17:59:46Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.4.6 (12H914)",
+        "date": "2020-12-14T17:59:56Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 6.3 (17U208)",
+        "date": "2020-12-14T18:08:24Z",
+        "count": 80,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 6.3 (17U6208)",
+        "date": "2020-12-14T18:08:31Z",
+        "count": 12,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 8.4.4 (12H914)",
+        "date": "2020-12-14T18:12:49Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.14.3 (18C66)",
+        "date": "2020-12-14T18:12:54Z",
+        "count": 64,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.5 (16H20)",
+        "date": "2020-12-14T18:13:07Z",
+        "count": 13,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.1 (20C69)",
+        "date": "2020-12-14T18:23:12Z",
+        "count": 4,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 5.1 (18P3030)",
+        "date": "2020-12-14T18:32:30Z",
+        "count": 16,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-12-07",
+    "releases": [
+      {
+        "name": "iOS 14.2.1 (18K75)",
+        "date": "2020-12-07T17:59:54Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.2.1 (18K75)",
+        "date": "2020-12-07T18:12:40Z",
+        "count": 17,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-11-19",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.14.2.1 (18B121)",
+        "date": "2020-11-19T18:07:59Z",
+        "count": 4,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 14.2.1 (18B121)",
+        "date": "2020-11-19T18:24:59Z",
+        "count": 4,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-11-18",
+    "releases": [
+      {
+        "name": "iOS 11.0.1 (20B29)",
+        "date": "2020-11-18T00:32:40Z",
+        "count": 4,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.2 (18B111)",
+        "date": "2020-11-18T23:49:09Z",
+        "count": 4,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-11-12",
+    "releases": [
+      {
+        "name": "iOS 5.0.1 (18P2561)",
+        "date": "2020-11-12T18:11:43Z",
+        "count": 16,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-11-05",
+    "releases": [
+      {
+        "name": "iOS 12.4.9 (16H5)",
+        "date": "2020-11-05T17:58:23Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.2 (18B92)",
+        "date": "2020-11-05T17:58:24Z",
+        "count": 64,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.2 (18K57)",
+        "date": "2020-11-05T17:58:29Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.4.3 (12H911)",
+        "date": "2020-11-05T17:58:30Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.2 (18K60)",
+        "date": "2020-11-05T17:58:35Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.4.4 (12H911)",
+        "date": "2020-11-05T18:18:09Z",
+        "count": 12,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.14.2 (18B92)",
+        "date": "2020-11-05T18:18:13Z",
+        "count": 64,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.4.9 (16H5)",
+        "date": "2020-11-05T18:18:26Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.3.9 (16U693)",
+        "date": "2020-11-05T18:19:21Z",
+        "count": 212,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.2 (18K60)",
+        "date": "2020-11-05T18:50:16Z",
+        "count": 14,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-20",
+    "releases": [
+      {
+        "name": "iOS 14.1 (18A8395)",
+        "date": "2020-10-20T17:05:25Z",
+        "count": 64,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.1 (18A8395)",
+        "date": "2020-10-20T17:12:26Z",
+        "count": 63,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 14.0.2 (18J411)",
+        "date": "2020-10-20T17:15:41Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.14.1 (18J8394)",
+        "date": "2020-10-20T17:27:08Z",
+        "count": 11,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-05",
+    "releases": [
+      {
+        "name": "iOS OTA 14.0.2 (18J411)",
+        "date": "2020-10-05T17:08:37Z",
+        "count": 18,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-24",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.14.0.1 (18A393)",
+        "date": "2020-09-24T17:05:13Z",
+        "count": 58,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 14.0.1 (18J400)",
+        "date": "2020-09-24T17:11:43Z",
+        "count": 16,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 14.0.1 (18J400)",
+        "date": "2020-09-24T17:51:25Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.0.1 (18A393)",
+        "date": "2020-09-24T17:51:26Z",
+        "count": 59,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-16",
+    "releases": [
+      {
+        "name": "iOS 14.0 (18A373)",
+        "date": "2020-09-16T19:38:04Z",
+        "count": 59,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 14.0 (18J386)",
+        "date": "2020-09-16T19:40:40Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.4.3 (12H903)",
+        "date": "2020-09-16T19:40:41Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.4.4 (12H903)",
+        "date": "2020-09-16T20:11:25Z",
+        "count": 10,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.14.0 (18A373)",
+        "date": "2020-09-16T20:11:27Z",
+        "count": 58,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 14.0 (18J386)",
+        "date": "2020-09-16T20:14:26Z",
+        "count": 14,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-01",
+    "releases": [
+      {
+        "name": "iOS 13.7 (17H35)",
+        "date": "2020-09-01T17:10:42Z",
+        "count": 56,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.7 (17H35)",
+        "date": "2020-09-01T17:20:09Z",
+        "count": 55,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-08-12",
+    "releases": [
+      {
+        "name": "iOS 13.6.1 (17G80)",
+        "date": "2020-08-12T20:23:22Z",
+        "count": 56,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 4.6 (17P6610)",
+        "date": "2020-08-12T20:30:53Z",
+        "count": 16,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.6.1 (17G80)",
+        "date": "2020-08-12T20:32:15Z",
+        "count": 55,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-08-04",
+    "releases": [
+      {
+        "name": "iOS 4.6 (17P6604)",
+        "date": "2020-08-04T16:17:09Z",
+        "count": 2,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-07-15",
+    "releases": [
+      {
+        "name": "iOS 13.6 (17G68)",
+        "date": "2020-07-15T17:05:15Z",
+        "count": 56,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.4.8 (16G201)",
+        "date": "2020-07-15T17:05:15Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.4.8 (17M61)",
+        "date": "2020-07-15T17:05:20Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.12.4.8 (16G201)",
+        "date": "2020-07-15T17:22:02Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.3.8 (16U680)",
+        "date": "2020-07-15T17:28:03Z",
+        "count": 108,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS 4.6 (17P6065)",
+        "date": "2020-07-15T18:03:40Z",
+        "count": 14,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-07-09",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.13.6 (17G68)",
+        "date": "2020-07-09T17:33:46Z",
+        "count": 56,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 13.4.8 (17M61)",
+        "date": "2020-07-09T17:38:54Z",
+        "count": 42,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-06-15",
+    "releases": [
+      {
+        "name": "iOS 4.5 (17P5580)",
+        "date": "2020-06-15T17:21:06Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-06-01",
+    "releases": [
+      {
+        "name": "iOS 13.5.1 (17F80)",
+        "date": "2020-06-01T17:06:16Z",
+        "count": 56,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.4.6 (17L570)",
+        "date": "2020-06-01T17:06:17Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 4.5 (17P5300)",
+        "date": "2020-06-01T17:08:09Z",
+        "count": 13,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 13.4.6 (17L570)",
+        "date": "2020-06-01T17:09:23Z",
+        "count": 40,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.13.5.1 (17F80)",
+        "date": "2020-06-01T17:10:27Z",
+        "count": 55,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-05-26",
+    "releases": [
+      {
+        "name": "iOS 4.5 (17P5290)",
+        "date": "2020-05-26T20:43:06Z",
+        "count": 13,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-05-20",
+    "releases": [
+      {
+        "name": "iOS 12.4.7 (16G192)",
+        "date": "2020-05-20T16:56:50Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.5 (17F75)",
+        "date": "2020-05-20T16:56:50Z",
+        "count": 56,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.5 (17L562)",
+        "date": "2020-05-20T16:56:52Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 12.4.7 (16G192)",
+        "date": "2020-05-20T17:06:32Z",
+        "count": 292,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-05-18",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.13.5 (17F75)",
+        "date": "2020-05-18T17:18:50Z",
+        "count": 56,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 13.4.5 (17L562)",
+        "date": "2020-05-18T17:21:04Z",
+        "count": 36,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.3.7 (16U674)",
+        "date": "2020-05-18T17:31:35Z",
+        "count": 96,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-05-04",
+    "releases": [
+      {
+        "name": "iOS 4.4 (17P4538)",
+        "date": "2020-05-04T15:24:10Z",
+        "count": 2,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-04-23",
+    "releases": [
+      {
+        "name": "iOS 13.4.1 (17E8258)",
+        "date": "2020-04-23T17:02:55Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 13.4.1 (17E8258)",
+        "date": "2020-04-23T17:10:25Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-04-08",
+    "releases": [
+      {
+        "name": "iOS 4.4 (17P4281)",
+        "date": "2020-04-08T23:23:37Z",
+        "count": 11,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-04-07",
+    "releases": [
+      {
+        "name": "iOS 13.4.1 (17E262)",
+        "date": "2020-04-07T17:02:43Z",
+        "count": 55,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.4.1 (17E262)",
+        "date": "2020-04-07T17:13:13Z",
+        "count": 54,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-03-24",
+    "releases": [
+      {
+        "name": "iOS 13.4 (17E255)",
+        "date": "2020-03-24T16:57:05Z",
+        "count": 55,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.4.6 (16G183)",
+        "date": "2020-03-24T16:58:07Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.4.3 (12H885)",
+        "date": "2020-03-24T16:58:08Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.4 (17L256)",
+        "date": "2020-03-24T16:59:10Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.4.4 (12H885)",
+        "date": "2020-03-24T17:05:03Z",
+        "count": 10,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.4.6 (16G183)",
+        "date": "2020-03-24T17:05:18Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.3.6 (16U662)",
+        "date": "2020-03-24T17:21:11Z",
+        "count": 84,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS 4.4 (17P4263)",
+        "date": "2020-03-24T20:47:55Z",
+        "count": 11,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-03-22",
+    "releases": [
+      {
+        "name": "iOS 4.2 (17P3050)",
+        "date": "2020-03-22T23:03:20Z",
+        "count": 10,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 4.3 (17P3561)",
+        "date": "2020-03-22T23:03:32Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-03-18",
+    "releases": [
+      {
+        "name": "iOS OTA 13.4 (17L256)",
+        "date": "2020-03-18T17:19:31Z",
+        "count": 65,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.13.4 (17E255)",
+        "date": "2020-03-18T17:21:54Z",
+        "count": 54,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2020-02-18",
+    "releases": [
+      {
+        "name": "watchOS 5.3.5 (16U652)",
+        "date": "2020-02-18T18:06:53Z",
+        "count": 72,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2020-01-28",
+    "releases": [
+      {
+        "name": "iOS 13.3.1 (17D50)",
+        "date": "2020-01-28T18:02:37Z",
+        "count": 51,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.4.5 (16G161)",
+        "date": "2020-01-28T18:02:38Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.3.1 (17K795)",
+        "date": "2020-01-28T18:02:47Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.3.1 (17D50)",
+        "date": "2020-01-28T18:27:22Z",
+        "count": 80,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.4.5 (16G161)",
+        "date": "2020-01-28T18:27:33Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 13.3.1 (17K795)",
+        "date": "2020-01-28T18:42:23Z",
+        "count": 61,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-12-10",
+    "releases": [
+      {
+        "name": "iOS 13.3 (17C54)",
+        "date": "2019-12-10T17:56:43Z",
+        "count": 51,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.4.4 (16G140)",
+        "date": "2019-12-10T17:56:43Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.3 (17K449)",
+        "date": "2019-12-10T17:56:46Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.3 (17C54)",
+        "date": "2019-12-10T18:12:39Z",
+        "count": 78,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.4.4 (16G140)",
+        "date": "2019-12-10T18:12:57Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.3.4 (16U627)",
+        "date": "2019-12-10T18:22:14Z",
+        "count": 60,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 13.3 (17K449)",
+        "date": "2019-12-10T18:33:02Z",
+        "count": 59,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-11-18",
+    "releases": [
+      {
+        "name": "iOS 13.2.3 (17B111)",
+        "date": "2019-11-18T17:58:53Z",
+        "count": 51,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.2.3 (17B111)",
+        "date": "2019-11-18T18:07:46Z",
+        "count": 50,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-11-07",
+    "releases": [
+      {
+        "name": "iOS 13.2.2 (17B102)",
+        "date": "2019-11-07T17:59:08Z",
+        "count": 51,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.2.2 (17B102)",
+        "date": "2019-11-07T18:04:39Z",
+        "count": 50,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-11-05",
+    "releases": [
+      {
+        "name": "watchOS 6.1.1 (17S5433b)",
+        "date": "2019-11-05T18:17:17Z",
+        "count": 284,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-10-30",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.13.2.1 (17B90)",
+        "date": "2019-10-30T22:12:36Z",
+        "count": 26,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-10-29",
+    "releases": [
+      {
+        "name": "watchOS 5.3.3 (16U620)",
+        "date": "2019-10-29T17:09:25Z",
+        "count": 48,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-10-28",
+    "releases": [
+      {
+        "name": "iOS 13.2 (17B84)",
+        "date": "2019-10-28T17:02:14Z",
+        "count": 51,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.4.3 (16G130)",
+        "date": "2019-10-28T17:02:14Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.2 (17K82)",
+        "date": "2019-10-28T17:02:17Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.2 (17B84)",
+        "date": "2019-10-28T17:06:49Z",
+        "count": 74,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.4.3 (16G130)",
+        "date": "2019-10-28T17:07:06Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 13.2 (17K82)",
+        "date": "2019-10-28T17:13:37Z",
+        "count": 57,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-10-23",
+    "releases": [
+      {
+        "name": "watchOS 6.1 (17S5083a)",
+        "date": "2019-10-23T17:10:09Z",
+        "count": 340,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-10-16",
+    "releases": [
+      {
+        "name": "watchOS 6.1 (17S5076a)",
+        "date": "2019-10-16T17:12:16Z",
+        "count": 324,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-10-15",
+    "releases": [
+      {
+        "name": "iOS 13.1.3 (17A878)",
+        "date": "2019-10-15T17:00:26Z",
+        "count": 51,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.1.3 (17A878)",
+        "date": "2019-10-15T17:06:55Z",
+        "count": 50,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-10-10",
+    "releases": [
+      {
+        "name": "watchOS 6.1 (17S5068e)",
+        "date": "2019-10-10T17:07:06Z",
+        "count": 304,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-10-02",
+    "releases": [
+      {
+        "name": "watchOS 6.1 (17S5059e)",
+        "date": "2019-10-02T17:09:36Z",
+        "count": 288,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-09-30",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.13.1.2 (17A860)",
+        "date": "2019-09-30T17:06:50Z",
+        "count": 47,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.13.1.2 (17A861)",
+        "date": "2019-09-30T17:07:30Z",
+        "count": 4,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 13.1.2 (17A860)",
+        "date": "2019-09-30T17:11:09Z",
+        "count": 46,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.1.2 (17A861)",
+        "date": "2019-09-30T17:11:12Z",
+        "count": 5,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 6.0.1 (17R605)",
+        "date": "2019-09-30T17:15:02Z",
+        "count": 92,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 6.0.1 (17R6605)",
+        "date": "2019-09-30T17:15:09Z",
+        "count": 36,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 6.0.1 (17R604)",
+        "date": "2019-09-30T17:15:41Z",
+        "count": 8,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-09-27",
+    "releases": [
+      {
+        "name": "iOS 13.1.1 (17A854)",
+        "date": "2019-09-27T16:58:00Z",
+        "count": 51,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.1.1 (17A854)",
+        "date": "2019-09-27T17:06:52Z",
+        "count": 51,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-09-26",
+    "releases": [
+      {
+        "name": "iOS 12.4.2 (16G114)",
+        "date": "2019-09-26T17:04:55Z",
+        "count": 14,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.12.4.2 (16G114)",
+        "date": "2019-09-26T17:05:53Z",
+        "count": 14,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.3.2 (16U611)",
+        "date": "2019-09-26T17:09:03Z",
+        "count": 116,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.3.2 (16U6611)",
+        "date": "2019-09-26T17:09:12Z",
+        "count": 44,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-09-24",
+    "releases": [
+      {
+        "name": "iOS 8.4.3 (12H876)",
+        "date": "2019-09-24T17:03:02Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.1 (17A844)",
+        "date": "2019-09-24T17:03:02Z",
+        "count": 51,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 13.0 (17J586)",
+        "date": "2019-09-24T17:03:06Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.4.3 (12H876)",
+        "date": "2019-09-24T17:10:53Z",
+        "count": 6,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.13.1 (17A844)",
+        "date": "2019-09-24T17:10:55Z",
+        "count": 51,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 13.0 (17J586)",
+        "date": "2019-09-24T17:13:15Z",
+        "count": 55,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-09-23",
+    "releases": [
+      {
+        "name": "watchOS 6.1 (17S5054e)",
+        "date": "2019-09-23T17:03:36Z",
+        "count": 256,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-09-19",
+    "releases": [
+      {
+        "name": "iOS 13.0 (17A577)",
+        "date": "2019-09-19T16:49:35Z",
+        "count": 20,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.13.0 (17A577)",
+        "date": "2019-09-19T17:08:20Z",
+        "count": 20,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-09-11",
+    "releases": [
+      {
+        "name": "watchOS 6.0 (17R575)",
+        "date": "2019-09-11T18:34:37Z",
+        "count": 210,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 6.0 (17R6575)",
+        "date": "2019-09-11T18:34:52Z",
+        "count": 72,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-08-27",
+    "releases": [
+      {
+        "name": "watchOS 6.0 (17R5575a)",
+        "date": "2019-08-27T17:27:53Z",
+        "count": 372,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-08-26",
+    "releases": [
+      {
+        "name": "iOS 12.4.1 (16G102)",
+        "date": "2019-08-26T17:04:07Z",
+        "count": 60,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.12.4.1 (16G102)",
+        "date": "2019-08-26T17:13:05Z",
+        "count": 60,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.3.1 (16U600)",
+        "date": "2019-08-26T17:13:50Z",
+        "count": 278,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.3.1 (16U6600)",
+        "date": "2019-08-26T17:14:00Z",
+        "count": 144,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.4.1 (16M600)",
+        "date": "2019-08-26T17:18:21Z",
+        "count": 53,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 12.4.1 (16M600)",
+        "date": "2019-08-26T19:48:27Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-08-21",
+    "releases": [
+      {
+        "name": "watchOS 6.0 (17R5571a)",
+        "date": "2019-08-21T17:10:04Z",
+        "count": 348,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-08-15",
+    "releases": [
+      {
+        "name": "watchOS 6.0 (17R5566a)",
+        "date": "2019-08-15T17:16:35Z",
+        "count": 336,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-08-07",
+    "releases": [
+      {
+        "name": "watchOS 6.0 (17R5556d)",
+        "date": "2019-08-07T17:13:33Z",
+        "count": 324,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-07-30",
+    "releases": [
+      {
+        "name": "watchOS 6.0 (17R5546f)",
+        "date": "2019-07-30T17:09:14Z",
+        "count": 312,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-07-22",
+    "releases": [
+      {
+        "name": "iOS 12.4 (16G77)",
+        "date": "2019-07-22T17:01:25Z",
+        "count": 60,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 9.3.6 (13G37)",
+        "date": "2019-07-22T17:04:57Z",
+        "count": 6,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.3.4 (14G61)",
+        "date": "2019-07-22T17:05:30Z",
+        "count": 4,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.4.2 (12H864)",
+        "date": "2019-07-22T17:05:49Z",
+        "count": 4,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.3.6 (13G37)",
+        "date": "2019-07-22T17:06:00Z",
+        "count": 168,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.10.3.4 (14G61)",
+        "date": "2019-07-22T17:07:18Z",
+        "count": 164,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.4 (16G77)",
+        "date": "2019-07-22T17:08:10Z",
+        "count": 60,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 8.4.2 (12H864)",
+        "date": "2019-07-22T17:08:33Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.4 (16M568)",
+        "date": "2019-07-22T17:12:43Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 5.3 (16U569)",
+        "date": "2019-07-22T17:19:26Z",
+        "count": 278,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.3 (16U6569)",
+        "date": "2019-07-22T17:20:00Z",
+        "count": 132,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.12.4 (16G78)",
+        "date": "2019-07-22T17:29:13Z",
+        "count": 22,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 12.4 (16M568)",
+        "date": "2019-07-22T19:22:53Z",
+        "count": 51,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-07-17",
+    "releases": [
+      {
+        "name": "watchOS 6.0 (17R5532f)",
+        "date": "2019-07-17T17:41:28Z",
+        "count": 276,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-07-16",
+    "releases": [
+      {
+        "name": "watchOS 5.3 (16U5569a)",
+        "date": "2019-07-16T17:14:03Z",
+        "count": 252,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-07-09",
+    "releases": [
+      {
+        "name": "watchOS 5.3 (16U5566a)",
+        "date": "2019-07-09T17:19:20Z",
+        "count": 240,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-07-02",
+    "releases": [
+      {
+        "name": "watchOS 6.0 (17R5521e)",
+        "date": "2019-07-02T18:09:42Z",
+        "count": 252,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-06-24",
+    "releases": [
+      {
+        "name": "watchOS 5.3 (16U5558b)",
+        "date": "2019-06-24T17:24:43Z",
+        "count": 228,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-06-17",
+    "releases": [
+      {
+        "name": "watchOS 6.0 (17R5507l)",
+        "date": "2019-06-17T17:10:52Z",
+        "count": 240,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-06-11",
+    "releases": [
+      {
+        "name": "watchOS 5.3 (16U5545c)",
+        "date": "2019-06-11T17:13:10Z",
+        "count": 216,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-06-10",
+    "releases": [
+      {
+        "name": "iOS 12.3.2 (16F250)",
+        "date": "2019-06-10T16:58:01Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.12.3.2 (16F250)",
+        "date": "2019-06-10T17:03:00Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-06-03",
+    "releases": [
+      {
+        "name": "watchOS 6.0 (17R5491t)",
+        "date": "2019-06-03T19:28:08Z",
+        "count": 216,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-05-29",
+    "releases": [
+      {
+        "name": "iOS 12.3.1 (16F8202)",
+        "date": "2019-05-29T17:00:04Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-05-28",
+    "releases": [
+      {
+        "name": "watchOS 5.3 (16U5537b)",
+        "date": "2019-05-28T17:11:51Z",
+        "count": 204,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.3.1 (16F8202)",
+        "date": "2019-05-28T20:09:39Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-05-24",
+    "releases": [
+      {
+        "name": "iOS 12.3.1 (16F203)",
+        "date": "2019-05-24T16:59:11Z",
+        "count": 59,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.12.3.1 (16F203)",
+        "date": "2019-05-24T17:58:32Z",
+        "count": 59,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-05-15",
+    "releases": [
+      {
+        "name": "watchOS 5.3 (16U5526f)",
+        "date": "2019-05-15T17:11:14Z",
+        "count": 192,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-05-13",
+    "releases": [
+      {
+        "name": "iOS 12.3 (16F156)",
+        "date": "2019-05-13T16:56:29Z",
+        "count": 59,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.4.2 (12H847)",
+        "date": "2019-05-13T16:59:16Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.3 (16M153)",
+        "date": "2019-05-13T16:59:47Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.4.2 (12H847)",
+        "date": "2019-05-13T17:07:15Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.3 (16F156)",
+        "date": "2019-05-13T17:07:46Z",
+        "count": 77,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.2.1 (16U113)",
+        "date": "2019-05-13T17:15:50Z",
+        "count": 302,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.2.1 (16U6113)",
+        "date": "2019-05-13T17:15:57Z",
+        "count": 60,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.3 (16M153)",
+        "date": "2019-05-13T17:19:18Z",
+        "count": 49,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-05-07",
+    "releases": [
+      {
+        "name": "watchOS 5.2.1 (16U5113a)",
+        "date": "2019-05-07T17:18:26Z",
+        "count": 228,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-04-29",
+    "releases": [
+      {
+        "name": "watchOS 5.2.1 (16U5110a)",
+        "date": "2019-04-29T17:38:28Z",
+        "count": 216,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-04-22",
+    "releases": [
+      {
+        "name": "watchOS 5.2.1 (16U5101c)",
+        "date": "2019-04-22T17:12:37Z",
+        "count": 204,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-04-10",
+    "releases": [
+      {
+        "name": "iOS OTA 12.2.1 (16L250)",
+        "date": "2019-04-10T17:06:49Z",
+        "count": 47,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 12.2.1 (16L250)",
+        "date": "2019-04-10T23:18:02Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-04-08",
+    "releases": [
+      {
+        "name": "watchOS 5.2.1 (16U5091b)",
+        "date": "2019-04-08T17:12:18Z",
+        "count": 192,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-03-28",
+    "releases": [
+      {
+        "name": "watchOS 5.2.1 (16U5079d)",
+        "date": "2019-03-28T17:10:51Z",
+        "count": 168,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-03-27",
+    "releases": [
+      {
+        "name": "watchOS 5.2 (16T225)",
+        "date": "2019-03-27T22:03:03Z",
+        "count": 242,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.2 (16T6225)",
+        "date": "2019-03-27T22:03:10Z",
+        "count": 72,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-03-25",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.12.2 (16E227)",
+        "date": "2019-03-25T19:03:26Z",
+        "count": 75,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.2 (16E6227)",
+        "date": "2019-03-25T19:09:11Z",
+        "count": 4,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 12.2 (16E227)",
+        "date": "2019-03-25T19:11:50Z",
+        "count": 59,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.2 (16L226)",
+        "date": "2019-03-25T19:14:04Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 12.2 (16L226)",
+        "date": "2019-03-25T19:15:15Z",
+        "count": 45,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2019-03-18",
+    "releases": [
+      {
+        "name": "watchOS 5.2 (16T5225a)",
+        "date": "2019-03-18T17:13:23Z",
+        "count": 204,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-03-11",
+    "releases": [
+      {
+        "name": "watchOS 5.2 (16T5222a)",
+        "date": "2019-03-11T17:10:41Z",
+        "count": 192,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-03-04",
+    "releases": [
+      {
+        "name": "watchOS 5.2 (16T5212e)",
+        "date": "2019-03-04T18:10:41Z",
+        "count": 180,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-02-19",
+    "releases": [
+      {
+        "name": "watchOS 5.2 (16T5201c)",
+        "date": "2019-02-19T18:15:44Z",
+        "count": 168,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-02-07",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.12.1.4 (16D57)",
+        "date": "2019-02-07T18:06:36Z",
+        "count": 55,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 12.1.4 (16D57)",
+        "date": "2019-02-07T18:28:03Z",
+        "count": 55,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-02-04",
+    "releases": [
+      {
+        "name": "watchOS 5.2 (16T5191d)",
+        "date": "2019-02-04T18:13:30Z",
+        "count": 156,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-01-24",
+    "releases": [
+      {
+        "name": "watchOS 5.2 (16T5181f)",
+        "date": "2019-01-24T18:07:26Z",
+        "count": 148,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-01-22",
+    "releases": [
+      {
+        "name": "iOS OTA 12.1.3 (16D39)",
+        "date": "2019-01-22T18:03:49Z",
+        "count": 1363,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.1.3 (16S535)",
+        "date": "2019-01-22T18:10:37Z",
+        "count": 230,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.1.3 (16S6535)",
+        "date": "2019-01-22T18:10:53Z",
+        "count": 60,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.1.2 (16K534)",
+        "date": "2019-01-22T18:13:32Z",
+        "count": 43,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 12.1.3 (16D40)",
+        "date": "2019-01-22T18:14:51Z",
+        "count": 53,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 12.1.3 (16D39)",
+        "date": "2019-01-22T18:24:20Z",
+        "count": 43,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.1.3 (16D40)",
+        "date": "2019-01-22T18:24:46Z",
+        "count": 12,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.1.2 (16K534)",
+        "date": "2019-01-22T18:39:57Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2019-01-07",
+    "releases": [
+      {
+        "name": "watchOS 5.1.3 (16S5535a)",
+        "date": "2019-01-07T18:16:13Z",
+        "count": 196,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-20",
+    "releases": [
+      {
+        "name": "iOS 12.1.2 (16C104)",
+        "date": "2018-12-20T19:15:04Z",
+        "count": 21,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-19",
+    "releases": [
+      {
+        "name": "watchOS 5.1.3 (16S5531a)",
+        "date": "2018-12-19T21:06:07Z",
+        "count": 184,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-17",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.12.1.2 (16C101)",
+        "date": "2018-12-17T21:05:24Z",
+        "count": 534,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 12.1.2 (16C101)",
+        "date": "2018-12-17T21:05:38Z",
+        "count": 21,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-10",
+    "releases": [
+      {
+        "name": "watchOS 5.1.3 (16S5523a)",
+        "date": "2018-12-10T18:09:52Z",
+        "count": 172,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-06",
+    "releases": [
+      {
+        "name": "watchOS 5.1.2 (16S46)",
+        "date": "2018-12-06T18:03:44Z",
+        "count": 306,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.1.2 (16S6046)",
+        "date": "2018-12-06T18:03:51Z",
+        "count": 24,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-05",
+    "releases": [
+      {
+        "name": "iOS 12.1.1 (16C50)",
+        "date": "2018-12-05T17:56:35Z",
+        "count": 55,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.1.1 (16K45)",
+        "date": "2018-12-05T17:59:16Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.12.1.1 (16C50)",
+        "date": "2018-12-05T18:07:01Z",
+        "count": 1313,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 12.1.1 (16K45)",
+        "date": "2018-12-05T18:08:49Z",
+        "count": 41,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-29",
+    "releases": [
+      {
+        "name": "iOS OTA 12.1.1 (16K5045a)",
+        "date": "2018-11-29T18:09:21Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-15",
+    "releases": [
+      {
+        "name": "iOS OTA 12.1.1 (16K5044a)",
+        "date": "2018-11-15T18:08:10Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.1.2 (16S5046a)",
+        "date": "2018-11-15T18:08:19Z",
+        "count": 236,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-07",
+    "releases": [
+      {
+        "name": "watchOS 5.1.2 (16S5042a)",
+        "date": "2018-11-07T21:14:19Z",
+        "count": 224,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.1.1 (16K5041a)",
+        "date": "2018-11-07T21:15:49Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-06",
+    "releases": [
+      {
+        "name": "iOS 12.1 (16B94)",
+        "date": "2018-11-06T18:16:26Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-05",
+    "releases": [
+      {
+        "name": "watchOS 5.1.1 (16R600)",
+        "date": "2018-11-05T18:05:06Z",
+        "count": 170,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.1.1 (16R6600)",
+        "date": "2018-11-05T18:05:13Z",
+        "count": 148,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-31",
+    "releases": [
+      {
+        "name": "iOS OTA 12.1.1 (16K5035b)",
+        "date": "2018-10-31T17:15:46Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-30",
+    "releases": [
+      {
+        "name": "iOS 12.1 (16B92)",
+        "date": "2018-10-30T17:04:17Z",
+        "count": 54,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 12.1 (16B92)",
+        "date": "2018-10-30T17:04:29Z",
+        "count": 1252,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 12.1 (16J602)",
+        "date": "2018-10-30T17:09:50Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 12.1 (16J602)",
+        "date": "2018-10-30T17:13:10Z",
+        "count": 39,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 12.1 (16B93)",
+        "date": "2018-10-30T17:18:09Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.12.1 (16B93)",
+        "date": "2018-10-30T17:18:58Z",
+        "count": 3,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.1 (16R591)",
+        "date": "2018-10-30T17:20:48Z",
+        "count": 158,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.1 (16R6591)",
+        "date": "2018-10-30T17:20:50Z",
+        "count": 148,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-22",
+    "releases": [
+      {
+        "name": "iOS OTA 12.1 (16J5602a)",
+        "date": "2018-10-22T17:17:00Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.1 (16R5589c)",
+        "date": "2018-10-22T17:18:30Z",
+        "count": 220,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-15",
+    "releases": [
+      {
+        "name": "watchOS 5.1 (16R5584a)",
+        "date": "2018-10-15T17:09:08Z",
+        "count": 208,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.1 (16J5600a)",
+        "date": "2018-10-15T17:13:36Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-09",
+    "releases": [
+      {
+        "name": "watchOS 5.1 (16R5577c)",
+        "date": "2018-10-09T17:11:30Z",
+        "count": 196,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.1 (16J5593c)",
+        "date": "2018-10-09T17:15:36Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-08",
+    "releases": [
+      {
+        "name": "iOS 12.0.1 (16A404)",
+        "date": "2018-10-08T16:55:42Z",
+        "count": 43,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.0.1 (16A405)",
+        "date": "2018-10-08T16:57:30Z",
+        "count": 4,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 12.0.1 (16A404)",
+        "date": "2018-10-08T17:07:38Z",
+        "count": 1180,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.12.0.1 (16A405)",
+        "date": "2018-10-08T17:11:46Z",
+        "count": 8,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-02",
+    "releases": [
+      {
+        "name": "watchOS 5.1 (16R5568d)",
+        "date": "2018-10-02T17:14:05Z",
+        "count": 184,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.1 (16J5584c)",
+        "date": "2018-10-02T17:18:55Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-27",
+    "releases": [
+      {
+        "name": "watchOS 5.0.1 (16R381)",
+        "date": "2018-09-27T20:08:13Z",
+        "count": 178,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.0.1 (16R6381)",
+        "date": "2018-09-27T20:08:54Z",
+        "count": 88,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.0.1 (16R382)",
+        "date": "2018-09-27T20:09:22Z",
+        "count": 8,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-25",
+    "releases": [
+      {
+        "name": "iTunes 12.9",
+        "date": "2018-09-25T00:00:00Z",
+        "count": 1,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-24",
+    "releases": [
+      {
+        "name": "iOS 12.0.1 (16J380)",
+        "date": "2018-09-24T17:06:59Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 12.0.1 (16J380)",
+        "date": "2018-09-24T17:13:21Z",
+        "count": 37,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-18",
+    "releases": [
+      {
+        "name": "watchOS 5.1 (16R5559d)",
+        "date": "2018-09-18T17:22:24Z",
+        "count": 160,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.1 (16J5575c)",
+        "date": "2018-09-18T17:26:30Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-17",
+    "releases": [
+      {
+        "name": "iOS 12.0 (16J364)",
+        "date": "2018-09-17T17:05:00Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 12.0 (16A366)",
+        "date": "2018-09-17T17:06:18Z",
+        "count": 47,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-12",
+    "releases": [
+      {
+        "name": "iOS OTA 12.0 (16A366)",
+        "date": "2018-09-12T19:04:49Z",
+        "count": 1151,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 12.0 (16J364)",
+        "date": "2018-09-12T19:15:28Z",
+        "count": 35,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.0 (16R364)",
+        "date": "2018-09-12T19:17:59Z",
+        "count": 174,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 5.0 (16R6364)",
+        "date": "2018-09-12T19:18:07Z",
+        "count": 88,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-08-31",
+    "releases": [
+      {
+        "name": "iOS OTA 12.0 (16J5364a)",
+        "date": "2018-08-31T17:13:59Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.0 (16R5363a)",
+        "date": "2018-08-31T17:14:51Z",
+        "count": 192,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-08-27",
+    "releases": [
+      {
+        "name": "iOS OTA 12.0 (16J5360a)",
+        "date": "2018-08-27T17:13:38Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-08-24",
+    "releases": [
+      {
+        "name": "watchOS 5.0 (16R5360a)",
+        "date": "2018-08-24T17:13:43Z",
+        "count": 184,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-08-20",
+    "releases": [
+      {
+        "name": "watchOS 5.0 (16R5357a)",
+        "date": "2018-08-20T17:08:27Z",
+        "count": 176,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.0 (16J5355a)",
+        "date": "2018-08-20T17:16:52Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-08-13",
+    "releases": [
+      {
+        "name": "watchOS 5.0 (16R5349a)",
+        "date": "2018-08-13T17:06:18Z",
+        "count": 168,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.0 (16J5349a)",
+        "date": "2018-08-13T17:10:56Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-08-06",
+    "releases": [
+      {
+        "name": "iOS OTA 12.0 (16J5340e)",
+        "date": "2018-08-06T17:10:45Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.0 (16R5340g)",
+        "date": "2018-08-06T17:11:37Z",
+        "count": 160,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-07-30",
+    "releases": [
+      {
+        "name": "watchOS 5.0 (16R5334f)",
+        "date": "2018-07-30T17:09:41Z",
+        "count": 200,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.0 (16J5334e)",
+        "date": "2018-07-30T17:18:59Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-07-17",
+    "releases": [
+      {
+        "name": "watchOS 5.0 (16R5322d)",
+        "date": "2018-07-17T17:10:39Z",
+        "count": 192,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 12.0 (16J5322d)",
+        "date": "2018-07-17T17:19:42Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-07-09",
+    "releases": [
+      {
+        "name": "iOS 11.4.1 (15G77)",
+        "date": "2018-07-09T17:03:17Z",
+        "count": 43,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.4.1 (15G77)",
+        "date": "2018-07-09T17:06:45Z",
+        "count": 1419,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.4.1 (15M73)",
+        "date": "2018-07-09T17:07:13Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 4.3.2 (15U70)",
+        "date": "2018-07-09T17:07:34Z",
+        "count": 256,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 4.3.2 (15U6070)",
+        "date": "2018-07-09T17:07:40Z",
+        "count": 30,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.4.1 (15M73)",
+        "date": "2018-07-09T17:13:34Z",
+        "count": 33,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-07-03",
+    "releases": [
+      {
+        "name": "iOS OTA 12.0 (16J5313d)",
+        "date": "2018-07-03T17:09:07Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.0 (16R5313d)",
+        "date": "2018-07-03T17:10:50Z",
+        "count": 176,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-06-25",
+    "releases": [
+      {
+        "name": "watchOS 4.3.2 (15U5069a)",
+        "date": "2018-06-25T17:12:50Z",
+        "count": 190,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-06-19",
+    "releases": [
+      {
+        "name": "iOS OTA 12.0 (16J5303e)",
+        "date": "2018-06-19T17:05:45Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.0 (16R5303d)",
+        "date": "2018-06-19T17:36:17Z",
+        "count": 160,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-06-13",
+    "releases": [
+      {
+        "name": "watchOS 4.3.2 (15U5062a)",
+        "date": "2018-06-13T17:07:53Z",
+        "count": 180,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-06-12",
+    "releases": [
+      {
+        "name": "iOS OTA 11.4.1 (15M5063a)",
+        "date": "2018-06-12T17:07:17Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-06-11",
+    "releases": [
+      {
+        "name": "watchOS 5.0 (16R5283r)",
+        "date": "2018-06-11T17:06:40Z",
+        "count": 144,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-06-10",
+    "releases": [
+      {
+        "name": "iTunes 12.8",
+        "date": "2018-06-10T00:00:00Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2018-06-05",
+    "releases": [
+      {
+        "name": "iOS OTA 12.0 (16J5283n)",
+        "date": "2018-06-05T09:51:32Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 5.0 (16R5283q)",
+        "date": "2018-06-05T09:52:30Z",
+        "count": 136,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-05-31",
+    "releases": [
+      {
+        "name": "iOS OTA 11.4.1 (15M5054b)",
+        "date": "2018-05-31T17:04:00Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-05-30",
+    "releases": [
+      {
+        "name": "watchOS 4.3.2 (15U5053b)",
+        "date": "2018-05-30T17:06:18Z",
+        "count": 170,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-05-29",
+    "releases": [
+      {
+        "name": "iTunes 12.7.5",
+        "date": "2018-05-29T00:00:00Z",
+        "count": 2,
+        "type": "iTunes"
+      },
+      {
+        "name": "iOS 11.4 (15F79)",
+        "date": "2018-05-29T17:03:10Z",
+        "count": 43,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 11.4 (15L577)",
+        "date": "2018-05-29T17:03:29Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 4.3.1 (15T567)",
+        "date": "2018-05-29T17:08:00Z",
+        "count": 176,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.4 (15F80)",
+        "date": "2018-05-29T17:08:02Z",
+        "count": 6,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.3.1 (15T6567)",
+        "date": "2018-05-29T17:08:21Z",
+        "count": 110,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.4 (15L577)",
+        "date": "2018-05-29T17:09:59Z",
+        "count": 31,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.11.4 (15F79)",
+        "date": "2018-05-29T17:12:58Z",
+        "count": 1368,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.11.4 (99Z999)",
+        "date": "2018-05-29T17:17:26Z",
+        "count": 521,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-05-14",
+    "releases": [
+      {
+        "name": "watchOS 4.3.1 (15T5567a)",
+        "date": "2018-05-14T17:13:36Z",
+        "count": 200,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.4 (15L5576a)",
+        "date": "2018-05-14T20:00:14Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-05-07",
+    "releases": [
+      {
+        "name": "watchOS 4.3.1 (15T5565a)",
+        "date": "2018-05-07T17:22:47Z",
+        "count": 190,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.4 (15L5570a)",
+        "date": "2018-05-07T20:05:37Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-05-01",
+    "releases": [
+      {
+        "name": "watchOS 4.3.1 (15T5555c)",
+        "date": "2018-05-01T17:06:23Z",
+        "count": 180,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.4 (15L5560b)",
+        "date": "2018-05-01T20:05:53Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-04-24",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.3.1 (15E302)",
+        "date": "2018-04-24T17:04:57Z",
+        "count": 1504,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.3.1 (15E302)",
+        "date": "2018-04-24T17:05:09Z",
+        "count": 43,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-04-17",
+    "releases": [
+      {
+        "name": "iOS OTA 11.4 (15L5546a)",
+        "date": "2018-04-17T17:02:50Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-04-16",
+    "releases": [
+      {
+        "name": "watchOS 4.3.1 (15T5545b)",
+        "date": "2018-04-16T17:03:45Z",
+        "count": 170,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.4 (15F5049c)",
+        "date": "2018-04-16T17:07:00Z",
+        "count": 43,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-04-03",
+    "releases": [
+      {
+        "name": "iOS OTA 11.4 (15L5536c)",
+        "date": "2018-04-03T17:09:48Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-04-02",
+    "releases": [
+      {
+        "name": "watchOS 4.3.1 (15T5535b)",
+        "date": "2018-04-02T17:12:57Z",
+        "count": 160,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-03-29",
+    "releases": [
+      {
+        "name": "iOS OTA 11.3 (15L211)",
+        "date": "2018-03-29T17:05:08Z",
+        "count": 29,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.11.3 (15E216)",
+        "date": "2018-03-29T17:05:36Z",
+        "count": 1459,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.3 (15T212)",
+        "date": "2018-03-29T17:06:44Z",
+        "count": 236,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 4.3 (15T6212)",
+        "date": "2018-03-29T17:07:15Z",
+        "count": 60,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS 11.3 (15L211)",
+        "date": "2018-03-29T17:07:24Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 11.3 (15E217)",
+        "date": "2018-03-29T17:13:29Z",
+        "count": 3,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iTunes 12.7.4",
+        "date": "2018-03-29T21:49:29Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2018-03-28",
+    "releases": [
+      {
+        "name": "iOS 11.3 (15E216)",
+        "date": "2018-03-28T17:08:53Z",
+        "count": 42,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 11.3 (15E218)",
+        "date": "2018-03-28T17:09:21Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-03-20",
+    "releases": [
+      {
+        "name": "iOS OTA 11.3 (15L5211b)",
+        "date": "2018-03-20T20:02:28Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-03-16",
+    "releases": [
+      {
+        "name": "watchOS 4.3 (15T5212a)",
+        "date": "2018-03-16T20:08:51Z",
+        "count": 228,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-03-13",
+    "releases": [
+      {
+        "name": "iOS OTA 11.3 (15L5208a)",
+        "date": "2018-03-13T17:05:56Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-03-12",
+    "releases": [
+      {
+        "name": "watchOS 4.3 (15T5209a)",
+        "date": "2018-03-12T20:06:52Z",
+        "count": 218,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-03-06",
+    "releases": [
+      {
+        "name": "watchOS 4.3 (15T5199f)",
+        "date": "2018-03-06T18:07:42Z",
+        "count": 208,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-03-05",
+    "releases": [
+      {
+        "name": "iOS OTA 11.3 (15L5198d)",
+        "date": "2018-03-05T21:06:46Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-02-27",
+    "releases": [
+      {
+        "name": "iTunes 12.7.3",
+        "date": "2018-02-27T18:12:43Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2018-02-21",
+    "releases": [
+      {
+        "name": "watchOS 4.3 (15T5187e)",
+        "date": "2018-02-21T18:11:16Z",
+        "count": 198,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.3 (15L5186e)",
+        "date": "2018-02-21T18:28:52Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-02-19",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2.6 (15D100)",
+        "date": "2018-02-19T21:09:18Z",
+        "count": 1418,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 11.2.6 (15K600)",
+        "date": "2018-02-19T21:11:20Z",
+        "count": 27,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.2.3 (15S600b)",
+        "date": "2018-02-19T21:17:06Z",
+        "count": 146,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 4.2.3 (15S6600b)",
+        "date": "2018-02-19T21:17:09Z",
+        "count": 80,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS 11.2.6 (15D100)",
+        "date": "2018-02-19T21:27:20Z",
+        "count": 41,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 11.2.6 (15K600)",
+        "date": "2018-02-19T21:32:31Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-02-07",
+    "releases": [
+      {
+        "name": "iOS OTA 11.3 (15L5175d)",
+        "date": "2018-02-07T18:05:34Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.3 (15T5176c)",
+        "date": "2018-02-07T18:09:18Z",
+        "count": 178,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2018-01-25",
+    "releases": [
+      {
+        "name": "watchOS 4.3 (15T5165e)",
+        "date": "2018-01-25T18:03:49Z",
+        "count": 168,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.3 (15L5164e)",
+        "date": "2018-01-25T23:02:49Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-01-23",
+    "releases": [
+      {
+        "name": "iOS 11.2.5 (15D60)",
+        "date": "2018-01-23T18:01:57Z",
+        "count": 41,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 11.2.5 (15K552)",
+        "date": "2018-01-23T18:02:24Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 11.2.5 (15K552)",
+        "date": "2018-01-23T18:10:13Z",
+        "count": 25,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.11.2.5 (15D5059)",
+        "date": "2018-01-23T18:24:09Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.11.2.5 (15D59)",
+        "date": "2018-01-23T18:24:09Z",
+        "count": 1,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-01-19",
+    "releases": [
+      {
+        "name": "watchOS 4.2.2 (15S542)",
+        "date": "2018-01-19T18:07:38Z",
+        "count": 136,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 4.2.2 (15S6542)",
+        "date": "2018-01-19T18:07:53Z",
+        "count": 80,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.2.5 (15D60)",
+        "date": "2018-01-19T18:08:03Z",
+        "count": 1383,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-01-17",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2.5 (15D5059a)",
+        "date": "2018-01-17T18:04:23Z",
+        "count": 41,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 11.2.5 (15K5552a)",
+        "date": "2018-01-17T18:08:18Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-01-12",
+    "releases": [
+      {
+        "name": "iOS OTA 11.2.5 (15K5549a)",
+        "date": "2018-01-12T18:02:12Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-01-11",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2.5 (15D5057a)",
+        "date": "2018-01-11T18:02:45Z",
+        "count": 41,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-01-09",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2.5 (15D5054a)",
+        "date": "2018-01-09T18:02:43Z",
+        "count": 41,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.2.2 (15S5540a)",
+        "date": "2018-01-09T18:12:39Z",
+        "count": 148,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.2.5 (15K5544b)",
+        "date": "2018-01-09T21:07:30Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-01-08",
+    "releases": [
+      {
+        "name": "iOS 11.2.2 (15C202)",
+        "date": "2018-01-08T18:05:06Z",
+        "count": 41,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.2.2 (15C202)",
+        "date": "2018-01-08T18:09:27Z",
+        "count": 1336,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2018-01-03",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2.5 (15D5049a)",
+        "date": "2018-01-03T18:15:47Z",
+        "count": 41,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.2.2 (15S5536a)",
+        "date": "2018-01-03T18:21:49Z",
+        "count": 138,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.2.5 (15K5544a)",
+        "date": "2018-01-03T21:06:21Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-12-20",
+    "releases": [
+      {
+        "name": "iOS OTA 11.2.5 (15K5539b)",
+        "date": "2017-12-20T18:07:59Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-12-19",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2.5 (15D5046b)",
+        "date": "2017-12-19T18:02:54Z",
+        "count": 43,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.2.2 (15S5534a)",
+        "date": "2017-12-19T18:05:11Z",
+        "count": 128,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-12-14",
+    "releases": [
+      {
+        "name": "iOS OTA 11.2.5 (15K5531d)",
+        "date": "2017-12-14T18:08:14Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-12-13",
+    "releases": [
+      {
+        "name": "iOS 11.2.1 (15C153)",
+        "date": "2017-12-13T18:00:32Z",
+        "count": 41,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 11.2.1 (15K152)",
+        "date": "2017-12-13T18:02:19Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.2.1 (15C153)",
+        "date": "2017-12-13T18:03:40Z",
+        "count": 1295,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 11.2.1 (15K152)",
+        "date": "2017-12-13T18:31:00Z",
+        "count": 23,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.2.2 (15S5530d)",
+        "date": "2017-12-13T21:08:55Z",
+        "count": 118,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.2.5 (15D5037e)",
+        "date": "2017-12-13T21:10:02Z",
+        "count": 43,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-12-10",
+    "releases": [
+      {
+        "name": "iTunes 12.7.2",
+        "date": "2017-12-10T17:48:19Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2017-12-05",
+    "releases": [
+      {
+        "name": "watchOS 4.2 (15S102)",
+        "date": "2017-12-05T18:00:31Z",
+        "count": 174,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 4.2 (15S5102)",
+        "date": "2017-12-05T18:00:42Z",
+        "count": 30,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 4.2 (15S6102)",
+        "date": "2017-12-05T18:00:43Z",
+        "count": 10,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-12-04",
+    "releases": [
+      {
+        "name": "iOS OTA 11.2 (15K106)",
+        "date": "2017-12-04T18:04:05Z",
+        "count": 21,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.2 (15K106)",
+        "date": "2017-12-04T18:07:44Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-12-02",
+    "releases": [
+      {
+        "name": "iOS 11.2 (15C114)",
+        "date": "2017-12-02T08:42:00Z",
+        "count": 41,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-12-01",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2 (15C114)",
+        "date": "2017-12-01T18:03:22Z",
+        "count": 1260,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-11-28",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2 (15C5111a)",
+        "date": "2017-11-28T17:59:59Z",
+        "count": 41,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 11.2 (15K5105a)",
+        "date": "2017-11-28T18:03:20Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-11-17",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2 (15C5110b)",
+        "date": "2017-11-17T18:13:22Z",
+        "count": 41,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.2 (15S5102b)",
+        "date": "2017-11-17T18:16:49Z",
+        "count": 146,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.2 (15K5102a)",
+        "date": "2017-11-17T18:24:00Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-11-16",
+    "releases": [
+      {
+        "name": "iOS 11.1.2 (15B202)",
+        "date": "2017-11-16T20:57:50Z",
+        "count": 41,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.1.2 (15B202)",
+        "date": "2017-11-16T21:14:21Z",
+        "count": 1213,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-11-13",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2 (15C5107a)",
+        "date": "2017-11-13T18:02:38Z",
+        "count": 41,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.2 (15S5100a)",
+        "date": "2017-11-13T18:02:51Z",
+        "count": 136,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-11-09",
+    "releases": [
+      {
+        "name": "iOS 11.1.1 (15B150)",
+        "date": "2017-11-09T17:54:25Z",
+        "count": 41,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.1.1 (15B150)",
+        "date": "2017-11-09T18:03:40Z",
+        "count": 1172,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-11-07",
+    "releases": [
+      {
+        "name": "iOS OTA 11.2 (15K5090c)",
+        "date": "2017-11-07T18:03:16Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-11-06",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.2 (15C5097d)",
+        "date": "2017-11-06T18:00:31Z",
+        "count": 39,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.11.2 (15C4097d)",
+        "date": "2017-11-06T18:02:37Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.2 (15S5090c)",
+        "date": "2017-11-06T18:02:50Z",
+        "count": 126,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-11-01",
+    "releases": [
+      {
+        "name": "iOS OTA 11.2 (15K5085b)",
+        "date": "2017-11-01T17:02:24Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-31",
+    "releases": [
+      {
+        "name": "iOS OTA 11.1 (15B101)",
+        "date": "2017-10-31T16:59:37Z",
+        "count": 36,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 11.1 (15J582)",
+        "date": "2017-10-31T17:02:13Z",
+        "count": 19,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.1 (15B93)",
+        "date": "2017-10-31T17:22:16Z",
+        "count": 37,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 11.1 (15J582)",
+        "date": "2017-10-31T17:38:27Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iTunes 12.7.1",
+        "date": "2017-10-31T17:39:27Z",
+        "count": 2,
+        "type": "iTunes"
+      },
+      {
+        "name": "iOS 11.1 (15B101)",
+        "date": "2017-10-31T17:43:17Z",
+        "count": 4,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-30",
+    "releases": [
+      {
+        "name": "iOS OTA 11.2 (15C4092b)",
+        "date": "2017-10-30T16:57:08Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 4.2 (15S5085b)",
+        "date": "2017-10-30T22:06:52Z",
+        "count": 116,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-23",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.1 (15B93)",
+        "date": "2017-10-23T17:00:59Z",
+        "count": 1131,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 11.1 (15J5582a)",
+        "date": "2017-10-23T20:02:12Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-20",
+    "releases": [
+      {
+        "name": "watchOS 4.1 (15R5846)",
+        "date": "2017-10-20T17:03:51Z",
+        "count": 78,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 9.0 (15R846)",
+        "date": "2017-10-20T17:04:33Z",
+        "count": 104,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.1 (15B92)",
+        "date": "2017-10-20T17:05:06Z",
+        "count": 39,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-16",
+    "releases": [
+      {
+        "name": "watchOS 4.1 (15R5843a)",
+        "date": "2017-10-16T17:05:18Z",
+        "count": 126,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-11",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.0.3 (15A432)",
+        "date": "2017-10-11T17:02:17Z",
+        "count": 1049,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.0.3 (15A432)",
+        "date": "2017-10-11T17:05:51Z",
+        "count": 39,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-09",
+    "releases": [
+      {
+        "name": "watchOS 4.1 (15R5835d)",
+        "date": "2017-10-09T17:04:30Z",
+        "count": 116,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.1 (15J5571d)",
+        "date": "2017-10-09T20:00:17Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-04",
+    "releases": [
+      {
+        "name": "watchOS 4.0.1 (15R654)",
+        "date": "2017-10-04T18:01:11Z",
+        "count": 4,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-03",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.0.2 (15A421)",
+        "date": "2017-10-03T16:59:45Z",
+        "count": 1010,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.0.2 (15A421)",
+        "date": "2017-10-03T17:10:24Z",
+        "count": 39,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-09-27",
+    "releases": [
+      {
+        "name": "watchOS 4.1 (15R5823c)",
+        "date": "2017-09-27T16:58:45Z",
+        "count": 104,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-09-26",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.0.1 (15A402)",
+        "date": "2017-09-26T17:03:13Z",
+        "count": 963,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 11.0.1 (15A403)",
+        "date": "2017-09-26T17:09:38Z",
+        "count": 8,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 11.0.1 (15A402)",
+        "date": "2017-09-26T17:15:54Z",
+        "count": 35,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 11.0.1 (15A403)",
+        "date": "2017-09-26T17:16:55Z",
+        "count": 4,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-09-23",
+    "releases": [
+      {
+        "name": "iTunes 12.6.3",
+        "date": "2017-09-23T00:00:00Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2017-09-19",
+    "releases": [
+      {
+        "name": "iOS 11.0 (15A372)",
+        "date": "2017-09-19T17:04:51Z",
+        "count": 39,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 11.0 (15J381)",
+        "date": "2017-09-19T17:15:16Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-09-13",
+    "releases": [
+      {
+        "name": "iOS OTA 11.0 (15J381)",
+        "date": "2017-09-13T00:37:21Z",
+        "count": 17,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-09-12",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (15R372)",
+        "date": "2017-09-12T19:04:47Z",
+        "count": 94,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 4.0 (15R5372)",
+        "date": "2017-09-12T19:05:12Z",
+        "count": 48,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.0 (15A372)",
+        "date": "2017-09-12T19:06:18Z",
+        "count": 928,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iTunes 12.7",
+        "date": "2017-09-12T23:23:24Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2017-09-05",
+    "releases": [
+      {
+        "name": "iOS OTA 11.0 (15J5380a)",
+        "date": "2017-09-05T19:57:41Z",
+        "count": 1,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-08-31",
+    "releases": [
+      {
+        "name": "iOS OTA 11.0 (15J5378a)",
+        "date": "2017-08-31T20:00:51Z",
+        "count": 1,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-08-28",
+    "releases": [
+      {
+        "name": "watchOS 4.0 (15R5371a)",
+        "date": "2017-08-28T16:53:11Z",
+        "count": 102,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.11.0 (15A5368a)",
+        "date": "2017-08-28T17:17:51Z",
+        "count": 35,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 11.0 (15J5374a)",
+        "date": "2017-08-28T19:54:27Z",
+        "count": 1,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-08-22",
+    "releases": [
+      {
+        "name": "watchOS 4.0 (15R5365a)",
+        "date": "2017-08-22T16:58:25Z",
+        "count": 96,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 11.0 (15J5369a)",
+        "date": "2017-08-22T16:59:04Z",
+        "count": 1,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-08-21",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.0 (15A5362a)",
+        "date": "2017-08-21T16:44:03Z",
+        "count": 35,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-08-14",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.0 (15A5354b)",
+        "date": "2017-08-14T16:54:07Z",
+        "count": 35,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-08-07",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.0 (15A5341f)",
+        "date": "2017-08-07T16:57:16Z",
+        "count": 35,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-07-28",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.0.2 (15C25)",
+        "date": "2017-07-28T00:14:34Z",
+        "count": 1,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-07-19",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.3.3 (14G60)",
+        "date": "2017-07-19T16:57:57Z",
+        "count": 1323,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 10.2.2 (14W756)",
+        "date": "2017-07-19T16:59:44Z",
+        "count": 16,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 10.3.3 (14G60)",
+        "date": "2017-07-19T16:59:52Z",
+        "count": 42,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 3.2.3 (14V6753)",
+        "date": "2017-07-19T17:00:35Z",
+        "count": 92,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 9.0 (14V753)",
+        "date": "2017-07-19T17:01:16Z",
+        "count": 79,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS 10.2.2 (14W756)",
+        "date": "2017-07-19T17:06:37Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iTunes 12.6.2",
+        "date": "2017-07-19T18:13:13Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2017-07-06",
+    "releases": [
+      {
+        "name": "iOS OTA 10.2.2 (14W754)",
+        "date": "2017-07-06T19:09:54Z",
+        "count": 1,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-07-05",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.3.3 (14G57)",
+        "date": "2017-07-05T16:57:57Z",
+        "count": 37,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.10.3.3 (14G58)",
+        "date": "2017-07-05T16:58:00Z",
+        "count": 5,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-06-28",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.3.3 (14G5057a)",
+        "date": "2017-06-28T16:52:35Z",
+        "count": 42,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-06-26",
+    "releases": [
+      {
+        "name": "watchOS 3.2.3 (14V5751a)",
+        "date": "2017-06-26T17:13:39Z",
+        "count": 132,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-06-21",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.11.0 (15A5304i)",
+        "date": "2017-06-21T20:09:29Z",
+        "count": 35,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-06-13",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.3.3 (14G5047a)",
+        "date": "2017-06-13T16:55:16Z",
+        "count": 42,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 3.2.3 (14V5744a)",
+        "date": "2017-06-13T16:58:34Z",
+        "count": 126,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-06-05",
+    "releases": [
+      {
+        "name": "iOS 10.3.2 (14F8089)",
+        "date": "2017-06-05T19:36:54Z",
+        "count": 4,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-05-30",
+    "releases": [
+      {
+        "name": "watchOS 3.2.3 (14V5734a)",
+        "date": "2017-05-30T16:57:45Z",
+        "count": 120,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.10.3.3 (14G5037b)",
+        "date": "2017-05-30T17:28:17Z",
+        "count": 38,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-05-16",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.3.3 (14G5028a)",
+        "date": "2017-05-16T16:57:03Z",
+        "count": 38,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 3.2.3 (14V5726a)",
+        "date": "2017-05-16T16:59:25Z",
+        "count": 114,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-05-15",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14V485)",
+        "date": "2017-05-15T16:55:38Z",
+        "count": 70,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 3.2.2 (14V6485)",
+        "date": "2017-05-15T16:56:02Z",
+        "count": 66,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.10.3.2 (14F89)",
+        "date": "2017-05-15T16:59:17Z",
+        "count": 1063,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.10.3.2 (14F91)",
+        "date": "2017-05-15T17:02:56Z",
+        "count": 24,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 10.3.2 (14F90)",
+        "date": "2017-05-15T17:02:56Z",
+        "count": 6,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 10.3.2 (14F89)",
+        "date": "2017-05-15T17:09:55Z",
+        "count": 35,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.3.2 (14F90)",
+        "date": "2017-05-15T17:09:56Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.2.1 (14W585a)",
+        "date": "2017-05-15T17:13:48Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.3.2 (14F91)",
+        "date": "2017-05-15T17:14:23Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iTunes 12.6.1",
+        "date": "2017-05-15T17:35:32Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2017-05-04",
+    "releases": [
+      {
+        "name": "iOS OTA 10.2.1 (14W585)",
+        "date": "2017-05-04T16:46:45Z",
+        "count": 1,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-04-24",
+    "releases": [
+      {
+        "name": "watchOS 3.2.2 (14V5485a)",
+        "date": "2017-04-24T17:23:25Z",
+        "count": 114,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-04-17",
+    "releases": [
+      {
+        "name": "watchOS 3.2.2 (14V5480a)",
+        "date": "2017-04-17T17:00:08Z",
+        "count": 108,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-04-10",
+    "releases": [
+      {
+        "name": "watchOS 3.2.2 (14V5475a)",
+        "date": "2017-04-10T17:25:22Z",
+        "count": 102,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-04-03",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.3.1 (14E304)",
+        "date": "2017-04-03T16:59:39Z",
+        "count": 987,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 10.3.1 (14E304)",
+        "date": "2017-04-03T17:04:55Z",
+        "count": 38,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-03-28",
+    "releases": [
+      {
+        "name": "watchOS 3.2.2 (14V5465b)",
+        "date": "2017-03-28T16:54:23Z",
+        "count": 96,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-03-27",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.3 (14E277)",
+        "date": "2017-03-27T16:56:34Z",
+        "count": 1017,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 10.3 (14E277)",
+        "date": "2017-03-27T17:25:23Z",
+        "count": 38,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.2 (14W265)",
+        "date": "2017-03-27T17:25:28Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 9.0 (14V249)",
+        "date": "2017-03-27T17:25:43Z",
+        "count": 88,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 3.2 (14V6249)",
+        "date": "2017-03-27T17:26:03Z",
+        "count": 42,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-03-21",
+    "releases": [
+      {
+        "name": "iTunes 12.6",
+        "date": "2017-03-21T20:53:29Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2017-03-20",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14V5249a)",
+        "date": "2017-03-20T16:59:36Z",
+        "count": 124,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-03-16",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.3 (14E5277a)",
+        "date": "2017-03-16T16:54:56Z",
+        "count": 36,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-03-14",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14V5245a)",
+        "date": "2017-03-14T17:00:23Z",
+        "count": 118,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-03-08",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14V5243a)",
+        "date": "2017-03-08T17:56:20Z",
+        "count": 112,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.9.10.3 (14E5269a)",
+        "date": "2017-03-08T17:58:36Z",
+        "count": 36,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-02-27",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.3 (14E5260b)",
+        "date": "2017-02-27T17:55:52Z",
+        "count": 36,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 9.0 (14V5235b)",
+        "date": "2017-02-27T18:00:42Z",
+        "count": 112,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-02-20",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14V5224d)",
+        "date": "2017-02-20T18:10:32Z",
+        "count": 100,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-02-06",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14V5214d)",
+        "date": "2017-02-06T17:59:19Z",
+        "count": 94,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-01-30",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14V5205d)",
+        "date": "2017-01-30T18:30:13Z",
+        "count": 88,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2017-01-23",
+    "releases": [
+      {
+        "name": "iOS 10.2.1 (14D27)",
+        "date": "2017-01-23T17:53:33Z",
+        "count": 36,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.1.1 (14U712a)",
+        "date": "2017-01-23T17:58:22Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 3.1.3 (14S6960)",
+        "date": "2017-01-23T18:02:01Z",
+        "count": 18,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 9.0 (14S960)",
+        "date": "2017-01-23T18:02:09Z",
+        "count": 76,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 10.1.1 (14U712a)",
+        "date": "2017-01-23T18:30:04Z",
+        "count": 12,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iTunes 12.5.5",
+        "date": "2017-01-23T21:35:57Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2017-01-12",
+    "releases": [
+      {
+        "name": "iOS OTA 10.2.1 (14D27)",
+        "date": "2017-01-12T21:11:48Z",
+        "count": 1020,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2017-01-09",
+    "releases": [
+      {
+        "name": "iOS OTA 10.2.1 (14D23)",
+        "date": "2017-01-09T17:55:44Z",
+        "count": 36,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 3.1.3 (14S6959)",
+        "date": "2017-01-09T17:56:09Z",
+        "count": 18,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 9.0 (14S959)",
+        "date": "2017-01-09T17:56:16Z",
+        "count": 70,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-12-21",
+    "releases": [
+      {
+        "name": "watchOS 3.1.3 (14S6958)",
+        "date": "2016-12-21T18:29:30Z",
+        "count": 18,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 9.0 (14S958)",
+        "date": "2016-12-21T18:29:37Z",
+        "count": 64,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-12-20",
+    "releases": [
+      {
+        "name": "iOS OTA 10.2.1 (14D15)",
+        "date": "2016-12-20T18:02:20Z",
+        "count": 72,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-12-14",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.2.1 (14D10)",
+        "date": "2016-12-14T17:58:29Z",
+        "count": 36,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-12-13",
+    "releases": [
+      {
+        "name": "iTunes 12.5.4",
+        "date": "2016-12-13T18:46:56Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2016-12-12",
+    "releases": [
+      {
+        "name": "iOS 8.4.2 (12H606)",
+        "date": "2016-12-12T17:55:20Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.2 (14C92)",
+        "date": "2016-12-12T17:55:23Z",
+        "count": 36,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.1 (14U593)",
+        "date": "2016-12-12T17:55:27Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.4.2 (12H606)",
+        "date": "2016-12-12T19:33:08Z",
+        "count": 22,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-12-07",
+    "releases": [
+      {
+        "name": "iOS OTA 10.2 (14C92)",
+        "date": "2016-12-07T17:50:57Z",
+        "count": 984,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-12-06",
+    "releases": [
+      {
+        "name": "iOS OTA 10.1 (14U593)",
+        "date": "2016-12-06T17:46:10Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-12-05",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S6883)",
+        "date": "2016-12-05T17:59:15Z",
+        "count": 80,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 3.1.1 (14S883)",
+        "date": "2016-12-05T17:59:49Z",
+        "count": 6,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 10.2 (14C90)",
+        "date": "2016-12-05T18:00:41Z",
+        "count": 58,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 10.2 (14C91)",
+        "date": "2016-12-05T18:00:50Z",
+        "count": 14,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-12-02",
+    "releases": [
+      {
+        "name": "iOS OTA 10.2 (14C89)",
+        "date": "2016-12-02T18:27:12Z",
+        "count": 72,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-11-30",
+    "releases": [
+      {
+        "name": "iOS OTA 10.1 (14U588)",
+        "date": "2016-11-30T17:53:53Z",
+        "count": 1,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-11-28",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.2 (14C82)",
+        "date": "2016-11-28T20:06:36Z",
+        "count": 36,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 9.0 (14S6879)",
+        "date": "2016-11-28T20:06:47Z",
+        "count": 86,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 3.1.1 (14S879)",
+        "date": "2016-11-28T20:07:23Z",
+        "count": 6,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-11-15",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S5875b)",
+        "date": "2016-11-15T21:08:08Z",
+        "count": 82,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-11-14",
+    "releases": [
+      {
+        "name": "iOS 10.0.1 (14U100)",
+        "date": "2016-11-14T17:47:55Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-11-09",
+    "releases": [
+      {
+        "name": "iOS 10.1.1 (14B150)",
+        "date": "2016-11-09T18:13:34Z",
+        "count": 36,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-11-07",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S5869b)",
+        "date": "2016-11-07T17:47:59Z",
+        "count": 76,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-10-31",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.1.1 (14B100)",
+        "date": "2016-10-31T14:59:00Z",
+        "count": 840,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 10.1.1 (14B100)",
+        "date": "2016-10-31T15:20:46Z",
+        "count": 36,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 3.1.1 (14S5862d)",
+        "date": "2016-10-31T19:50:20Z",
+        "count": 66,
+        "type": "watchOS"
+      },
+      {
+        "name": "iTunes 12.5.3",
+        "date": "2016-10-31T23:52:15Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2016-10-27",
+    "releases": [
+      {
+        "name": "iTunes 12.5.2",
+        "date": "2016-10-27T20:49:35Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2016-10-24",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.1 (14B72)",
+        "date": "2016-10-24T16:59:16Z",
+        "count": 788,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 10.1 (14B72c)",
+        "date": "2016-10-24T17:00:34Z",
+        "count": 16,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 10.0.1 (14U71)",
+        "date": "2016-10-24T17:20:40Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.1 (14B72)",
+        "date": "2016-10-24T17:20:42Z",
+        "count": 32,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.1 (14B72c)",
+        "date": "2016-10-24T17:25:53Z",
+        "count": 4,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-10-20",
+    "releases": [
+      {
+        "name": "iOS OTA 10.0.1 (14U71)",
+        "date": "2016-10-20T17:03:29Z",
+        "count": 8,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-10-17",
+    "releases": [
+      {
+        "name": "iOS 10.0.3 (14A551)",
+        "date": "2016-10-17T17:04:30Z",
+        "count": 4,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 10.0.3 (14A551)",
+        "date": "2016-10-17T17:32:12Z",
+        "count": 16,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-10-12",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S471)",
+        "date": "2016-10-12T16:56:45Z",
+        "count": 54,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 3.1 (14S6471)",
+        "date": "2016-10-12T16:57:07Z",
+        "count": 12,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-10-04",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S464)",
+        "date": "2016-10-04T17:25:10Z",
+        "count": 42,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 3.1 (14S6464)",
+        "date": "2016-10-04T17:25:27Z",
+        "count": 12,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-09-23",
+    "releases": [
+      {
+        "name": "iOS OTA 9.9.10.0.2 (14A456)",
+        "date": "2016-09-23T15:52:30Z",
+        "count": 791,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 10.0.2 (14A456)",
+        "date": "2016-09-23T15:52:58Z",
+        "count": 36,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-09-21",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S452)",
+        "date": "2016-09-21T17:00:36Z",
+        "count": 32,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 3.1 (14S6452)",
+        "date": "2016-09-21T17:00:49Z",
+        "count": 12,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-09-13",
+    "releases": [
+      {
+        "name": "iTunes 12.5.1",
+        "date": "2016-09-13T15:56:56Z",
+        "count": 2,
+        "type": "iTunes"
+      },
+      {
+        "name": "iOS 10.0 (14T330)",
+        "date": "2016-09-13T16:56:41Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 10.0.1 (14A403)",
+        "date": "2016-09-13T19:06:30Z",
+        "count": 36,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-09-07",
+    "releases": [
+      {
+        "name": "iOS OTA 10.0 (14T330)",
+        "date": "2016-09-07T19:05:02Z",
+        "count": 8,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.9.10.0.1 (14A403)",
+        "date": "2016-09-07T19:34:47Z",
+        "count": 763,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 9.0 (14S326)",
+        "date": "2016-09-07T21:33:13Z",
+        "count": 26,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 3.0 (14S5326)",
+        "date": "2016-09-07T21:33:18Z",
+        "count": 12,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-08-25",
+    "releases": [
+      {
+        "name": "iOS OTA 9.3.5 (13G36)",
+        "date": "2016-08-25T16:53:06Z",
+        "count": 984,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.3.5 (13G36)",
+        "date": "2016-08-25T16:58:07Z",
+        "count": 44,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-08-15",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S5321a)",
+        "date": "2016-08-15T16:53:38Z",
+        "count": 32,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-08-09",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S5315a)",
+        "date": "2016-08-09T16:44:57Z",
+        "count": 30,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-08-04",
+    "releases": [
+      {
+        "name": "iOS 9.3.4 (13G35)",
+        "date": "2016-08-04T16:53:58Z",
+        "count": 44,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.3.4 (13G35)",
+        "date": "2016-08-04T16:57:03Z",
+        "count": 1345,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-08-01",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S5302d)",
+        "date": "2016-08-01T16:46:57Z",
+        "count": 28,
+        "type": "watchOS"
+      },
+      {
+        "name": "iTunes 12.4.3",
+        "date": "2016-08-01T17:33:26Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2016-07-18",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (13V604)",
+        "date": "2016-07-18T16:51:16Z",
+        "count": 20,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 2.2.2 (13V6604)",
+        "date": "2016-07-18T16:51:28Z",
+        "count": 12,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 9.0 (14S5290d)",
+        "date": "2016-07-18T16:52:51Z",
+        "count": 26,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS 9.3.3 (13G34)",
+        "date": "2016-07-18T17:06:31Z",
+        "count": 44,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 9.2.2 (13Y825)",
+        "date": "2016-07-18T17:07:00Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.3.3 (13G34)",
+        "date": "2016-07-18T17:54:27Z",
+        "count": 895,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iTunes 12.4.2",
+        "date": "2016-07-18T18:36:45Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2016-07-05",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S5278d)",
+        "date": "2016-07-05T16:46:43Z",
+        "count": 22,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-06-13",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (14S5247t)",
+        "date": "2016-06-13T19:31:40Z",
+        "count": 20,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-06-06",
+    "releases": [
+      {
+        "name": "watchOS 2.2.2 (13V5601)",
+        "date": "2016-06-06T17:14:35Z",
+        "count": 12,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 9.0 (13V601)",
+        "date": "2016-06-06T17:14:43Z",
+        "count": 18,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-06-03",
+    "releases": [
+      {
+        "name": "iTunes 12.4.1",
+        "date": "2016-06-03T00:19:47Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2016-06-02",
+    "releases": [
+      {
+        "name": "iOS OTA 9.3.2 (13F72)",
+        "date": "2016-06-02T16:56:06Z",
+        "count": 4,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.3.2 (13F72)",
+        "date": "2016-06-02T16:58:19Z",
+        "count": 2,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-05-16",
+    "releases": [
+      {
+        "name": "iOS OTA 9.2.1 (13Y772)",
+        "date": "2016-05-16T16:44:18Z",
+        "count": 5,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.3.2 (13F69)",
+        "date": "2016-05-16T16:47:56Z",
+        "count": 877,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.3.2 (13F69)",
+        "date": "2016-05-16T16:51:21Z",
+        "count": 44,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 9.2.1 (13Y772)",
+        "date": "2016-05-16T16:51:42Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iTunes 12.4",
+        "date": "2016-05-16T19:40:03Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2016-04-20",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (13V420)",
+        "date": "2016-04-20T17:10:07Z",
+        "count": 16,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 2.2.1 (13V5420)",
+        "date": "2016-04-20T17:10:17Z",
+        "count": 12,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-04-06",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (13V413)",
+        "date": "2016-04-06T16:49:56Z",
+        "count": 14,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 2.2.1 (13V5413)",
+        "date": "2016-04-06T16:50:01Z",
+        "count": 12,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-03-31",
+    "releases": [
+      {
+        "name": "iOS OTA 9.3.1 (13E238)",
+        "date": "2016-03-31T16:50:39Z",
+        "count": 1069,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.3.1 (13E238)",
+        "date": "2016-03-31T16:50:52Z",
+        "count": 44,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-03-28",
+    "releases": [
+      {
+        "name": "iOS OTA 9.3 (13E237)",
+        "date": "2016-03-28T16:49:41Z",
+        "count": 556,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.3 (13E237)",
+        "date": "2016-03-28T17:12:05Z",
+        "count": 26,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-03-25",
+    "releases": [
+      {
+        "name": "iOS OTA 9.3 (13E236)",
+        "date": "2016-03-25T01:39:51Z",
+        "count": 22,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.3 (13E236)",
+        "date": "2016-03-25T02:07:22Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-03-21",
+    "releases": [
+      {
+        "name": "iOS OTA 9.3 (13E233)",
+        "date": "2016-03-21T18:55:26Z",
+        "count": 788,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.3 (13E234)",
+        "date": "2016-03-21T18:56:36Z",
+        "count": 18,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 9.0 (13V144)",
+        "date": "2016-03-21T18:57:35Z",
+        "count": 12,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 2.2 (13V6144)",
+        "date": "2016-03-21T18:57:42Z",
+        "count": 12,
+        "type": "watchOS"
+      },
+      {
+        "name": "iOS OTA 9.2 (13Y234)",
+        "date": "2016-03-21T19:01:59Z",
+        "count": 5,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.2 (13Y234)",
+        "date": "2016-03-21T19:10:51Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 9.3 (13E233)",
+        "date": "2016-03-21T19:10:54Z",
+        "count": 40,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 9.3 (13E234)",
+        "date": "2016-03-21T19:22:16Z",
+        "count": 4,
+        "type": "iOS"
+      },
+      {
+        "name": "iTunes 12.3.3",
+        "date": "2016-03-21T20:48:14Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2016-03-10",
+    "releases": [
+      {
+        "name": "iOS OTA 9.2 (13Y5232a)",
+        "date": "2016-03-10T17:47:59Z",
+        "count": 1,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2016-03-07",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (13V5143a)",
+        "date": "2016-03-07T20:57:23Z",
+        "count": 20,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-03-01",
+    "releases": [
+      {
+        "name": "iOS OTA 9.2 (13Y5220c)",
+        "date": "2016-03-01T18:20:36Z",
+        "count": 1,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 9.0 (13V5141a)",
+        "date": "2016-03-01T18:30:52Z",
+        "count": 18,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-02-25",
+    "releases": [
+      {
+        "name": "iOS OTA 8.4.1 (12H523)",
+        "date": "2016-02-25T17:59:33Z",
+        "count": 20,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 8.4.1 (12H523)",
+        "date": "2016-02-25T18:47:59Z",
+        "count": 2,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-02-22",
+    "releases": [
+      {
+        "name": "iOS OTA 9.2 (13Y5210d)",
+        "date": "2016-02-22T17:55:22Z",
+        "count": 1,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "watchOS 9.0 (13V5129c)",
+        "date": "2016-02-22T17:55:50Z",
+        "count": 16,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-02-18",
+    "releases": [
+      {
+        "name": "iOS 9.2.1 (13D20)",
+        "date": "2016-02-18T18:19:56Z",
+        "count": 13,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-02-08",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (13V5117c)",
+        "date": "2016-02-08T17:55:25Z",
+        "count": 14,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-01-25",
+    "releases": [
+      {
+        "name": "iOS 9.1.1 (13U717)",
+        "date": "2016-01-25T18:56:14Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 9.0 (13V5108c)",
+        "date": "2016-01-25T21:39:27Z",
+        "count": 12,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-01-19",
+    "releases": [
+      {
+        "name": "iOS OTA 9.2.1 (13D15)",
+        "date": "2016-01-19T17:58:56Z",
+        "count": 806,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.2.1 (13D15)",
+        "date": "2016-01-19T18:00:07Z",
+        "count": 41,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-01-12",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (13V5098f)",
+        "date": "2016-01-12T02:34:41Z",
+        "count": 10,
+        "type": "watchOS"
+      },
+      {
+        "name": "iTunes 12.1.3",
+        "date": "2016-01-12T09:11:24Z",
+        "count": 1,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2016-01-11",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (13V5098e)",
+        "date": "2016-01-11T22:09:30Z",
+        "count": 10,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2016-01-04",
+    "releases": [
+      {
+        "name": "iOS OTA 9.2.1 (13D14)",
+        "date": "2016-01-04T17:58:42Z",
+        "count": 41,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2015-12-12",
+    "releases": [
+      {
+        "name": "iTunes 12.3.2",
+        "date": "2015-12-12T14:01:56Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2015-12-08",
+    "releases": [
+      {
+        "name": "iOS OTA 9.2 (13C75)",
+        "date": "2015-12-08T18:03:38Z",
+        "count": 697,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.2 (13C75)",
+        "date": "2015-12-08T18:19:22Z",
+        "count": 41,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 9.1 (13U85)",
+        "date": "2015-12-08T18:19:23Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "watchOS 9.0 (13S661)",
+        "date": "2015-12-08T18:23:08Z",
+        "count": 8,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-11-17",
+    "releases": [
+      {
+        "name": "iOS 9.1 (13B144)",
+        "date": "2015-11-17T18:05:45Z",
+        "count": 2,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-11-09",
+    "releases": [
+      {
+        "name": "iOS 9.0.1 (13T402)",
+        "date": "2015-11-09T18:22:09Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-10-29",
+    "releases": [
+      {
+        "name": "iOS 9.0 (13T396)",
+        "date": "2015-10-29T19:59:04Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-10-21",
+    "releases": [
+      {
+        "name": "iOS 9.1 (13B143)",
+        "date": "2015-10-21T16:54:28Z",
+        "count": 41,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 9.1 (13B143)",
+        "date": "2015-10-21T17:15:47Z",
+        "count": 661,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iTunes 12.3.1",
+        "date": "2015-10-21T17:16:32Z",
+        "count": 2,
+        "type": "iTunes"
+      },
+      {
+        "name": "watchOS 9.0 (13S428)",
+        "date": "2015-10-21T17:58:30Z",
+        "count": 6,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-10-12",
+    "releases": [
+      {
+        "name": "iOS OTA 9.1 (13B137)",
+        "date": "2015-10-12T16:56:45Z",
+        "count": 37,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 9.1 (13B139)",
+        "date": "2015-10-12T16:56:58Z",
+        "count": 2,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2015-09-30",
+    "releases": [
+      {
+        "name": "iOS OTA 9.0.2 (13A452)",
+        "date": "2015-09-30T17:58:21Z",
+        "count": 592,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.0.2 (13A452)",
+        "date": "2015-09-30T18:03:02Z",
+        "count": 39,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-09-24",
+    "releases": [
+      {
+        "name": "iOS OTA 9.0.1 (13A405)",
+        "date": "2015-09-24T17:59:21Z",
+        "count": 2,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.0.1 (13A405)",
+        "date": "2015-09-24T18:02:02Z",
+        "count": 2,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-09-23",
+    "releases": [
+      {
+        "name": "iOS OTA 9.0.1 (13A404)",
+        "date": "2015-09-23T17:55:14Z",
+        "count": 535,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.0.1 (13A404)",
+        "date": "2015-09-23T18:31:02Z",
+        "count": 37,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-09-21",
+    "releases": [
+      {
+        "name": "watchOS 9.0 (13S344)",
+        "date": "2015-09-21T17:58:02Z",
+        "count": 6,
+        "type": "watchOS"
+      },
+      {
+        "name": "watchOS 2.0 (13S5344)",
+        "date": "2015-09-21T17:58:02Z",
+        "count": 12,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-09-16",
+    "releases": [
+      {
+        "name": "iOS OTA 9.0 (13A344)",
+        "date": "2015-09-16T18:02:06Z",
+        "count": 498,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 9.0 (13A344)",
+        "date": "2015-09-16T18:06:03Z",
+        "count": 35,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 9.0 (13A340)",
+        "date": "2015-09-16T18:06:04Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 9.0 (13A342)",
+        "date": "2015-09-16T18:07:54Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 9.0 (13A343)",
+        "date": "2015-09-16T18:08:17Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iTunes 12.3",
+        "date": "2015-09-16T21:22:02Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2015-08-13",
+    "releases": [
+      {
+        "name": "iOS 8.4.1 (12H321)",
+        "date": "2015-08-13T17:59:03Z",
+        "count": 35,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.4.1 (12H321)",
+        "date": "2015-08-13T18:05:05Z",
+        "count": 636,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iTunes 12.2.2",
+        "date": "2015-08-13T18:59:02Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2015-07-14",
+    "releases": [
+      {
+        "name": "iTunes 12.2.1",
+        "date": "2015-07-14T19:55:26Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2015-07-01",
+    "releases": [
+      {
+        "name": "iTunes 12.2",
+        "date": "2015-07-01T11:08:16Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2015-06-30",
+    "releases": [
+      {
+        "name": "iOS OTA 8.4 (12H143)",
+        "date": "2015-06-30T15:51:04Z",
+        "count": 474,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 8.4 (12H143)",
+        "date": "2015-06-30T16:10:42Z",
+        "count": 35,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-05-19",
+    "releases": [
+      {
+        "name": "watchOS 8.2.1 (12S632)",
+        "date": "2015-05-19T17:48:03Z",
+        "count": 2,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-04-09",
+    "releases": [
+      {
+        "name": "iTunes 12.1.2",
+        "date": "2015-04-09T18:19:02Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2015-04-08",
+    "releases": [
+      {
+        "name": "iOS OTA 8.3 (12F69)",
+        "date": "2015-04-08T17:56:05Z",
+        "count": 321,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 8.3 (12F70)",
+        "date": "2015-04-08T17:56:09Z",
+        "count": 134,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 8.3 (12F69)",
+        "date": "2015-04-08T18:27:42Z",
+        "count": 27,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.3 (12F70)",
+        "date": "2015-04-08T18:32:18Z",
+        "count": 9,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-03-09",
+    "releases": [
+      {
+        "name": "iOS OTA 8.2 (12D508)",
+        "date": "2015-03-09T18:49:02Z",
+        "count": 422,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 8.2 (12D508)",
+        "date": "2015-03-09T18:56:02Z",
+        "count": 36,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-02-25",
+    "releases": [
+      {
+        "name": "watchOS 8.2 (12S506)",
+        "date": "2015-02-25T16:44:37Z",
+        "count": 8,
+        "type": "watchOS"
+      }
+    ]
+  },
+  {
+    "date": "2015-02-19",
+    "releases": [
+      {
+        "name": "iTunes 12.1.1",
+        "date": "2015-02-19T00:00:00Z",
+        "count": 1,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2015-01-30",
+    "releases": [
+      {
+        "name": "iTunes 12.1",
+        "date": "2015-01-30T00:01:02Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2015-01-27",
+    "releases": [
+      {
+        "name": "iOS OTA 8.1.3 (12B466)",
+        "date": "2015-01-27T17:55:02Z",
+        "count": 397,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 8.1.3 (12B466)",
+        "date": "2015-01-27T18:08:02Z",
+        "count": 36,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2014-12-09",
+    "releases": [
+      {
+        "name": "iOS OTA 8.1.2 (12B440)",
+        "date": "2014-12-09T17:49:02Z",
+        "count": 331,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 8.1.2 (12B440)",
+        "date": "2014-12-09T18:01:10Z",
+        "count": 34,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2014-11-17",
+    "releases": [
+      {
+        "name": "iOS 8.1.1 (12B435)",
+        "date": "2014-11-17T17:58:58Z",
+        "count": 29,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.1.1 (12B436)",
+        "date": "2014-11-17T17:58:59Z",
+        "count": 7,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.1.1 (12B435)",
+        "date": "2014-11-17T18:06:03Z",
+        "count": 295,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 8.1.1 (12B436)",
+        "date": "2014-11-17T18:06:07Z",
+        "count": 16,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2014-10-20",
+    "releases": [
+      {
+        "name": "iOS 8.1 (12B410)",
+        "date": "2014-10-20T17:56:02Z",
+        "count": 24,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.1 (12B410a)",
+        "date": "2014-10-20T17:56:02Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.1 (12B411)",
+        "date": "2014-10-20T17:56:58Z",
+        "count": 10,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.1 (12B410)",
+        "date": "2014-10-20T17:59:03Z",
+        "count": 169,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 8.1 (12B410a)",
+        "date": "2014-10-20T17:59:07Z",
+        "count": 10,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 8.1 (12B411)",
+        "date": "2014-10-20T17:59:07Z",
+        "count": 94,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2014-10-16",
+    "releases": [
+      {
+        "name": "iTunes 12.0.1",
+        "date": "2014-10-16T22:36:02Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2014-09-26",
+    "releases": [
+      {
+        "name": "iOS 8.0.2 (12A405)",
+        "date": "2014-09-26T00:57:03Z",
+        "count": 29,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 8.0.2 (12A405)",
+        "date": "2014-09-26T01:09:04Z",
+        "count": 231,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2014-09-24",
+    "releases": [
+      {
+        "name": "iOS OTA 8.0.1 (12A402)",
+        "date": "2014-09-24T17:53:02Z",
+        "count": 202,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 8.0.1 (12A402)",
+        "date": "2014-09-24T18:16:36Z",
+        "count": 29,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2014-09-17",
+    "releases": [
+      {
+        "name": "iOS OTA 7.1.2 (11D258)",
+        "date": "2014-09-17T17:54:02Z",
+        "count": 10,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 8.0 (12A365)",
+        "date": "2014-09-17T17:54:02Z",
+        "count": 173,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 8.0 (12A365b)",
+        "date": "2014-09-17T17:54:04Z",
+        "count": 8,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 7.1.2 (11D258)",
+        "date": "2014-09-17T17:59:02Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.0 (12A365b)",
+        "date": "2014-09-17T17:59:02Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.0 (12A365)",
+        "date": "2014-09-17T17:59:02Z",
+        "count": 28,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 8.0 (12A366)",
+        "date": "2014-09-17T17:59:04Z",
+        "count": 1,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2014-09-10",
+    "releases": [
+      {
+        "name": "iTunes 11.4",
+        "date": "2014-09-10T00:22:02Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2014-08-10",
+    "releases": [
+      {
+        "name": "iTunes 11.3.1",
+        "date": "2014-08-10T14:46:02Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2014-07-16",
+    "releases": [
+      {
+        "name": "iTunes 11.3",
+        "date": "2014-07-16T11:32:36Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2014-06-30",
+    "releases": [
+      {
+        "name": "iOS OTA 7.1.2 (11D257)",
+        "date": "2014-06-30T18:00:02Z",
+        "count": 246,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 7.1.2 (11D257c)",
+        "date": "2014-06-30T18:00:05Z",
+        "count": 24,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 7.1.2 (11D257c)",
+        "date": "2014-06-30T18:28:53Z",
+        "count": 3,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 7.1.2 (11D257)",
+        "date": "2014-06-30T18:28:56Z",
+        "count": 30,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2014-05-28",
+    "releases": [
+      {
+        "name": "iTunes 11.2.2",
+        "date": "2014-05-28T17:09:02Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2014-05-17",
+    "releases": [
+      {
+        "name": "iTunes 11.2.1",
+        "date": "2014-05-17T22:09:40Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2014-05-15",
+    "releases": [
+      {
+        "name": "iTunes 11.2",
+        "date": "2014-05-15T18:23:02Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2014-04-22",
+    "releases": [
+      {
+        "name": "iOS 7.1.1 (11D201c)",
+        "date": "2014-04-22T17:46:02Z",
+        "count": 3,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 7.1.1 (11D201)",
+        "date": "2014-04-22T17:46:08Z",
+        "count": 30,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 7.1.1 (11D201)",
+        "date": "2014-04-22T17:56:04Z",
+        "count": 215,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 7.1.1 (11D201c)",
+        "date": "2014-04-22T17:56:27Z",
+        "count": 21,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2014-03-10",
+    "releases": [
+      {
+        "name": "iOS 7.1 (11D167)",
+        "date": "2014-03-10T16:53:31Z",
+        "count": 28,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 7.1 (11D167)",
+        "date": "2014-03-10T16:58:16Z",
+        "count": 163,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 7.1 (11D169)",
+        "date": "2014-03-10T16:58:57Z",
+        "count": 12,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 7.1 (11D169b)",
+        "date": "2014-03-10T16:59:01Z",
+        "count": 18,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 7.1 (11D169b)",
+        "date": "2014-03-10T17:57:25Z",
+        "count": 3,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 7.1 (11D169)",
+        "date": "2014-03-10T17:57:47Z",
+        "count": 2,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2014-02-26",
+    "releases": [
+      {
+        "name": "iTunes 11.1.5",
+        "date": "2014-02-26T18:40:02Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2014-02-21",
+    "releases": [
+      {
+        "name": "iOS 7.0.6 (11B651)",
+        "date": "2014-02-21T17:51:04Z",
+        "count": 31,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 6.1.6 (10B500)",
+        "date": "2014-02-21T17:51:22Z",
+        "count": 2,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 7.0.6 (11B651)",
+        "date": "2014-02-21T18:09:02Z",
+        "count": 162,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 6.1.6 (10B500)",
+        "date": "2014-02-21T18:09:05Z",
+        "count": 15,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2014-01-29",
+    "releases": [
+      {
+        "name": "iOS OTA 7.0.5 (11B601)",
+        "date": "2014-01-29T17:55:03Z",
+        "count": 10,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 7.0.5 (11B601)",
+        "date": "2014-01-29T18:01:03Z",
+        "count": 2,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2014-01-22",
+    "releases": [
+      {
+        "name": "iTunes 11.1.4",
+        "date": "2014-01-22T21:32:55Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2013-11-15",
+    "releases": [
+      {
+        "name": "iOS 6.1.5 (10B400)",
+        "date": "2013-11-15T02:23:58Z",
+        "count": 1,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 7.0.4 (11B554a)",
+        "date": "2013-11-15T02:23:58Z",
+        "count": 31,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2013-11-14",
+    "releases": [
+      {
+        "name": "iOS OTA 7.0.4 (11B554a)",
+        "date": "2013-11-14T18:06:01Z",
+        "count": 129,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 6.1.5 (10B400)",
+        "date": "2013-11-14T18:06:02Z",
+        "count": 6,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2013-11-05",
+    "releases": [
+      {
+        "name": "iTunes 11.1.3",
+        "date": "2013-11-05T21:32:03Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2013-10-24",
+    "releases": [
+      {
+        "name": "iOS OTA 7.0.3 (11B511d)",
+        "date": "2013-10-24T20:39:02Z",
+        "count": 9,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 7.0.3 (11B511d)",
+        "date": "2013-10-24T20:59:03Z",
+        "count": 3,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2013-10-23",
+    "releases": [
+      {
+        "name": "iTunes 11.1.2",
+        "date": "2013-10-23T02:12:33Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2013-10-22",
+    "releases": [
+      {
+        "name": "iOS 7.0.3 (11B511)",
+        "date": "2013-10-22T19:46:03Z",
+        "count": 28,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 7.0.3 (11B511)",
+        "date": "2013-10-22T19:58:58Z",
+        "count": 110,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2013-10-03",
+    "releases": [
+      {
+        "name": "iTunes 11.1.1",
+        "date": "2013-10-03T21:48:34Z",
+        "count": 2,
+        "type": "iTunes"
+      }
+    ]
+  },
+  {
+    "date": "2013-09-26",
+    "releases": [
+      {
+        "name": "iOS OTA 7.0.2 (11A501)",
+        "date": "2013-09-26T17:52:02Z",
+        "count": 115,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 7.0.2 (11A501)",
+        "date": "2013-09-26T18:00:05Z",
+        "count": 24,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2013-09-24",
+    "releases": [
+      {
+        "name": "iOS 7.0.2 (11A502)",
+        "date": "2013-09-24T00:52:02Z",
+        "count": 3,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 7.0.2 (11A502)",
+        "date": "2013-09-24T01:26:03Z",
+        "count": 15,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2013-09-20",
+    "releases": [
+      {
+        "name": "iOS OTA 7.0.1 (11A470e)",
+        "date": "2013-09-20T18:21:02Z",
+        "count": 12,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 7.0.1 (11A470e)",
+        "date": "2013-09-20T19:12:02Z",
+        "count": 3,
+        "type": "iOS"
+      }
+    ]
+  },
+  {
+    "date": "2013-09-18",
+    "releases": [
+      {
+        "name": "iTunes 11.1",
+        "date": "2013-09-18T17:00:24Z",
+        "count": 2,
+        "type": "iTunes"
+      },
+      {
+        "name": "iOS OTA 7.0.1 (11A470a)",
+        "date": "2013-09-18T17:56:01Z",
+        "count": 4,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS OTA 7.0 (11A465)",
+        "date": "2013-09-18T17:56:02Z",
+        "count": 87,
+        "type": "iOS OTA"
+      },
+      {
+        "name": "iOS 7.0 (11A465)",
+        "date": "2013-09-18T18:46:02Z",
+        "count": 20,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS 7.0.1 (11A470a)",
+        "date": "2013-09-18T18:54:23Z",
+        "count": 4,
+        "type": "iOS"
+      },
+      {
+        "name": "iOS OTA 7.0.1 (11A471)",
+        "date": "2013-09-18T22:19:04Z",
+        "count": 4,
+        "type": "iOS OTA"
+      }
+    ]
+  },
+  {
+    "date": "2012-11-01",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.15b3",
+        "date": "2012-11-01T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-10-15",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.15b2",
+        "date": "2012-10-15T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-10-14",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.15b1",
+        "date": "2012-10-14T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-09-13",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.13dev4",
+        "date": "2012-09-13T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-07-16",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.13dev3",
+        "date": "2012-07-16T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-07-05",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.14b2",
+        "date": "2012-07-05T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-06-18",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.14b1",
+        "date": "2012-06-18T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-06-15",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.13dev2",
+        "date": "2012-06-15T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-06-14",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.13dev1",
+        "date": "2012-06-14T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-06-08",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.12b2",
+        "date": "2012-06-08T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-06-04",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.12b1",
+        "date": "2012-06-04T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      },
+      {
+        "name": "PwnageTool 5.1.1",
+        "date": "2012-06-04T00:00:00Z",
+        "count": 1,
+        "type": "PwnageTool"
+      }
+    ]
+  },
+  {
+    "date": "2012-05-15",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.11b4",
+        "date": "2012-05-15T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-05-14",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.11b3",
+        "date": "2012-05-14T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-05-12",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.11b2",
+        "date": "2012-05-12T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-05-11",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.11b1",
+        "date": "2012-05-11T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-04-23",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b8b",
+        "date": "2012-04-23T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-04-22",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b8",
+        "date": "2012-04-22T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-04-20",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b7",
+        "date": "2012-04-20T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-03-12",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b6b",
+        "date": "2012-03-12T00:00:00Z",
+        "count": 1,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-03-08",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b6",
+        "date": "2012-03-08T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-02-13",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b5c",
+        "date": "2012-02-13T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-02-02",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b5b",
+        "date": "2012-02-02T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-01-29",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b5",
+        "date": "2012-01-29T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2012-01-16",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b4",
+        "date": "2012-01-16T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-12-30",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b3_novcheck",
+        "date": "2011-12-30T00:00:00Z",
+        "count": 1,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-12-29",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b3",
+        "date": "2011-12-29T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-12-28",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.10b2",
+        "date": "2011-12-28T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-12-27",
+    "releases": [
+      {
+        "name": "PwnageTool 5.0.1",
+        "date": "2011-12-27T00:00:00Z",
+        "count": 1,
+        "type": "PwnageTool"
+      },
+      {
+        "name": "redsn0w 0.9.10b1",
+        "date": "2011-12-27T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-12-19",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.9b9d",
+        "date": "2011-12-19T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      },
+      {
+        "name": "redsn0w 0.9.9b9d_novcheck",
+        "date": "2011-12-19T00:00:00Z",
+        "count": 1,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-11-03",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.9b8",
+        "date": "2011-11-03T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-10-21",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.9b7b",
+        "date": "2011-10-21T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      },
+      {
+        "name": "redsn0w 0.9.9b7",
+        "date": "2011-10-21T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-10-18",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.9b6",
+        "date": "2011-10-18T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-10-13",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.9b5",
+        "date": "2011-10-13T00:00:00Z",
+        "count": 1,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-10-07",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.9b4",
+        "date": "2011-10-07T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-10-05",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.9b3",
+        "date": "2011-10-05T00:00:00Z",
+        "count": 1,
+        "type": "redsn0w"
+      },
+      {
+        "name": "redsn0w 0.9.9b3a",
+        "date": "2011-10-05T00:00:00Z",
+        "count": 1,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-10-04",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.9b2",
+        "date": "2011-10-04T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-09-19",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.9b1",
+        "date": "2011-09-19T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-09-06",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.8b7c",
+        "date": "2011-09-06T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-09-02",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.8b7b",
+        "date": "2011-09-02T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-08-31",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.8b7",
+        "date": "2011-08-31T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-08-23",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.8b6",
+        "date": "2011-08-23T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-08-09",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.8b5",
+        "date": "2011-08-09T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-07-23",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.8b4",
+        "date": "2011-07-23T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-07-16",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.8b3",
+        "date": "2011-07-16T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-07-13",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.6rc19",
+        "date": "2011-07-13T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-07-12",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.6rc17",
+        "date": "2011-07-12T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      },
+      {
+        "name": "redsn0w 0.9.8b2",
+        "date": "2011-07-12T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      },
+      {
+        "name": "redsn0w 0.9.6rc16",
+        "date": "2011-07-12T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      },
+      {
+        "name": "redsn0w 0.9.8b1",
+        "date": "2011-07-12T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  },
+  {
+    "date": "2011-06-14",
+    "releases": [
+      {
+        "name": "redsn0w 0.9.6rc18",
+        "date": "2011-06-14T00:00:00Z",
+        "count": 2,
+        "type": "redsn0w"
+      }
+    ]
+  }
+]
