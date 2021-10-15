@@ -1,5 +1,10 @@
 import { assert } from 'chai'
-import { listVersions, flatlistVersionNumbers, flatlistVersionBuilds } from '../src/core'
+import {
+    listVersions,
+    flatlistVersionNumbers,
+    flatlistVersionBuilds,
+    flatlistBuilds
+} from '../src/core'
 
 describe('core', () => {
     describe('#listVersions()', () => {
@@ -52,6 +57,40 @@ describe('core', () => {
 
         it('returns tvos version builds flattened array', () => {
             assert.includeMembers(flatlistVersionBuilds('tvos'), ['tvOS 9.0 (13T396)', 'tvOS 9.0.1 (13T402)'])
+        })
+    })
+
+    describe('#flatlistBuilds()', () => {
+        it('returns ios builds flattened array', () => {
+            assert.includeMembers(flatlistBuilds('ios'), [
+                '1A543a',
+                '1C25',
+                '12B410',
+                '12B411',
+                '12B435',
+                '12B436'
+            ])
+        })
+
+        it('returns macos builds flattened array', () => {
+            assert.includeMembers(flatlistBuilds('macos'), [
+                '4K78',
+                '4L13',
+                '13A603',
+                '13B42',
+                '13C64',
+                '13C1021',
+                '16A323',
+                '16B2555',
+                '16B2657'
+            ])
+        })
+
+        it('returns tvos builds flattened array', () => {
+            assert.includeMembers(flatlistBuilds('tvos'), [
+                '13T396',
+                '13T402'
+            ])
         })
     })
 })

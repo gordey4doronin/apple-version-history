@@ -46,3 +46,16 @@ export function listVersionBuilds(os: osType, separator: string = defaultSeparat
 
     return buildsByVersionName;
 }
+
+export function listBuilds(os: osType): string[][] {
+    const json = pickJson(os);
+
+    return Object.keys(json)
+        .map(versionName => Object.keys(json[versionName])
+            .flatMap(versionNumber => json[versionName][versionNumber])
+        );
+}
+
+export function flatlistBuilds(os: osType): string[] {
+    return ([] as string[]).concat(...listBuilds(os));
+}

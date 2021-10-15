@@ -1,5 +1,5 @@
-import { listVersions, listVersionNumbers, listVersionBuilds, flatlistVersionNumbers, flatlistVersionBuilds } from './core';
-export { listVersions, listVersionNumbers, listVersionBuilds, flatlistVersionNumbers, flatlistVersionBuilds };
+import { listVersions, listVersionNumbers, listVersionBuilds, flatlistVersionNumbers, flatlistVersionBuilds, listBuilds, flatlistBuilds } from './core';
+export { listVersions, listVersionNumbers, listVersionBuilds, flatlistVersionNumbers, flatlistVersionBuilds, listBuilds, flatlistBuilds };
 
 // json data
 export { default as iosVersionHistory } from './ios-version-history';
@@ -33,3 +33,13 @@ export function listTvosVersionsBuilds(): string[][] { return listVersionBuilds(
 export function flatlistIosVersionsBuilds(): string[] { return flatlistVersionBuilds('ios'); }
 export function flatlistMacosVersionsBuilds(): string[] { return flatlistVersionBuilds('macos'); }
 export function flatlistTvosVersionsBuilds(): string[] { return flatlistVersionBuilds('tvos'); }
+
+// listBuilds
+export function listIosBuilds(): string[][] { return listBuilds('ios'); }
+export function listMacosBuilds(): string[][] { return listBuilds('macos'); }
+export function listTvosBuilds(): string[][] { return listBuilds('tvos'); }
+
+// flatlistBuilds
+export function flatlistIosBuilds(): string[] { return flatlistBuilds('ios'); }
+export function flatlistMacosBuilds(): string[] { return flatlistBuilds('macos'); }
+export function flatlistTvosBuilds(): string[] { return flatlistBuilds('tvos'); }
