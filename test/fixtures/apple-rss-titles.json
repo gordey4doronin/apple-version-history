@@ -20,5 +20,6 @@
   { "os": "iPadOS", "version": "14.7", "build": "18G69/18G70", "codename": null, "cycle": null },
   { "os": "iOS", "version": "15", "build": "19A346", "cycle": null, "codename": null },
   { "os": "macOS", "version": null, "build": "21A5552a", "cycle": "beta 10", "codename": "Monterey" },
-  { "os": "macOS", "version": null, "build": "21A559", "cycle": null, "codename": "Monterey" }
+  { "os": "macOS", "version": null, "build": "21A559", "cycle": null, "codename": "Monterey" },
+  { "os": "iPadOS", "version": "15.1", "build": "19B74 | 19B75", "codename": null, "cycle": null }
 ]

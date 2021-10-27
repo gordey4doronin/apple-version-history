@@ -21,6 +21,26 @@
   },
   {
     "content:encoded": [
+      "<p><a href=/download/release class=more>View downloads</a></p><il><p><a href=/go/?id=ipados-15.1-sdk-rn class=more>View release notes</a></p></il>"
+    ],
+    "description": [
+      "View downloadsView release notes"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=10252021c"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=10252021c"
+    ],
+    "pubDate": [
+      "Mon, 25 Oct 2021 10:00:00 PDT"
+    ],
+    "title": [
+      "iPadOS 15.1 (19B74 | 19B75)"
+    ]
+  },
+  {
+    "content:encoded": [
       "test"
     ],
     "description": [

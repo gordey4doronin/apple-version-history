@@ -86,7 +86,7 @@ const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
  * RC obviously stands for Release Candidate.
  * FCS not that obviously seems to mean Final Candidate Software.
  */
-const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS)\s?(?<codename>Sierra|High Sierra|Mojave|Catalina|Big Sur|Monterey)?\s(?<version>\d+(?:\.\d+)*)?\s?(?<cycle>(?:beta|RC|FCS)(\s\d+)*)?\s?\((?<build>\w*\/?\w*)\)/
+const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS)\s?(?<codename>Sierra|High Sierra|Mojave|Catalina|Big Sur|Monterey)?\s(?<version>\d+(?:\.\d+)*)?\s?(?<cycle>(?:beta|RC|FCS)(\s\d+)*)?\s?\((?<build>\w*(\/| \| )?\w*)\)/
 
 /**
  * Gets titles from Apple RSS feed items.
@@ -184,9 +184,8 @@ export async function applyRssChanges(rssTitles, paths = {
 
     // version doesn't exist => add version + build
     if (!json[versionName][version]) {
-      // Hack for iPadOS 14.7 (18G69/18G70) and similar dual builds
-      if (build.includes('/')) {
-        const [build1, build2] = build.split('/')
+      if (isDualBuild(build)) {
+        const [build1, build2] = splitDualBuild(build)
         json[versionName][version] = [ build1, build2 ]
         debug && console.log(`${os} version ${version} doesn't exist => add version + build ${version} [ ${build1} ]`)
         debug && console.log(`${os} version ${version} doesn't exist => add version + build ${version} [ ${build2} ]`)
@@ -196,15 +195,14 @@ export async function applyRssChanges(rssTitles, paths = {
       }
     }
 
-    if (!build.includes('/')) {
+    if (!isDualBuild(build)) {
       // build doesn't exist => add build
       if (!json[versionName][version].includes(build)) {
         json[versionName][version].push(build)
         debug && console.log(`${os} ${version} build ${build} doesn't exist => add build ${build}`)
       }
-    } else if (build.includes('/')) {
-      // Hack for iPadOS 14.7 (18G69/18G70) and similar dual builds
-      const [build1, build2] = build.split('/')
+    } else if (isDualBuild(build)) {
+      const [build1, build2] = splitDualBuild(build)
 
       // build doesn't exist => add build
       if (!json[versionName][version].includes(build1)) {
@@ -223,6 +221,16 @@ export async function applyRssChanges(rssTitles, paths = {
   })
 
   return jsons
+}
+
+// Hack for iPadOS 14.7 (18G69/18G70) or iPadOS 15.1 (19B74 | 19B75) or similar dual builds
+function isDualBuild(build) {
+  return build.includes('/') || build.includes('|')
+}
+
+// Hack for iPadOS 14.7 (18G69/18G70) or iPadOS 15.1 (19B74 | 19B75) or similar dual builds
+function splitDualBuild(build) {
+ return build.split(/\/|\|/).map(x => x.trim())
 }
 
 /**
