@@ -102,11 +102,16 @@ export const filterTitles = (titles) => titles
 
     if (match) {
       debug && console.log(`+ Keep title="${title}" with match="${match}"`)
+
+      if (title.includes('beta')) {
+        return false
+      } else {
+        return true
+      }
     } else {
       debug && console.log(`- Remove title="${title}" with match="${match}"`)
+      return false
     }
-
-    return match
   })
 
 /**
