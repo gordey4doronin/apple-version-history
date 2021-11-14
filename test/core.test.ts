@@ -42,7 +42,7 @@ describe('core', () => {
     describe('#flatlistVersionBuilds()', () => {
         it('returns ios version builds flattened array', () => {
             assert.includeMembers(flatlistVersionBuilds('ios'), [
-                'iPhone OS 1.0 (1A543a)', 'iPhone OS 1.0.1 (1C25)',
+                'iPhone OS 1.0.1 (1C25)', 'iPhone OS 1.1.4 (4A102)',
                 'iOS 8.1 (12B410)', 'iOS 8.1 (12B411)', 'iOS 8.1.1 (12B435)', 'iOS 8.1.1 (12B436)'
             ])
         })
@@ -63,8 +63,8 @@ describe('core', () => {
     describe('#flatlistBuilds()', () => {
         it('returns ios builds flattened array', () => {
             assert.includeMembers(flatlistBuilds('ios'), [
-                '1A543a',
                 '1C25',
+                '4A102',
                 '12B410',
                 '12B411',
                 '12B435',
