@@ -142,8 +142,8 @@ export function parseTitles (titles) {
   .map(match => match.groups)
   .map(({ os, codename, version, cycle, build }) => ({
     os,
-    version: version || null,
     codename: codename || null,
+    version: version || null,
     cycle: cycle || null,
     build
   }))
@@ -174,8 +174,15 @@ export async function applyRssChanges(rssTitles, paths = {
 
   debug && console.log('')
 
-  rssTitles.forEach(({ os, version, build, codename }) => {
+  for (let { os, codename, version, cycle, build } of rssTitles) {
     debug && console.log(`Processing ${colors.blue(os)} ${colors.magenta(version)} ${colors.cyan(build)}`)
+
+    // Skipping beta versions here (at the very end of processing logic) and not in `filterTitles` function.
+    // Because running parsing+filtering logic (see `getTitles` function) could reveal some potential bugs earlier.
+    if (cycle && cycle.includes('beta')) {
+      debug && console.log(colors.red(`- Ignore beta ${colors.blue(os)} ${colors.magenta(version)} ${colors.cyan(build)}`))
+      continue
+    }
 
     // Assume that iOS and iPadOS are the same for now.
     // TODO: Figure out later.
@@ -237,7 +244,7 @@ export async function applyRssChanges(rssTitles, paths = {
     }
 
     debug && console.log('')
-  })
+  }
 
   return jsons
 }
