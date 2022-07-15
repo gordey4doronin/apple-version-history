@@ -618,5 +618,25 @@
     "title": [
       "iPadOS 15.1 (19B74 | 19B75)"
     ]
+  },
+  {
+    "title": [
+      "macOS 13 beta 3 Update (22A5295i)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=07112022a"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=07112022a"
+    ],
+    "description": [
+      "View downloadsView release notes"
+    ],
+    "pubDate": [
+      "Mon, 11 Jul 2022 10:00:00 PDT"
+    ],
+    "content:encoded": [
+      "<p><a href=/download class=more>View downloads</a></p><il><p><a href=/go/?id=macos-13-rn class=more>View release notes</a></p></il>"
+    ]
   }
 ]
