@@ -1,6 +1,6 @@
 {
   "name": "apple-version-history",
-  "version": "1.4.43",
+  "version": "1.4.44",
   "description": "List of released Apple operating system versions and builds.",
   "main": "index.js",
   "types": "index.d.ts",
