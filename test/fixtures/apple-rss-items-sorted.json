@@ -641,6 +641,26 @@
   },
   {
     "title": [
+      "visionOS 1.0.3 (21N333)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=02122024a"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=02122024a"
+    ],
+    "description": [
+      "View downloads"
+    ],
+    "pubDate": [
+      "Mon, 12 Feb 2024 09:00:00 PST"
+    ],
+    "content:encoded": [
+      "<p><a href=/download class=more>View downloads</a></p>"
+    ]
+  },
+  {
+    "title": [
       "macOS 14.4 Release Candidate (23E214)"
     ],
     "link": [
