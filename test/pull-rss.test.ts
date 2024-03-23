@@ -100,13 +100,15 @@ describe('pull-rss', () => {
       const macosAfter = fs.readFileSync('./test/fixtures/macos-after.json', 'utf8')
       const tvosAfter = fs.readFileSync('./test/fixtures/tvos-after.json', 'utf8')
       const watchosAfter = fs.readFileSync('./test/fixtures/watchos-after.json', 'utf8')
+      const visionosAfter = fs.readFileSync('./test/fixtures/visionos-after.json', 'utf8')
 
       // act
       const actual = await applyRssChanges(rssTitles, {
         ios: './test/fixtures/ios-before.json',
         macos: './test/fixtures/macos-before.json',
         tvos: './test/fixtures/tvos-before.json',
-        watchos: './test/fixtures/watchos-before.json'
+        watchos: './test/fixtures/watchos-before.json',
+        visionos: './test/fixtures/visionos-before.json'
       })
 
       // assert
@@ -114,6 +116,7 @@ describe('pull-rss', () => {
       assert.deepStrictEqual(actual.macos, JSON.parse(macosAfter))
       assert.deepStrictEqual(actual.tvos, JSON.parse(tvosAfter))
       assert.deepStrictEqual(actual.watchos, JSON.parse(watchosAfter))
+      assert.deepStrictEqual(actual.visionos, JSON.parse(visionosAfter))
     })
   })
 
@@ -122,6 +125,7 @@ describe('pull-rss', () => {
     const macosBefore = fs.readFileSync('./test/fixtures/macos-before.json', 'utf8');
     const tvosBefore = fs.readFileSync('./test/fixtures/tvos-before.json', 'utf8');
     const watchosBefore = fs.readFileSync('./test/fixtures/watchos-before.json', 'utf8');
+    const visionosBefore = fs.readFileSync('./test/fixtures/visionos-before.json', 'utf8');
 
     after(() => {
       // Revert files after write run
@@ -129,6 +133,7 @@ describe('pull-rss', () => {
       fs.writeFileSync('./test/fixtures/macos-before.json', macosBefore, 'utf8')
       fs.writeFileSync('./test/fixtures/tvos-before.json', tvosBefore, 'utf8')
       fs.writeFileSync('./test/fixtures/watchos-before.json', watchosBefore, 'utf8')
+      fs.writeFileSync('./test/fixtures/visionos-before.json', visionosBefore, 'utf8')
     })
 
     it('writes RSS changes to files', async () => {
@@ -137,13 +142,15 @@ describe('pull-rss', () => {
       const macosAfter = fs.readFileSync('./test/fixtures/macos-after.json', 'utf8');
       const tvosAfter = fs.readFileSync('./test/fixtures/tvos-after.json', 'utf8');
       const watchosAfter = fs.readFileSync('./test/fixtures/watchos-after.json', 'utf8');
+      const visionosAfter = fs.readFileSync('./test/fixtures/visionos-after.json', 'utf8');
 
       // act
       await writeRssChanges(rssTitles, {
         ios: './test/fixtures/ios-before.json',
         macos: './test/fixtures/macos-before.json',
         tvos: './test/fixtures/tvos-before.json',
-        watchos: './test/fixtures/watchos-before.json'
+        watchos: './test/fixtures/watchos-before.json',
+        visionos: './test/fixtures/visionos-before.json'
       })
 
       // assert
@@ -151,11 +158,13 @@ describe('pull-rss', () => {
       const macosOverridden = fs.readFileSync('./test/fixtures/macos-before.json', 'utf8');
       const tvosOverridden = fs.readFileSync('./test/fixtures/tvos-before.json', 'utf8');
       const watchosOverridden = fs.readFileSync('./test/fixtures/watchos-before.json', 'utf8');
+      const visionosOverridden = fs.readFileSync('./test/fixtures/visionos-before.json', 'utf8');
   
       assert.strictEqual(iosOverridden, iosAfter)
       assert.strictEqual(macosOverridden, macosAfter)
       assert.strictEqual(tvosOverridden, tvosAfter)
       assert.strictEqual(watchosOverridden, watchosAfter)
+      assert.strictEqual(visionosOverridden, visionosAfter)
     })
   })
 })

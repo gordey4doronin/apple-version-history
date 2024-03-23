@@ -23,5 +23,6 @@
   { "os": "macOS", "version": null, "build": "21A559", "cycle": null, "codename": "Monterey" },
   { "os": "iPadOS", "version": "15.1", "build": "19B74 | 19B75", "codename": null, "cycle": null },
   { "os": "macOS", "version": "13", "build": "22A5295i", "codename": null, "cycle": "beta 3" },
+  { "os": "visionOS", "version": "1.0.3", "build": "21N333", "codename": null, "cycle": null },
   { "os": "macOS", "version": "14.4", "build": "23E214", "codename": null, "cycle": "Release Candidate" }
 ]

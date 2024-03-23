@@ -89,7 +89,7 @@ export const getRssTitles = (rssItems) => parseTitles(filterTitles(getTitles(sor
 /**
  * Regex for filterting OS related titles.
  */
-const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
+const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS|visionOS/
 
 /**
  * Regex for parsing OS related titles into os+version+cycle+build.
@@ -97,7 +97,7 @@ const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
  * RC obviously stands for Release Candidate.
  * FCS not that obviously seems to mean Final Candidate Software.
  */
-const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS)\s?(?<codename>Sierra|High Sierra|Mojave|Catalina|Big Sur|Monterey|Ventura)?\s(?<version>\d+(?:\.\d+)*)?\s?(?<cycle>(?:beta|RC|FCS|Release Candidate)(\s\d+)*)?\s?(?:Update(\s)*)?\s?\((?<build>\w*(\/| \| )?\w*)\)/
+const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS|visionOS)\s?(?<codename>Sierra|High Sierra|Mojave|Catalina|Big Sur|Monterey|Ventura)?\s(?<version>\d+(?:\.\d+)*)?\s?(?<cycle>(?:beta|RC|FCS|Release Candidate)(\s\d+)*)?\s?(?:Update(\s)*)?\s?\((?<build>\w*(\/| \| )?\w*)\)/
 
 /**
  * Gets titles from Apple RSS feed items.
@@ -156,20 +156,23 @@ export async function applyRssChanges(rssTitles, paths = {
   'ios': 'ios-version-history.json',
   'macos': 'macos-version-history.json',
   'tvos': 'tvos-version-history.json',
-  'watchos': 'watchos-version-history.json'
+  'watchos': 'watchos-version-history.json',
+  'visionos': 'visionos-version-history.json'
 }) {
   const files = await Promise.all([
     readFile(paths['ios'], 'utf8'),
     readFile(paths['macos'], 'utf8'),
     readFile(paths['tvos'], 'utf8'),
-    readFile(paths['watchos'], 'utf8')
+    readFile(paths['watchos'], 'utf8'),
+    readFile(paths['visionos'], 'utf8')
   ])
 
   const jsons = {
     'ios': JSON.parse(files[0]),
     'macos': JSON.parse(files[1]),
     'tvos': JSON.parse(files[2]),
-    'watchos': JSON.parse(files[3])
+    'watchos': JSON.parse(files[3]),
+    'visionos': JSON.parse(files[4])
   }
 
   debug && console.log('')
@@ -266,7 +269,8 @@ export async function writeRssChanges(rssTitles, paths = {
   'ios': 'ios-version-history.json',
   'macos': 'macos-version-history.json',
   'tvos': 'tvos-version-history.json',
-  'watchos': 'watchos-version-history.json'
+  'watchos': 'watchos-version-history.json',
+  'visionos': 'visionos-version-history.json'
 }) {
   const changes = await applyRssChanges(rssTitles, paths)
 
