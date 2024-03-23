@@ -97,7 +97,7 @@ const filterRegex = /iOS|iPadOS|tvOS|macOS|watchOS/
  * RC obviously stands for Release Candidate.
  * FCS not that obviously seems to mean Final Candidate Software.
  */
-const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS)\s?(?<codename>Sierra|High Sierra|Mojave|Catalina|Big Sur|Monterey|Ventura)?\s(?<version>\d+(?:\.\d+)*)?\s?(?<cycle>(?:beta|RC|FCS)(\s\d+)*)?\s?(?:Update(\s)*)?\s?\((?<build>\w*(\/| \| )?\w*)\)/
+const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS)\s?(?<codename>Sierra|High Sierra|Mojave|Catalina|Big Sur|Monterey|Ventura)?\s(?<version>\d+(?:\.\d+)*)?\s?(?<cycle>(?:beta|RC|FCS|Release Candidate)(\s\d+)*)?\s?(?:Update(\s)*)?\s?\((?<build>\w*(\/| \| )?\w*)\)/
 
 /**
  * Gets titles from Apple RSS feed items.

@@ -1,6 +1,26 @@
 [
   {
     "title": [
+      "macOS 14.4 Release Candidate (23E214)"
+    ],
+    "link": [
+      "https://developer.apple.com/news/releases/?id=03042024d"
+    ],
+    "guid": [
+      "https://developer.apple.com/news/releases/?id=03042024d"
+    ],
+    "description": [
+      "View downloadsView release notes"
+    ],
+    "pubDate": [
+      "Mon, 04 Mar 2024 09:00:00 PST"
+    ],
+    "content:encoded": [
+      "<p><a href=/download class=more>View downloads</a></p><il><p><a href=/go/?id=macos-14.4-rn class=more>View release notes</a></p></il>"
+    ]
+  },
+  {
+    "title": [
       "macOS 13 beta 3 Update (22A5295i)"
     ],
     "link": [
