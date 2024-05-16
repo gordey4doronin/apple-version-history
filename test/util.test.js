@@ -1,5 +1,11 @@
-import { assert } from 'chai'
-import { pickJson, versionNameWithoutSuffix, hasPatch, versionNumberWithoutPatch, addMinorZero } from '../src/util'
+// import { assert } from 'chai'
+// import { pickJson, versionNameWithoutSuffix, hasPatch, versionNumberWithoutPatch, addMinorZero } from '../src/util'
+const assert = require('chai').assert
+const pickJson = require('../src/util.js').pickJson
+const versionNameWithoutSuffix = require('../src/util.js').versionNameWithoutSuffix
+const hasPatch = require('../src/util.js').hasPatch
+const versionNumberWithoutPatch = require('../src/util.js').versionNumberWithoutPatch
+const addMinorZero = require('../src/util.js').addMinorZero
 
 describe('utils', () => {
     describe('#pickJson()', () => {

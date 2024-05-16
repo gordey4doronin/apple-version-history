@@ -1,12 +1,18 @@
-import fetch = require('node-fetch')
-import xml2js = require('xml2js')
-import { promisify } from 'util'
-import fs = require('fs')
+// import * as fetch from 'node-fetch'
+// import * as xml2js from 'xml2js'
+// import { promisify } from 'util'
+// import * as fs from 'fs'
+const fetch = require('node-fetch')
+const xml2js = require('xml2js')
+const promisify = require('util').promisify
+const fs = require('fs')
 
 const readFile = promisify(fs.readFile)
 const writeFile = promisify(fs.writeFile)
 
-import { versionNumberWithoutPatch, addMinorZero } from './util'
+// import { versionNumberWithoutPatch, addMinorZero } from './util.js'
+const versionNumberWithoutPatch = require('./util.js').versionNumberWithoutPatch
+const addMinorZero = require('./util.js').addMinorZero
 
 const appleRssUrl = 'https://developer.apple.com/news/releases/rss/releases.rss'
 const debug = require.main === module
@@ -41,7 +47,7 @@ if (require.main === module) {
 /**
  * Gets items from Apple RSS feed.
  */
-export async function getRssItems() {
+async function getRssItems() {
   const response = await fetch(appleRssUrl)
   const xmlText = await response.text()
   const xmlParsed = await xml2js.parseStringPromise(xmlText)
@@ -52,7 +58,7 @@ export async function getRssItems() {
 /**
  * Sorts RSS feed items by publishing date.
  */
-export const sortRssItems = (rssItems) => rssItems.sort((a, b) => {
+const sortRssItems = (rssItems) => rssItems.sort((a, b) => {
   const pubDateA = Date.parse(a.pubDate[0])
   const pubDateB = Date.parse(b.pubDate[0])
 
@@ -84,7 +90,7 @@ export const sortRssItems = (rssItems) => rssItems.sort((a, b) => {
 /**
  * Gets filtered and parsed titles from Apple RSS feed items.
  */
-export const getRssTitles = (rssItems) => parseTitles(filterTitles(getTitles(sortRssItems(rssItems))))
+const getRssTitles = (rssItems) => parseTitles(filterTitles(getTitles(sortRssItems(rssItems))))
 
 /**
  * Regex for filterting OS related titles.
@@ -102,12 +108,12 @@ const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS|visionOS)\s?(?<codename>
 /**
  * Gets titles from Apple RSS feed items.
  */
-export const getTitles = (rssItems) => rssItems.map(x => x.title[0])
+const getTitles = (rssItems) => rssItems.map(x => x.title[0])
 
 /**
  * Filters titles from Apple RSS feed items.
  */
-export function filterTitles (titles) {
+function filterTitles (titles) {
   debug && console.log('')
 
   return titles.filter(title => {
@@ -126,7 +132,7 @@ export function filterTitles (titles) {
 /**
  * Parses titles from Apple RSS feed items.
  */
-export function parseTitles (titles) {
+function parseTitles (titles) {
   debug && console.log('')
 
   return titles.map(title => {
@@ -152,7 +158,7 @@ export function parseTitles (titles) {
 /**
  * Applies RSS changes to existing OS objects.
  */
-export async function applyRssChanges(rssTitles, paths = {
+async function applyRssChanges(rssTitles, paths = {
   'ios': 'ios-version-history.json',
   'macos': 'macos-version-history.json',
   'tvos': 'tvos-version-history.json',
@@ -265,7 +271,7 @@ function splitDualBuild(build) {
 /**
  * Applies RSS changes to existing OS objects, and writes them to JSON files.
  */
-export async function writeRssChanges(rssTitles, paths = {
+async function writeRssChanges(rssTitles, paths = {
   'ios': 'ios-version-history.json',
   'macos': 'macos-version-history.json',
   'tvos': 'tvos-version-history.json',
@@ -294,4 +300,15 @@ function replacer(_, value) {
   } else {
       return value;
   }
+}
+
+module.exports = {
+  getRssItems,
+  sortRssItems,
+  getRssTitles,
+  getTitles,
+  filterTitles,
+  parseTitles,
+  applyRssChanges,
+  writeRssChanges
 }

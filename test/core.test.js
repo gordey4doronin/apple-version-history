@@ -1,10 +1,15 @@
-import { assert } from 'chai'
-import {
-    listVersions,
-    flatlistVersionNumbers,
-    flatlistVersionBuilds,
-    flatlistBuilds
-} from '../src/core'
+// import { assert } from 'chai'
+const assert = require('chai').assert
+// import {
+//     listVersions,
+//     flatlistVersionNumbers,
+//     flatlistVersionBuilds,
+//     flatlistBuilds
+// } from '../src/core.js'
+const listVersions = require('../src/core').listVersions
+const flatlistVersionNumbers = require('../src/core').flatlistVersionNumbers
+const flatlistVersionBuilds = require('../src/core').flatlistVersionBuilds
+const flatlistBuilds = require('../src/core').flatlistBuilds
 
 describe('core', () => {
     describe('#listVersions()', () => {

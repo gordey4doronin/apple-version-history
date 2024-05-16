@@ -1,11 +1,22 @@
-import fs = require('fs')
-import { assert } from 'chai'
-import nock = require('nock')
-import {
-  getRssItems, getRssTitles,
-  getTitles, filterTitles, parseTitles, sortRssItems,
-  applyRssChanges, writeRssChanges
-} from '../src/pull-rss'
+// import * as fs from 'fs'
+// import { assert } from 'chai'
+// import * as nock from 'nock'
+const fs = require('fs')
+const assert = require('chai').assert
+const nock = require('nock')
+// import {
+//   getRssItems, getRssTitles,
+//   getTitles, filterTitles, parseTitles, sortRssItems,
+//   applyRssChanges, writeRssChanges
+// } from '../src/pull-rss.js'
+const getRssItems = require('../src/pull-rss.js').getRssItems
+const getRssTitles = require('../src/pull-rss.js').getRssTitles
+const getTitles = require('../src/pull-rss.js').getTitles
+const filterTitles = require('../src/pull-rss.js').filterTitles
+const parseTitles = require('../src/pull-rss.js').parseTitles
+const sortRssItems = require('../src/pull-rss.js').sortRssItems
+const applyRssChanges = require('../src/pull-rss.js').applyRssChanges
+const writeRssChanges = require('../src/pull-rss.js').writeRssChanges
 
 nock.disableNetConnect()
 
