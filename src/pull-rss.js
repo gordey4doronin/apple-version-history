@@ -14,14 +14,14 @@ const appleRssUrl = 'https://developer.apple.com/news/releases/rss/releases.rss'
 const debug = require.main === module
 
 const colors = {
-  black: (string) => `\x1b[30m${string}\x1b[39m`,
-  red: (string) => `\x1b[31m${string}\x1b[39m`,
-  green: (string) => `\x1b[32m${string}\x1b[39m`,
-  yellow: (string) => `\x1b[33m${string}\x1b[39m`,
-  blue: (string) => `\x1b[34m${string}\x1b[39m`,
-  magenta: (string) => `\x1b[35m${string}\x1b[39m`,
-  cyan: (string) => `\x1b[36m${string}\x1b[39m`,
-  white: (string) => `\x1b[37m${string}\x1b[39m`
+  black: (/** @type {string} */ x) => `\x1b[30m${x}\x1b[39m`,
+  red: (/** @type {string} */ x) => `\x1b[31m${x}\x1b[39m`,
+  green: (/** @type {string} */ x) => `\x1b[32m${x}\x1b[39m`,
+  yellow: (/** @type {string} */ x) => `\x1b[33m${x}\x1b[39m`,
+  blue: (/** @type {string} */ x) => `\x1b[34m${x}\x1b[39m`,
+  magenta: (/** @type {string} */ x) => `\x1b[35m${x}\x1b[39m`,
+  cyan: (/** @type {string} */ x) => `\x1b[36m${x}\x1b[39m`,
+  white: (/** @type {string} */ x) => `\x1b[37m${x}\x1b[39m`
 }
 
 // Run script only when run directly from command line
