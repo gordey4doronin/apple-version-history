@@ -1,12 +1,7 @@
-// import iosVersionHistory from './ios-version-history.js';
-// import macosVersionHistory from './macos-version-history.js';
-// import tvosVersionHistory from './tvos-version-history.js';
-// import watchosVersionHistory from './watchos-version-history.js';
 const iosVersionHistory = require('./ios-version-history.js');
 const macosVersionHistory = require('./macos-version-history.js');
 const tvosVersionHistory = require('./tvos-version-history.js');
 const watchosVersionHistory = require('./watchos-version-history.js');
-// import { osType, versionNames } from './types';
 
 /**
  * @typedef {import('./types').osType} osType

@@ -1,7 +1,3 @@
-// import * as fetch from 'node-fetch'
-// import * as xml2js from 'xml2js'
-// import { promisify } from 'util'
-// import * as fs from 'fs'
 const fetch = require('node-fetch')
 const xml2js = require('xml2js')
 const promisify = require('util').promisify
@@ -10,9 +6,9 @@ const fs = require('fs')
 const readFile = promisify(fs.readFile)
 const writeFile = promisify(fs.writeFile)
 
-// import { versionNumberWithoutPatch, addMinorZero } from './util.js'
-const versionNumberWithoutPatch = require('./util.js').versionNumberWithoutPatch
-const addMinorZero = require('./util.js').addMinorZero
+const util = require('./util')
+const versionNumberWithoutPatch = util.versionNumberWithoutPatch
+const addMinorZero = util.addMinorZero
 
 const appleRssUrl = 'https://developer.apple.com/news/releases/rss/releases.rss'
 const debug = require.main === module

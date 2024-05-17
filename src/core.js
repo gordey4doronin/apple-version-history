@@ -1,7 +1,6 @@
-// import { osType } from './types';
-// import { pickJson, versionNameWithoutSuffix } from './util.js';
-const pickJson = require('./util').pickJson
-const versionNameWithoutSuffix = require('./util').versionNameWithoutSuffix
+const util = require('./util')
+const pickJson = util.pickJson
+const versionNameWithoutSuffix = util.versionNameWithoutSuffix
 
 /**
  * @typedef {import('./types').osType} osType
