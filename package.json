@@ -1,5 +1,6 @@
 {
   "name": "apple-version-history",
+  "type": "commonjs",
   "version": "1.6.7",
   "description": "List of released Apple operating system versions and builds.",
   "main": "index.js",
@@ -8,9 +9,9 @@
     "prepublishOnly": "exit -1",
     "prepack": "exit -1",
     "prebuild": "./.build/prebuild.sh",
-    "build": "rm -rf dist && tsc",
+    "build": "tsc",
     "postbuild": "./.build/postbuild.sh",
-    "test": "mocha dist/test --forbid-only --recursive"
+    "test": "mocha test --forbid-only --recursive"
   },
   "repository": {
     "type": "git",

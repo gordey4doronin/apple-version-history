@@ -1,25 +1,27 @@
-import fetch = require('node-fetch')
-import xml2js = require('xml2js')
-import { promisify } from 'util'
-import fs = require('fs')
+const fetch = require('node-fetch')
+const xml2js = require('xml2js')
+const promisify = require('util').promisify
+const fs = require('fs')
 
 const readFile = promisify(fs.readFile)
 const writeFile = promisify(fs.writeFile)
 
-import { versionNumberWithoutPatch, addMinorZero } from './util'
+const util = require('./util')
+const versionNumberWithoutPatch = util.versionNumberWithoutPatch
+const addMinorZero = util.addMinorZero
 
 const appleRssUrl = 'https://developer.apple.com/news/releases/rss/releases.rss'
 const debug = require.main === module
 
 const colors = {
-  black: (string) => `\x1b[30m${string}\x1b[39m`,
-  red: (string) => `\x1b[31m${string}\x1b[39m`,
-  green: (string) => `\x1b[32m${string}\x1b[39m`,
-  yellow: (string) => `\x1b[33m${string}\x1b[39m`,
-  blue: (string) => `\x1b[34m${string}\x1b[39m`,
-  magenta: (string) => `\x1b[35m${string}\x1b[39m`,
-  cyan: (string) => `\x1b[36m${string}\x1b[39m`,
-  white: (string) => `\x1b[37m${string}\x1b[39m`
+  black: (/** @type {string} */ x) => `\x1b[30m${x}\x1b[39m`,
+  red: (/** @type {string} */ x) => `\x1b[31m${x}\x1b[39m`,
+  green: (/** @type {string} */ x) => `\x1b[32m${x}\x1b[39m`,
+  yellow: (/** @type {string} */ x) => `\x1b[33m${x}\x1b[39m`,
+  blue: (/** @type {string} */ x) => `\x1b[34m${x}\x1b[39m`,
+  magenta: (/** @type {string} */ x) => `\x1b[35m${x}\x1b[39m`,
+  cyan: (/** @type {string} */ x) => `\x1b[36m${x}\x1b[39m`,
+  white: (/** @type {string} */ x) => `\x1b[37m${x}\x1b[39m`
 }
 
 // Run script only when run directly from command line
@@ -41,7 +43,7 @@ if (require.main === module) {
 /**
  * Gets items from Apple RSS feed.
  */
-export async function getRssItems() {
+async function getRssItems() {
   const response = await fetch(appleRssUrl)
   const xmlText = await response.text()
   const xmlParsed = await xml2js.parseStringPromise(xmlText)
@@ -52,7 +54,7 @@ export async function getRssItems() {
 /**
  * Sorts RSS feed items by publishing date.
  */
-export const sortRssItems = (rssItems) => rssItems.sort((a, b) => {
+const sortRssItems = (rssItems) => rssItems.sort((a, b) => {
   const pubDateA = Date.parse(a.pubDate[0])
   const pubDateB = Date.parse(b.pubDate[0])
 
@@ -84,7 +86,7 @@ export const sortRssItems = (rssItems) => rssItems.sort((a, b) => {
 /**
  * Gets filtered and parsed titles from Apple RSS feed items.
  */
-export const getRssTitles = (rssItems) => parseTitles(filterTitles(getTitles(sortRssItems(rssItems))))
+const getRssTitles = (rssItems) => parseTitles(filterTitles(getTitles(sortRssItems(rssItems))))
 
 /**
  * Regex for filterting OS related titles.
@@ -102,12 +104,12 @@ const parseRegex = /(?<os>iOS|iPadOS|tvOS|macOS|watchOS|visionOS)\s?(?<codename>
 /**
  * Gets titles from Apple RSS feed items.
  */
-export const getTitles = (rssItems) => rssItems.map(x => x.title[0])
+const getTitles = (rssItems) => rssItems.map(x => x.title[0])
 
 /**
  * Filters titles from Apple RSS feed items.
  */
-export function filterTitles (titles) {
+function filterTitles (titles) {
   debug && console.log('')
 
   return titles.filter(title => {
@@ -126,7 +128,7 @@ export function filterTitles (titles) {
 /**
  * Parses titles from Apple RSS feed items.
  */
-export function parseTitles (titles) {
+function parseTitles (titles) {
   debug && console.log('')
 
   return titles.map(title => {
@@ -152,7 +154,7 @@ export function parseTitles (titles) {
 /**
  * Applies RSS changes to existing OS objects.
  */
-export async function applyRssChanges(rssTitles, paths = {
+async function applyRssChanges(rssTitles, paths = {
   'ios': 'ios-version-history.json',
   'macos': 'macos-version-history.json',
   'tvos': 'tvos-version-history.json',
@@ -265,7 +267,7 @@ function splitDualBuild(build) {
 /**
  * Applies RSS changes to existing OS objects, and writes them to JSON files.
  */
-export async function writeRssChanges(rssTitles, paths = {
+async function writeRssChanges(rssTitles, paths = {
   'ios': 'ios-version-history.json',
   'macos': 'macos-version-history.json',
   'tvos': 'tvos-version-history.json',
@@ -294,4 +296,15 @@ function replacer(_, value) {
   } else {
       return value;
   }
+}
+
+module.exports = {
+  getRssItems,
+  sortRssItems,
+  getRssTitles,
+  getTitles,
+  filterTitles,
+  parseTitles,
+  applyRssChanges,
+  writeRssChanges
 }
