@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/gordey4doronin/apple-version-history#readme",
   "devDependencies": {
-    "@types/chai": "^4.2.6",
+    "@types/chai": "^5.0.1",
     "@types/mocha": "^10.0.0",
     "@types/node": "^22.5.1",
-    "chai": "^4.2.0",
+    "chai": "^5.1.2",
     "mocha": "^10.0.0",
     "nock": "^13.0.11",
     "node-fetch": "^2.6.1",
