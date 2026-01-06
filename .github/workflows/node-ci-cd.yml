@@ -29,13 +29,13 @@ jobs:
       - run: npm test
 
       - name: test labels contains
-        if: contains(github.event.pull_request.labels.*.name, 'bug')
+        if: contains(github.event.pull_request.labels.*.name, 'LSC')
         run: |
             echo "${{ toJson(github.event.pull_request.labels.*.name) }}"
             echo "LSC label found."
 
       - name: test labels does not contain
-        if: contains(github.event.pull_request.labels.*.name, 'bug') == false
+        if: contains(github.event.pull_request.labels.*.name, 'LSC') == false
         run: |
             echo "${{ toJson(github.event.pull_request.labels.*.name) }}"
             echo "No LSC label."
