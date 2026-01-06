@@ -31,11 +31,13 @@ jobs:
       - name: test labels contains
         if: contains(github.event.pull_request.labels.*.name, 'bug')
         run: |
+            echo ${{github.event.pull_request.labels}}
             echo "LSC label found."
 
       - name: test labels does not contain
         if: contains(github.event.pull_request.labels.*.name, 'bug') == false
         run: |
+            echo ${{github.event.pull_request.labels}}
             echo "No LSC label."
 
   check_version_changed:
