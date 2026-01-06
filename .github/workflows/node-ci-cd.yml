@@ -51,7 +51,6 @@ jobs:
               echo "EXTRA_ARGS=" >> $GITHUB_ENV
             fi
 
-
   check_version_changed:
     if: github.ref == 'refs/heads/main'
     needs: [build]
