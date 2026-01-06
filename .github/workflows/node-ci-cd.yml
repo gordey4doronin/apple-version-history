@@ -28,16 +28,15 @@ jobs:
       - run: npm run build
       - run: npm test
 
-      - name: test
+      - name: test labels contains
+        if: contains(github.event.pull_request.labels.*.name, 'bug')
         run: |
-          if echo '${{ github.event.pull_request.labels.*.name }}' | jq -e 'index("bug")' > /dev/null; then
             echo "LSC label found."
-            echo "EXTRA_ARGS=--ignore-size-check" >> $GITHUB_ENV
-          else
-            echo "No LSC label."
-            echo "EXTRA_ARGS=" >> $GITHUB_ENV
-          fi
 
+      - name: test labels does not contain
+        if: contains(github.event.pull_request.labels.*.name, 'bug') == false
+        run: |
+            echo "No LSC label."
 
   check_version_changed:
     if: github.ref == 'refs/heads/main'
