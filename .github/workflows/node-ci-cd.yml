@@ -28,6 +28,17 @@ jobs:
       - run: npm run build
       - run: npm test
 
+      - name: test
+        run: |
+          if echo '${{ github.event.pull_request.labels.*.name }}' | jq -e 'index("LSC")' > /dev/null; then
+            echo "LSC label found."
+            echo "EXTRA_ARGS=--ignore-size-check" >> $GITHUB_ENV
+          else
+            echo "No LSC label."
+            echo "EXTRA_ARGS=" >> $GITHUB_ENV
+          fi
+
+
   check_version_changed:
     if: github.ref == 'refs/heads/main'
     needs: [build]
