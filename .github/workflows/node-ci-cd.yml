@@ -56,7 +56,7 @@ jobs:
           fi
 
   publish-npm:
-    if: github.ref == 'refs/heads/main' && needs.check_version_changed.outputs.changed == 'true'
+    if: github.ref == 'refs/heads/main' && (needs.check_version_changed.outputs.changed == 'true' || github.event.inputs.force-publish == 'true')
     needs: [build, check_version_changed]
     runs-on: ubuntu-latest
     steps:
@@ -78,7 +78,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
   publish-gpr:
-    if: github.ref == 'refs/heads/main' && needs.check_version_changed.outputs.changed == 'true'
+    if: github.ref == 'refs/heads/main' && (needs.check_version_changed.outputs.changed == 'true' || github.event.inputs.force-publish == 'true')
     needs: [build, check_version_changed]
     runs-on: ubuntu-latest
     steps:
