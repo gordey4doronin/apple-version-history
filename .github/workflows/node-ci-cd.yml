@@ -6,7 +6,7 @@ on:
     inputs:
         force-publish:
           type: boolean
-          description: Whether to publish regardless of the version change
+          description: Force publish (regardless of the version change)
 
   pull_request:
     branches:
