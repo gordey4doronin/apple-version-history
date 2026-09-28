@@ -1,4 +1,5 @@
 import assert = require('assert/strict')
+import { describe, it } from 'node:test'
 import iosVersionHistory from '../src/ios-version-history'
 import macosVersionHistory from '../src/macos-version-history'
 import tvosVersionHistory from '../src/tvos-version-history'
