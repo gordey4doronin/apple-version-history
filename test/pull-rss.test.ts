@@ -1,5 +1,6 @@
 import fs = require('fs')
 import assert = require('assert/strict')
+import { describe, it, beforeEach, afterEach, after } from 'node:test'
 import nock = require('nock')
 import {
   getRssItems, getRssTitles,
