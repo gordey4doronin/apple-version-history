@@ -65,3 +65,4 @@ src/ios-version-history.ts
 src/macos-version-history.ts
 src/tvos-version-history.ts
 src/watchos-version-history.ts
+src/visionos-version-history.ts

@@ -14,6 +14,14 @@ describe('utils', () => {
         it('returns tvos object containing some keys', () => {
             assert.containsAllKeys(pickJson('tvos'), ['tvOS 9.x'])
         })
+
+        it('returns watchos object containing some keys', () => {
+            assert.containsAllKeys(pickJson('watchos'), ['watchOS 7.0.x'])
+        })
+
+        it('returns visionos object containing some keys', () => {
+            assert.containsAllKeys(pickJson('visionos'), ['visionOS 1.0.x'])
+        })
     })
 
     describe('#versionNameWithoutSuffix()', () => {

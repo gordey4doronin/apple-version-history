@@ -19,6 +19,14 @@ describe('core', () => {
         it('returns tvos versions array', () => {
             assert.includeMembers(listVersions('tvos'), ['tvOS 9.x'])
         })
+
+        it('returns watchos versions array', () => {
+            assert.includeMembers(listVersions('watchos'), ['watchOS 7.0.x', 'watchOS 7.1.x'])
+        })
+
+        it('returns visionos versions array', () => {
+            assert.includeMembers(listVersions('visionos'), ['visionOS 1.0.x', 'visionOS 1.1.x'])
+        })
     })
 
     describe('#flatlistVersionNumbers()', () => {
@@ -36,6 +44,14 @@ describe('core', () => {
 
         it('returns tvos version numbers flattened array', () => {
             assert.includeMembers(flatlistVersionNumbers('tvos'), ['tvOS 9.0', 'tvOS 9.0.1'])
+        })
+
+        it('returns watchos version numbers flattened array', () => {
+            assert.includeMembers(flatlistVersionNumbers('watchos'), ['watchOS 7.0', 'watchOS 7.0.1'])
+        })
+
+        it('returns visionos version numbers flattened array', () => {
+            assert.includeMembers(flatlistVersionNumbers('visionos'), ['visionOS 1.1.1', 'visionOS 1.1.2'])
         })
     })
 
@@ -57,6 +73,14 @@ describe('core', () => {
 
         it('returns tvos version builds flattened array', () => {
             assert.includeMembers(flatlistVersionBuilds('tvos'), ['tvOS 9.0 (13T396)', 'tvOS 9.0.1 (13T402)'])
+        })
+
+        it('returns watchos version builds flattened array', () => {
+            assert.includeMembers(flatlistVersionBuilds('watchos'), ['watchOS 7.0 (18R382)', 'watchOS 7.0.1 (18R395)'])
+        })
+
+        it('returns visionos version builds flattened array', () => {
+            assert.includeMembers(flatlistVersionBuilds('visionos'), ['visionOS 1.1.1 (21O224)', 'visionOS 1.1.2 (21O231)'])
         })
     })
 
@@ -90,6 +114,20 @@ describe('core', () => {
             assert.includeMembers(flatlistBuilds('tvos'), [
                 '13T396',
                 '13T402'
+            ])
+        })
+
+        it('returns watchos builds flattened array', () => {
+            assert.includeMembers(flatlistBuilds('watchos'), [
+                '18R382',
+                '18R395'
+            ])
+        })
+
+        it('returns visionos builds flattened array', () => {
+            assert.includeMembers(flatlistBuilds('visionos'), [
+                '21O224',
+                '21O231'
             ])
         })
     })

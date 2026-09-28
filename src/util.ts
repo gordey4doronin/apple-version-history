@@ -2,6 +2,7 @@ import iosVersionHistory from './ios-version-history';
 import macosVersionHistory from './macos-version-history';
 import tvosVersionHistory from './tvos-version-history';
 import watchosVersionHistory from './watchos-version-history';
+import visionosVersionHistory from './visionos-version-history';
 import { osType, versionNames } from './types';
 
 export function pickJson(os: osType): versionNames {
@@ -15,8 +16,11 @@ export function pickJson(os: osType): versionNames {
         case 'tvos':
             return tvosVersionHistory;
 
-        case 'watchos' as any:
+        case 'watchos':
             return watchosVersionHistory;
+
+        case 'visionos':
+            return visionosVersionHistory;
 
         default:
             throw `Unexpected os value: ${os}`;
