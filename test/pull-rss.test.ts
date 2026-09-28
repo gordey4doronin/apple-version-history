@@ -1,14 +1,11 @@
 import fs = require('fs')
 import assert = require('assert/strict')
-import { describe, it, beforeEach, afterEach, after } from 'node:test'
-import nock = require('nock')
+import { describe, it, beforeEach, afterEach, after, mock, Mock } from 'node:test'
 import {
   getRssItems, getRssTitles,
   getTitles, filterTitles, parseTitles, sortRssItems,
   applyRssChanges, writeRssChanges
 } from '../src/pull-rss'
-
-nock.disableNetConnect()
 
 describe('pull-rss', () => {
   const rss = fs.readFileSync('./test/fixtures/apple.rss', 'utf8')
@@ -71,15 +68,21 @@ describe('pull-rss', () => {
   })
 
   describe('#getRssItems()', () => {
+    // The live feed keeps getting new items,
+    // so serve the fixture, frozen in time, instead.
+    let fetchMock: Mock<typeof fetch>
+
     beforeEach(() => {
-      nock('https://developer.apple.com:443')
-        .get('/news/releases/rss/releases.rss')
-        .reply(200, rss)
+      fetchMock = mock.method(globalThis, 'fetch', async () => new Response(rss))
     })
 
     afterEach(() => {
-      assert.deepStrictEqual(nock.activeMocks(), [])
-      nock.cleanAll()
+      assert.strictEqual(fetchMock.mock.callCount(), 1)
+      assert.strictEqual(
+        fetchMock.mock.calls[0].arguments[0],
+        'https://developer.apple.com/news/releases/rss/releases.rss'
+      )
+      mock.restoreAll()
     })
 
     it('returns RSS items', async () => {

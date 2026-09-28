@@ -1,4 +1,3 @@
-import fetch = require('node-fetch')
 import xml2js = require('xml2js')
 import { promisify } from 'util'
 import fs = require('fs')
