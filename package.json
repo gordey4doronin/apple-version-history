@@ -10,7 +10,7 @@
     "prebuild": "./.build/prebuild.sh",
     "build": "rm -rf dist && tsc",
     "postbuild": "./.build/postbuild.sh",
-    "test": "node --test --test-reporter=./test/reporter.mjs \"dist/test/**/*.test.js\""
+    "test": "node --test --test-reporter=./test/reporter.mjs 'dist/test/**/*.test.js'"
   },
   "repository": {
     "type": "git",
