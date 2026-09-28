@@ -1,5 +1,5 @@
 import fs = require('fs')
-import { assert } from 'chai'
+import assert = require('assert/strict')
 import nock = require('nock')
 import {
   getRssItems, getRssTitles,

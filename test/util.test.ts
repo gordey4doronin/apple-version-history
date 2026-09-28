@@ -1,26 +1,31 @@
-import { assert } from 'chai'
+import assert = require('assert/strict')
+import iosVersionHistory from '../src/ios-version-history'
+import macosVersionHistory from '../src/macos-version-history'
+import tvosVersionHistory from '../src/tvos-version-history'
+import watchosVersionHistory from '../src/watchos-version-history'
+import visionosVersionHistory from '../src/visionos-version-history'
 import { pickJson, versionNameWithoutSuffix, hasPatch, versionNumberWithoutPatch, addMinorZero } from '../src/util'
 
 describe('utils', () => {
     describe('#pickJson()', () => {
-        it('returns ios object containing some keys', () => {
-            assert.containsAllKeys(pickJson('ios'), ['iPhone OS 1.0.x', 'iOS 8.1.x'])
+        it('returns ios version history', () => {
+            assert.equal(pickJson('ios'), iosVersionHistory)
         })
 
-        it('returns macos object containing some keys', () => {
-            assert.containsAllKeys(pickJson('macos'), ['Mac OS X 10.0.x', 'OS X 10.9.x', 'macOS 10.12.x'])
+        it('returns macos version history', () => {
+            assert.equal(pickJson('macos'), macosVersionHistory)
         })
 
-        it('returns tvos object containing some keys', () => {
-            assert.containsAllKeys(pickJson('tvos'), ['tvOS 9.x'])
+        it('returns tvos version history', () => {
+            assert.equal(pickJson('tvos'), tvosVersionHistory)
         })
 
-        it('returns watchos object containing some keys', () => {
-            assert.containsAllKeys(pickJson('watchos'), ['watchOS 7.0.x'])
+        it('returns watchos version history', () => {
+            assert.equal(pickJson('watchos'), watchosVersionHistory)
         })
 
-        it('returns visionos object containing some keys', () => {
-            assert.containsAllKeys(pickJson('visionos'), ['visionOS 1.0.x'])
+        it('returns visionos version history', () => {
+            assert.equal(pickJson('visionos'), visionosVersionHistory)
         })
     })
 
@@ -72,11 +77,11 @@ describe('utils', () => {
 
     describe('#hasPatch()', () => {
         it('returns false when no patch part', () => {
-            assert.isFalse(hasPatch('10.0'))
+            assert.equal(hasPatch('10.0'), false)
         })
 
         it('returns true when there is patch part', () => {
-            assert.isTrue(hasPatch('10.0.1'))
+            assert.equal(hasPatch('10.0.1'), true)
         })
     })
 })
