@@ -1,4 +1,3 @@
-import xml2js = require('xml2js')
 import { promisify } from 'util'
 import fs = require('fs')
 
@@ -43,10 +42,39 @@ if (require.main === module) {
 export async function getRssItems() {
   const response = await fetch(appleRssUrl)
   const xmlText = await response.text()
-  const xmlParsed = await xml2js.parseStringPromise(xmlText)
-  const items = xmlParsed.rss.channel[0].item
-  return items
+  return parseRssItems(xmlText)
 }
+
+/**
+ * Parses items from Apple RSS feed into the same shape as xml2js did,
+ * e.g. `{ title: ['visionOS 1.0.3 (21N333)'], pubDate: ['Mon, 12 Feb 2024 09:00:00 PST'] }`.
+ *
+ * Only handles what the feed uses:
+ * items of plain elements with text, CDATA and entities.
+ * Attributes, nested elements and comments are not supported.
+ */
+export const parseRssItems = (xml: string) => [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, item]) => {
+  const fields: Record<string, string[]> = {}
+
+  for (const [, name, text] of item.matchAll(/<([\w:]+)>([\s\S]*?)<\/\1>/g)) {
+    (fields[name] ??= []).push(decodeXmlText(text))
+  }
+
+  return fields
+})
+
+const xmlEntities: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'" }
+
+/**
+ * Decodes CDATA sections and XML entities of an element's text.
+ */
+const decodeXmlText = (text: string) => text.replace(
+  /<!\[CDATA\[([\s\S]*?)\]\]>|&(#x[\da-f]+|#\d+|\w+);/gi,
+  (match, cdata, entity) =>
+    cdata !== undefined ? cdata
+    : entity[0] !== '#' ? xmlEntities[entity] ?? match
+    : String.fromCodePoint(parseInt(entity.slice(1).replace(/^x/i, '0x')))
+)
 
 /**
  * Sorts RSS feed items by publishing date.
