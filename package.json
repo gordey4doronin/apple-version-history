@@ -10,7 +10,7 @@
     "prebuild": "./.build/prebuild.sh",
     "build": "rm -rf dist && tsc",
     "postbuild": "./.build/postbuild.sh",
-    "test": "node --test --test-reporter=./test/reporter/index.mjs 'dist/test/**/*.test.js' 'test/reporter/**/*.test.mjs'"
+    "test": "node --test --test-reporter=node-test-mocha-reporter 'dist/test/**/*.test.js'"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
   "homepage": "https://github.com/gordey4doronin/apple-version-history#readme",
   "devDependencies": {
     "@types/node": "^25.0.3",
+    "node-test-mocha-reporter": "^1.0.0",
     "typescript": "^5.0.3"
   }
 }
