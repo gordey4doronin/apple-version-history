@@ -42,6 +42,19 @@ The goal is learning Rust, so the port is done one small step at a time.
 - Closures, lazy iterators and `.collect()`, `LazyLock` for a regex compiled once.
 - `#[derive(Debug, PartialEq)]`, `#[cfg(test)]` tests next to the code, `include_str!`.
 - Why there are several crates: `regex` is split into small crates, and Rust's `std` is deliberately small.
+- `cargo test` hides `println!` output of passing tests: use `cargo test -- --nocapture`.
+- `?` is a guard clause in one character: "if `None`, return `None` from this function".
+  Tried `let Some(x) = … else { return None; }` side by side, and clippy prefers `?`.
+- The left side of `let` is a pattern: `let Some(x) = opt` unpacks, like `const [x] = arr` in JS.
+- No list comprehensions in Rust: iterator chains (`.skip(1).map(…).collect()`) or a plain `for` loop.
+
+## Exercises
+
+Written by Gordey, then reviewed by Claude.
+
+- To do: a direct test for `decode_entity` in `rss.rs`.
+  Today it is only reached through `decodes_cdata_and_entities`,
+  and several of its `match` arms and `?` paths are never exercised.
 
 ## Running cargo from Claude's sandbox
 
